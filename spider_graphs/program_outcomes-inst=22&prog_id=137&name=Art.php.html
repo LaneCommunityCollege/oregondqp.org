@@ -1,0 +1,1300 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+   "http://www.w3.org/TR/html4/strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="english">
+<head>
+
+	<title>DQP in Oregon - Spidergraphs</title>
+    <link href="styles_spidergraph.css" rel="stylesheet" type="text/css" />
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge;chrome=1" >
+	<script src="scripts/jquery-1.8.1.min.js"></script>
+</head>
+
+<body>
+<a name="top"></a>
+
+        <!--[if lte IE 9]>
+            <div align="center">
+                <h3>If you are seeing this, your browser is<br />not able to display the spidergraph!</h3>
+                <p>
+                	Please come back in:<br /> 
+                	<a href='http://getfirefox.com'>FireFox</a><br />
+                    <a href='http://www.opera.com/download/'>Opera</a><br />
+                    <a href='http://www.apple.com/safari/'>Safari</a><br />
+                    or<br />
+                    <a href='http://www.microsoft.com/windows/downloads/ie/getitnow.mspx'>Internet Explorer 9</a>
+                </p> 
+                <p>
+                	If you would rather not install another browser, please close Internet Explorer and return to this page.
+                    When given the option to install ChromeFrame, please allow your computer to do so.  This will give
+                    Internet Explorer the ability to display the spidergraphs.
+                </p>
+                <p>
+                	Please be aware that ChromeFrame is being discontinued in January 2014, so browsers that use
+                	this will stop working with the spidergraph sometime in December 2013.  To continue to use the spidergraphs
+                    you will need to upgrade your browser using one of the links above.
+                </p>
+            </div>
+        <![endif]-->
+
+<div id="header">
+	<img src="images/DQP%20color%20logo.png" alt="DQP Logo" width="300" height="103">
+</div>
+
+<div class="clear"></div>
+<div id="sg_wrap">
+
+    <div id="top-menu">
+    <ul>
+        <li><a href="http://www.oregondqp.org">DQP Home</a></li>
+        <li><a href="index.php.html">Spidergraph Home</a></li>
+        <li><a href="admin_index.php.html">Spidergraph Admin</a></li>
+	  	        <li><a href="#">Institutions</a>
+			<ul>
+			<li><a href='programs-inst=1.php.html'>Blue Mountain Community College</a></li><li><a href='programs-inst=2.php.html'>Central Oregon Community College</a></li><li><a href='programs-inst=3.php.html'>Chemeketa Community College</a></li><li><a href='programs-inst=4.php.html'>Clackamas Community College</a></li><li><a href='programs-inst=5.php.html'>Clatsop Community College</a></li><li><a href='programs-inst=6.php.html'>Columbia Gorge Community College</a></li><li><a href='programs-inst=7.php.html'>Klamath Community College</a></li><li><a href='programs-inst=8.php.html'>Lane Community College</a></li><li><a href='programs-inst=9.php.html'>Linn-Benton Community College</a></li><li><a href='programs-inst=10.php.html'>Mt. Hood Community College</a></li><li><a href='programs-inst=11.php.html'>Oregon Coast Community College</a></li><li><a href='programs-inst=12.php.html'>Portland Community College</a></li><li><a href='programs-inst=13.php.html'>Rogue Community College</a></li><li><a href='programs-inst=14.php.html'>Southwestern Oregon Community College</a></li><li><a href='programs-inst=15.php.html'>Tillamook Bay Community College</a></li><li><a href='programs-inst=16.php.html'>Treasure Valley Community College</a></li><li><a href='programs-inst=17.php.html'>Umpqua Community College</a></li><li><a href='programs-inst=18.php.html'>Eastern Oregon University</a></li><li><a href='programs-inst=19.php.html'>Oregon Institute of Technology</a></li><li><a href='programs-inst=20.php.html'>Oregon State University</a></li><li><a href='programs-inst=21.php.html'>Portland State University</a></li><li><a href='programs-inst=22.php.html'>Southern Oregon University</a></li><li><a href='programs-inst=23.php.html'>University of Oregon</a></li><li><a href='programs-inst=24.php.html'>Western Oregon University</a></li>            </ul>
+        </li>
+	  	    </ul>
+    </div><!-- Top Menu -->
+    
+    <p>&nbsp;</p>
+
+	<h1>Programs</h1>
+
+    <div id="graph">
+                <!--[if lte IE 9]>
+            <div align="center">
+                <h3>If you are seeing this, your browser is<br />not able to display the spidergraph!</h3>
+                <p>
+                	Please come back in:<br /> 
+                	<a href='http://getfirefox.com'>FireFox</a><br />
+                    <a href='http://www.opera.com/download/'>Opera</a><br />
+                    <a href='http://www.apple.com/safari/'>Safari</a><br />
+                    or<br />
+                    <a href='http://www.microsoft.com/windows/downloads/ie/getitnow.mspx'>Internet Explorer 9</a>
+                </p> 
+                <p>
+                	If you would rather not install another browser, please close Internet Explorer and return to this page.
+                    When given the option to install ChromeFrame, please allow your computer to do so.  This will give
+                    Internet Explorer the ability to display the spidergraphs.
+                </p>
+                <p>
+                	Please be aware that ChromeFrame is being discontinued in January 2014, so browsers that use
+                	this will stop working with the spidergraph sometime in December 2013.  To continue to use the spidergraphs
+                    you will need to upgrade your browser using one of the links above.
+                </p>
+            </div>
+        <![endif]-->
+        <div id="spidergraphcontainer"></div>
+    </div>
+
+	<div id="tables">
+    <h2 align="center">Southern Oregon University</h2>
+    <h3 align="center">Art</h3>
+
+
+    <p><button class="btn" id="clearall">Clear all checkboxes</button></p>    
+
+
+
+	<h3>Program Outcomes</h3>
+        <table border="0" cellspacing="0" cellpadding="0" >
+          <thead>
+          <tr class="text_small">
+            <td align="left" valign="middle">Weight</td>
+            <td align="center" valign="middle">Outcomes</td>
+            <td align="center" valign="middle"><a href="dqp_outcome_descriptions-.php.html#applied" title="Description of Applied Learning">Applied Learning</a></td>
+            <td align="center" valign="middle"><a href="dqp_outcome_descriptions-.php.html#specialized" title="Description of Specialized Knowledge">Specialized Knowledge</a></td>
+            <td align="center" valign="middle"><a href="dqp_outcome_descriptions-.php.html#intellectual" title="Description of Intellectual Skills">Intellectual Skills</a></td>
+            <td align="center" valign="middle"><a href="dqp_outcome_descriptions-.php.html#broad" title="Description of Integrative/Broad Knowledge">Integrative/Broad Knowledge</a></td>
+            <td align="center" valign="middle"><a href="dqp_outcome_descriptions-.php.html#civic" title="Description of Civic Learning">Civic Learning</a></td>
+            <td align="center" valign="middle">&nbsp;</td>
+            <td align="center" valign="middle">&nbsp;</td>
+          </tr>
+          </thead>
+          
+          <tr class="text_small">
+            <td align="center" valign="middle">0%</td>
+            <td align="left" valign="middle">Students will be able to identify a broad range of artistic media and techniques and be able to apply those techniques to visual thinking and problem solving.		      </td>
+            <td align="center" valign="middle">0%</td>
+            <td align="center" valign="middle">0%</td>
+            <td align="center" valign="middle">0%</td>
+            <td align="center" valign="middle">0%</td>
+            <td align="center" valign="middle">0%</td>
+			<td align="center" valign="middle">
+            	<span class="inlinebar">
+					0,
+					0,
+                	0,
+                    0,
+                    0                </span>
+            </td>
+            <td align="center" valign="middle">
+            	<label class="invisible_label" for="DisplayProgramOutcome506">DisplayProgramOutcome506</label>
+                <input class='graphshow' type="checkbox" name="program" id="DisplayProgramOutcome506" value='{"fields": ["Applied", "Specialized", "Intellectual", "Broad", "Civic"], "scores": ["0", "0", "0", "0", "0"]}'>
+            </td>
+          </tr>
+          
+          <tr class="text_small">
+            <td align="center" valign="middle">0%</td>
+            <td align="left" valign="middle">Students will be able to explain how their and others artwork reflects historical, cultural and theoretical aspects of the visual arts.		      </td>
+            <td align="center" valign="middle">0%</td>
+            <td align="center" valign="middle">0%</td>
+            <td align="center" valign="middle">0%</td>
+            <td align="center" valign="middle">0%</td>
+            <td align="center" valign="middle">0%</td>
+			<td align="center" valign="middle">
+            	<span class="inlinebar">
+					0,
+					0,
+                	0,
+                    0,
+                    0                </span>
+            </td>
+            <td align="center" valign="middle">
+            	<label class="invisible_label" for="DisplayProgramOutcome507">DisplayProgramOutcome507</label>
+                <input class='graphshow' type="checkbox" name="program" id="DisplayProgramOutcome507" value='{"fields": ["Applied", "Specialized", "Intellectual", "Broad", "Civic"], "scores": ["0", "0", "0", "0", "0"]}'>
+            </td>
+          </tr>
+          
+          <tr class="text_small">
+            <td align="center" valign="middle">0%</td>
+            <td align="left" valign="middle">Students will be able to effectively communicate in verbal, written and visual modalities.		      </td>
+            <td align="center" valign="middle">0%</td>
+            <td align="center" valign="middle">0%</td>
+            <td align="center" valign="middle">0%</td>
+            <td align="center" valign="middle">0%</td>
+            <td align="center" valign="middle">0%</td>
+			<td align="center" valign="middle">
+            	<span class="inlinebar">
+					0,
+					0,
+                	0,
+                    0,
+                    0                </span>
+            </td>
+            <td align="center" valign="middle">
+            	<label class="invisible_label" for="DisplayProgramOutcome508">DisplayProgramOutcome508</label>
+                <input class='graphshow' type="checkbox" name="program" id="DisplayProgramOutcome508" value='{"fields": ["Applied", "Specialized", "Intellectual", "Broad", "Civic"], "scores": ["0", "0", "0", "0", "0"]}'>
+            </td>
+          </tr>
+          
+          <tr class="text_small">
+            <td align="center" valign="middle">0%</td>
+            <td align="left" valign="middle">Students will be able to work collaboratively and approach problems with an interdisciplinary perspective.		      </td>
+            <td align="center" valign="middle">0%</td>
+            <td align="center" valign="middle">0%</td>
+            <td align="center" valign="middle">0%</td>
+            <td align="center" valign="middle">0%</td>
+            <td align="center" valign="middle">0%</td>
+			<td align="center" valign="middle">
+            	<span class="inlinebar">
+					0,
+					0,
+                	0,
+                    0,
+                    0                </span>
+            </td>
+            <td align="center" valign="middle">
+            	<label class="invisible_label" for="DisplayProgramOutcome509">DisplayProgramOutcome509</label>
+                <input class='graphshow' type="checkbox" name="program" id="DisplayProgramOutcome509" value='{"fields": ["Applied", "Specialized", "Intellectual", "Broad", "Civic"], "scores": ["0", "0", "0", "0", "0"]}'>
+            </td>
+          </tr>
+          
+          <tr class="text_small">
+            <td align="center" valign="middle">0%</td>
+            <td align="left" valign="middle">Through the use of creative inquiry students will be able to identify problems, investigate methods and materials, and evaluate artistic outcomes.		      </td>
+            <td align="center" valign="middle">0%</td>
+            <td align="center" valign="middle">0%</td>
+            <td align="center" valign="middle">0%</td>
+            <td align="center" valign="middle">0%</td>
+            <td align="center" valign="middle">0%</td>
+			<td align="center" valign="middle">
+            	<span class="inlinebar">
+					0,
+					0,
+                	0,
+                    0,
+                    0                </span>
+            </td>
+            <td align="center" valign="middle">
+            	<label class="invisible_label" for="DisplayProgramOutcome510">DisplayProgramOutcome510</label>
+                <input class='graphshow' type="checkbox" name="program" id="DisplayProgramOutcome510" value='{"fields": ["Applied", "Specialized", "Intellectual", "Broad", "Civic"], "scores": ["0", "0", "0", "0", "0"]}'>
+            </td>
+          </tr>
+          
+          <tr class="text_small">
+            <td align="center" valign="middle">0%</td>
+            <td align="left" valign="middle">Students will appreciate art and other cultural artifacts as reflections of a variety of human experiences.		      </td>
+            <td align="center" valign="middle">0%</td>
+            <td align="center" valign="middle">0%</td>
+            <td align="center" valign="middle">0%</td>
+            <td align="center" valign="middle">0%</td>
+            <td align="center" valign="middle">0%</td>
+			<td align="center" valign="middle">
+            	<span class="inlinebar">
+					0,
+					0,
+                	0,
+                    0,
+                    0                </span>
+            </td>
+            <td align="center" valign="middle">
+            	<label class="invisible_label" for="DisplayProgramOutcome511">DisplayProgramOutcome511</label>
+                <input class='graphshow' type="checkbox" name="program" id="DisplayProgramOutcome511" value='{"fields": ["Applied", "Specialized", "Intellectual", "Broad", "Civic"], "scores": ["0", "0", "0", "0", "0"]}'>
+            </td>
+          </tr>
+          
+          <tr class="text_small">
+            <td align="center" valign="middle">0%</td>
+            <td align="left" valign="middle">Students will appreciate the ways in which art affects change within society and reflects cultural diversity.		      </td>
+            <td align="center" valign="middle">0%</td>
+            <td align="center" valign="middle">0%</td>
+            <td align="center" valign="middle">0%</td>
+            <td align="center" valign="middle">0%</td>
+            <td align="center" valign="middle">0%</td>
+			<td align="center" valign="middle">
+            	<span class="inlinebar">
+					0,
+					0,
+                	0,
+                    0,
+                    0                </span>
+            </td>
+            <td align="center" valign="middle">
+            	<label class="invisible_label" for="DisplayProgramOutcome512">DisplayProgramOutcome512</label>
+                <input class='graphshow' type="checkbox" name="program" id="DisplayProgramOutcome512" value='{"fields": ["Applied", "Specialized", "Intellectual", "Broad", "Civic"], "scores": ["0", "0", "0", "0", "0"]}'>
+            </td>
+          </tr>
+          
+          <tr class="text_small">
+            <td align="center" valign="middle">0%</td>
+            <td align="left" valign="middle">Students will have an understanding of the ethical and moral ramifications of their creative activity as individuals in a local and global society.		      </td>
+            <td align="center" valign="middle">0%</td>
+            <td align="center" valign="middle">0%</td>
+            <td align="center" valign="middle">0%</td>
+            <td align="center" valign="middle">0%</td>
+            <td align="center" valign="middle">0%</td>
+			<td align="center" valign="middle">
+            	<span class="inlinebar">
+					0,
+					0,
+                	0,
+                    0,
+                    0                </span>
+            </td>
+            <td align="center" valign="middle">
+            	<label class="invisible_label" for="DisplayProgramOutcome513">DisplayProgramOutcome513</label>
+                <input class='graphshow' type="checkbox" name="program" id="DisplayProgramOutcome513" value='{"fields": ["Applied", "Specialized", "Intellectual", "Broad", "Civic"], "scores": ["0", "0", "0", "0", "0"]}'>
+            </td>
+          </tr>
+        
+        </table>
+	    <p>&nbsp;</p>
+	    <h3>Courses linked to this program</h3>
+	    <table border="0" cellspacing="0" cellpadding="0" class="table_600">
+	      <thead>
+	        <tr class="text_small">
+	          <td align="left" valign="middle">Weight</td>
+	          <td align="center" valign="middle">Course</td>
+	          <td align="center" valign="middle"><a href="dqp_outcome_descriptions-.php.html#applied" title="Description of Applied Learning">Applied Learning</a></td>
+	          <td align="center" valign="middle"><a href="dqp_outcome_descriptions-.php.html#specialized" title="Description of Specialized Knowledge">Specialized Knowledge</a></td>
+	          <td align="center" valign="middle"><a href="dqp_outcome_descriptions-.php.html#intellectual" title="Description of Intellectual Skills">Intellectual Skills</a></td>
+	          <td align="center" valign="middle"><a href="dqp_outcome_descriptions-.php.html#broad" title="Description of Integrative/Broad Knowledge">Integrative/Broad Knowledge</a></td>
+	          <td align="center" valign="middle"><a href="dqp_outcome_descriptions-.php.html#civic" title="Description of Civic Learning">Civic Learning</a></td>
+	          <td align="center" valign="middle">&nbsp;</td>
+	          <td align="center" valign="middle">&nbsp;</td>
+            </tr>
+          </thead>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">1.4%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=2129&course=ART%20199%20-%20Special%20Studies.php.html">ART 199 - Special Studies</a></td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 0, 0, 0, 0, 0 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome">DisplayCourseOutcome</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">1.4%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=2128&course=ART%20133%20-%20Introduction%20to%20Drawing.php.html">ART 133 - Introduction to Drawing</a></td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 0, 0, 0, 0, 0 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome">DisplayCourseOutcome</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">1.4%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=2130&course=ART%20210%20-%20Introduction%20to%20Printmaking.php.html">ART 210 - Introduction to Printmaking</a></td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 0, 0, 0, 0, 0 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome">DisplayCourseOutcome</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">1.4%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=2131&course=ART%20240%20-%20Introduction%20to%20Photography.php.html">ART 240 - Introduction to Photography</a></td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 0, 0, 0, 0, 0 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome">DisplayCourseOutcome</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">1.4%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=2132&course=ART%20244%20-%20Introduction%20to%20Graphic%20Design.php.html">ART 244 - Introduction to Graphic Design</a></td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 0, 0, 0, 0, 0 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome">DisplayCourseOutcome</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">1.4%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=2133&course=ART%20255%20-%20Introduction%20to%20Ceramics.php.html">ART 255 - Introduction to Ceramics</a></td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 0, 0, 0, 0, 0 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome">DisplayCourseOutcome</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">1.4%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=2134&course=ART%20290%20-%20Introduction%20to%20Painting.php.html">ART 290 - Introduction to Painting</a></td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 0, 0, 0, 0, 0 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome">DisplayCourseOutcome</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">1.4%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=2135&course=ART%20291%20-%20Introduction%20to%20Sculpture.php.html">ART 291 - Introduction to Sculpture</a></td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 0, 0, 0, 0, 0 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome">DisplayCourseOutcome</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">1.4%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=2136&course=ART%20300%20-%20Mid-Program%20Review.php.html">ART 300 - Mid-Program Review</a></td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 0, 0, 0, 0, 0 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome">DisplayCourseOutcome</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">1.4%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=2137&course=ART%20304%20-%20Typography_Color_Design_Draw.php.html">ART 304 - Typography/Color/Design/Draw</a></td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 0, 0, 0, 0, 0 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome">DisplayCourseOutcome</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">1.4%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=2138&course=ART%20306%20-%20Digital%20Illustration.php.html">ART 306 - Digital Illustration</a></td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 0, 0, 0, 0, 0 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome">DisplayCourseOutcome</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">1.4%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=2139&course=ART%20310%20-%20Printmaking%20II.php.html">ART 310 - Printmaking II</a></td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 0, 0, 0, 0, 0 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome">DisplayCourseOutcome</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">1.4%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=2140&course=ART%20311%20-%20Photographic%20Printmaking.php.html">ART 311 - Photographic Printmaking</a></td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 0, 0, 0, 0, 0 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome">DisplayCourseOutcome</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">1.4%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=2141&course=ART%20312%20-%20Experimental%20Printmaking.php.html">ART 312 - Experimental Printmaking</a></td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 0, 0, 0, 0, 0 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome">DisplayCourseOutcome</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">1.4%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=2142&course=ART%20327%20-%20Figurative%20Painting%20&%20Drawing.php.html">ART 327 - Figurative Painting &amp; Drawing</a></td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 0, 0, 0, 0, 0 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome">DisplayCourseOutcome</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">1.4%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=2143&course=ART%20332%20-%20Intermediate%20Drawing.php.html">ART 332 - Intermediate Drawing</a></td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 0, 0, 0, 0, 0 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome">DisplayCourseOutcome</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">1.4%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=2144&course=ART%20333%20-%20Drawing%20and%20Mixed%20Media.php.html">ART 333 - Drawing and Mixed Media</a></td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 0, 0, 0, 0, 0 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome">DisplayCourseOutcome</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">1.4%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=2145&course=ART%20334%20-%20Interface%20Design.php.html">ART 334 - Interface Design</a></td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 0, 0, 0, 0, 0 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome">DisplayCourseOutcome</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">1.4%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=2146&course=ART%20337%20-%20Web%20Design.php.html">ART 337 - Web Design</a></td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 0, 0, 0, 0, 0 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome">DisplayCourseOutcome</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">1.4%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=2147&course=ART%20340%20-%20Photography%20II.php.html">ART 340 - Photography II</a></td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 0, 0, 0, 0, 0 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome">DisplayCourseOutcome</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">1.4%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=2148&course=ART%20341%20-%20Photography%20III.php.html">ART 341 - Photography III</a></td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 0, 0, 0, 0, 0 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome">DisplayCourseOutcome</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">1.4%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=2149&course=ART%20342%20-%20Color%20Photography.php.html">ART 342 - Color Photography</a></td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 0, 0, 0, 0, 0 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome">DisplayCourseOutcome</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">1.4%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=2150&course=ART%20343%20-%20Photo%20Alternative%20Processes.php.html">ART 343 - Photo Alternative Processes</a></td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 0, 0, 0, 0, 0 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome">DisplayCourseOutcome</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">1.4%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=2151&course=ART%20344%20-%20Graphic%20Design.php.html">ART 344 - Graphic Design</a></td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 0, 0, 0, 0, 0 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome">DisplayCourseOutcome</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">1.4%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=2152&course=ART%20348%20-%20Concept%20Art%20and%20Preproduction.php.html">ART 348 - Concept Art and Preproduction</a></td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 0, 0, 0, 0, 0 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome">DisplayCourseOutcome</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">1.4%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=2153&course=ART%20349%20-%20Comic%20Books%20and%20Picture%20Books.php.html">ART 349 - Comic Books and Picture Books</a></td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 0, 0, 0, 0, 0 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome">DisplayCourseOutcome</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">1.4%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=2154&course=ART%20350%20-%20Digital%20Print%20Studio.php.html">ART 350 - Digital Print Studio</a></td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 0, 0, 0, 0, 0 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome">DisplayCourseOutcome</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">1.4%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=2155&course=ART%20351%20-%20Digital%20Interactive%20Studio.php.html">ART 351 - Digital Interactive Studio</a></td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 0, 0, 0, 0, 0 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome">DisplayCourseOutcome</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">1.4%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=2156&course=ART%20352%20-%20Digital%20Animation%20Studio.php.html">ART 352 - Digital Animation Studio</a></td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 0, 0, 0, 0, 0 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome">DisplayCourseOutcome</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">1.4%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=2157&course=ART%20353%20-%20Digital%203D%20Modeling_Lighting.php.html">ART 353 - Digital 3D Modeling/Lighting</a></td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 0, 0, 0, 0, 0 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome">DisplayCourseOutcome</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">1.4%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=2158&course=ART%20354%20-%20Digital%203D%20Animation%20Studio.php.html">ART 354 - Digital 3D Animation Studio</a></td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 0, 0, 0, 0, 0 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome">DisplayCourseOutcome</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">1.4%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=2159&course=ART%20355%20-%20Ceramic%20Methods.php.html">ART 355 - Ceramic Methods</a></td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 0, 0, 0, 0, 0 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome">DisplayCourseOutcome</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">1.4%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=2160&course=ART%20356%20-%20Functional%20Ceramics.php.html ">ART 356 - Functional Ceramics </a></td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 0, 0, 0, 0, 0 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome">DisplayCourseOutcome</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">1.4%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=2161&course=ART%20357%20-%20Ceramic%20Sculture.php.html">ART 357 - Ceramic Sculture</a></td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 0, 0, 0, 0, 0 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome">DisplayCourseOutcome</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">1.4%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=2162&course=ART%20380%20-%20Contemp%20Drawing%20and%20Painting.php.html">ART 380 - Contemp Drawing and Painting</a></td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 0, 0, 0, 0, 0 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome">DisplayCourseOutcome</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">1.4%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=2163&course=ART%20389%20-%20Oil%20Painting%20Media.php.html">ART 389 - Oil Painting Media</a></td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 0, 0, 0, 0, 0 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome">DisplayCourseOutcome</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">1.4%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=2164&course=ART%20390%20-%20Intermediate%20Drawing%20and%20Paint.php.html">ART 390 - Intermediate Drawing and Paint</a></td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 0, 0, 0, 0, 0 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome">DisplayCourseOutcome</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">1.4%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=2165&course=ART%20391%20-%20Sculpture%20II.php.html">ART 391 - Sculpture II</a></td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 0, 0, 0, 0, 0 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome">DisplayCourseOutcome</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">1.4%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=2166&course=ART%20395%20-%20Installation_Site-Specific%20Art.php.html">ART 395 - Installation/Site-Specific Art</a></td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 0, 0, 0, 0, 0 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome">DisplayCourseOutcome</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">1.4%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=2167&course=ART%20397%20-%20Foundry%20I.php.html">ART 397 - Foundry I</a></td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 0, 0, 0, 0, 0 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome">DisplayCourseOutcome</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">1.4%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=2168&course=ART%20399%20-%20Special%20Studies.php.html">ART 399 - Special Studies</a></td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 0, 0, 0, 0, 0 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome">DisplayCourseOutcome</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">1.4%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=2169&course=ART%20401%20-%20Research.php.html">ART 401 - Research</a></td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 0, 0, 0, 0, 0 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome">DisplayCourseOutcome</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">1.4%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=2170&course=ART%20403%20-%20Thesis.php.html">ART 403 - Thesis</a></td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 0, 0, 0, 0, 0 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome">DisplayCourseOutcome</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">1.4%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=2171&course=ART%20409%20-%20Practicum.php.html">ART 409 - Practicum</a></td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 0, 0, 0, 0, 0 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome">DisplayCourseOutcome</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">1.4%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=2172&course=ART%20410%20-%20Printmaking%20III.php.html">ART 410 - Printmaking III</a></td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 0, 0, 0, 0, 0 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome">DisplayCourseOutcome</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">1.4%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=2173&course=ART%20411%20-%20Special%20Projects_%20Printmaking.php.html">ART 411 - Special Projects: Printmaking</a></td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 0, 0, 0, 0, 0 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome">DisplayCourseOutcome</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">1.4%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=2174&course=ART%20412%20-%20Advanced%20Experimental%20Print.php.html">ART 412 - Advanced Experimental Print</a></td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 0, 0, 0, 0, 0 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome">DisplayCourseOutcome</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">1.4%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=2175&course=ART%20413%20-%20Advanced%20Photographic%20Print.php.html">ART 413 - Advanced Photographic Print</a></td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 0, 0, 0, 0, 0 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome">DisplayCourseOutcome</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">1.4%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=2176&course=ART%20424%20-%20Art%20Process,%20Theory,%20Practicum.php.html">ART 424 - Art Process, Theory, Practicum</a></td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 0, 0, 0, 0, 0 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome">DisplayCourseOutcome</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">1.4%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=2177&course=ART%20426%20-%20SS_%20Painting%20and%20Drawing.php.html">ART 426 - SS: Painting and Drawing</a></td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 0, 0, 0, 0, 0 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome">DisplayCourseOutcome</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">1.4%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=2178&course=ART%20427%20-%20Figurative%20Painting_Drawing.php.html">ART 427 - Figurative Painting/Drawing</a></td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 0, 0, 0, 0, 0 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome">DisplayCourseOutcome</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">1.4%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=2179&course=ART%20429%20-%20Issues%20in%20Art%20Education.php.html">ART 429 - Issues in Art Education</a></td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 0, 0, 0, 0, 0 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome">DisplayCourseOutcome</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">1.4%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=2180&course=ART%20441%20-%20Photography%20Seminar.php.html">ART 441 - Photography Seminar</a></td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 0, 0, 0, 0, 0 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome">DisplayCourseOutcome</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">1.4%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=2181&course=ART%20443%20-%20Special%20Projects%20Photography.php.html">ART 443 - Special Projects Photography</a></td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 0, 0, 0, 0, 0 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome">DisplayCourseOutcome</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">1.4%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=2182&course=ART%20444%20-%20Graphic%20Design%20II.php.html">ART 444 - Graphic Design II</a></td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 0, 0, 0, 0, 0 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome">DisplayCourseOutcome</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">1.4%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=2183&course=ART%20450%20-%20Special%20Projects_Digital%20Media.php.html">ART 450 - Special Projects/Digital Media</a></td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 0, 0, 0, 0, 0 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome">DisplayCourseOutcome</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">1.4%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=2184&course=ART%20455%20-%20Advanced%20Ceramics.php.html">ART 455 - Advanced Ceramics</a></td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 0, 0, 0, 0, 0 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome">DisplayCourseOutcome</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">1.4%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=2185&course=ART%20456%20-%20Special%20Projects%20in%20Ceramics.php.html">ART 456 - Special Projects in Ceramics</a></td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 0, 0, 0, 0, 0 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome">DisplayCourseOutcome</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">1.4%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=2186&course=ART%20490%20-%20Adv%20Studio%20Painting_Drawing.php.html">ART 490 - Adv Studio Painting/Drawing</a></td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 0, 0, 0, 0, 0 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome">DisplayCourseOutcome</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">1.4%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=2187&course=ART%20491%20-%20Sculpture%20III.php.html">ART 491 - Sculpture III</a></td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 0, 0, 0, 0, 0 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome">DisplayCourseOutcome</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">1.4%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=2188&course=ART%20492%20-%20Special%20Projects%20in%20Sculpture.php.html">ART 492 - Special Projects in Sculpture</a></td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 0, 0, 0, 0, 0 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome">DisplayCourseOutcome</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">1.4%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=2189&course=ART%20495%20-%20Installation%20and%20Site%20Specific.php.html">ART 495 - Installation and Site Specific</a></td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 0, 0, 0, 0, 0 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome">DisplayCourseOutcome</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">1.4%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=2190&course=ART%20496%20-%20Capstone.php.html">ART 496 - Capstone</a></td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 0, 0, 0, 0, 0 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome">DisplayCourseOutcome</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">1.4%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=2191&course=ART%20497%20-%20Foundry%20II.php.html">ART 497 - Foundry II</a></td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 0, 0, 0, 0, 0 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome">DisplayCourseOutcome</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">1.4%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=2192&course=ART%20501%20-%20Research.php.html">ART 501 - Research</a></td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 0, 0, 0, 0, 0 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome">DisplayCourseOutcome</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">1.4%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=2193&course=ART%20507%20-%20Seminar.php.html">ART 507 - Seminar</a></td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 0, 0, 0, 0, 0 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome">DisplayCourseOutcome</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">1.4%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=2194&course=ART%20524%20-%20Art%20Process,%20Theory,%20Practicum.php.html">ART 524 - Art Process, Theory, Practicum</a></td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 0, 0, 0, 0, 0 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome">DisplayCourseOutcome</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">1.4%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=2195&course=ART%20543%20-%20Special%20Projects%20Photography.php.html">ART 543 - Special Projects Photography</a></td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 0, 0, 0, 0, 0 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome">DisplayCourseOutcome</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">1.4%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=2196&course=ART%20550%20-%20Special%20Projects_Digital%20Media.php.html">ART 550 - Special Projects/Digital Media</a></td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 0, 0, 0, 0, 0 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome">DisplayCourseOutcome</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">1.4%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=2197&course=ART%20555%20-%20Advanced%20Ceramics.php.html">ART 555 - Advanced Ceramics</a></td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 0, 0, 0, 0, 0 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome">DisplayCourseOutcome</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;]}' /></td>
+          </tr>
+	            </table>
+	    <p>&nbsp;</p>
+        <div class="clear"></div>
+
+
+
+<script type="text/javascript" src="scripts/jquery-1.8.1.min.js"></script>
+<link href="scripts/jquery-ui-1.8.24.custom.css" rel="stylesheet" type="text/css">
+<script src="scripts/jquery.spidergraph.js"></script>
+<!--<script src="scripts/jquery.tablesorter.min.js"></script>-->
+<script src="scripts/jquery-ui-1.8.23.min.js"></script>
+<script src="scripts/modernizr-2.6.1-respond-1.1.0.min.js"></script>
+<script src="scripts/jquery.sparkline.min.js"></script>
+
+<script>
+$(document).ready( function() {
+    
+        graph_data = {"fields": ["Applied", "Specialized", "Intellectual", "Broad", "Civic"], "scores": ["0", "0", "0", "0", "0"]}
+    
+    $('#spidergraphcontainer').spidergraph({
+        'fields': ['Applied','Specialized','Intellectual','Broad','Civic'],//graph_data['fields'],
+        'gridcolor': 'rgba(20,20,20,1)'
+    });
+    if(graph_data){
+    $('#spidergraphcontainer').spidergraph('addlayer', {
+        'strokecolor': 'rgba(130,104,230,0.7)',
+        'fillcolor': 'rgba(130,104,230,0.5)',
+        'data': graph_data['scores'].map(function(x){return parseInt(x)})
+    });
+    }
+   // $("#prog_outcomes").tablesorter({headers:{8:{sorter:false},9:{sorter:false}}});
+   // $("#course_outcomes").tablesorter({headers:{8:{sorter:false},9:{sorter:false}}});
+});
+
+    $(function(){
+        $('.inlinebar').sparkline('html', {type: 'bar', barColor: 'red', chartRangeMin: 0} );
+    });
+    c_colors = ['rgba(255,230,1','rgba(255,180,1','rgba(255,130,1','rgba(255,80,1'];
+    p_colors = ['rgba(8,170,230','rgba(8,120,180','rgba(8,70,130','rgba(8,20,80'];
+       
+	//Function to clear all the existing checkboxes
+    $('#clearall').click(function(){
+        $('#spidergraphcontainer').spidergraph('resetdata');
+        $('#tables').find('input').each(function(){
+            $(this).attr('checked',false);
+            $(this).parent('td').css('background-color', 'transparent');
+        });
+        
+	 	//Throw that average data back on
+        if (typeof graph_data != 'undefined'){
+            $('#spidergraphcontainer').spidergraph('addlayer', {
+                'strokecolor': 'rgba(130,104,230,0.7)',
+                'fillcolor': 'rgba(130,104,230,0.5)',
+                'data': graph_data['scores'].map(function(x){return parseInt(x)})
+            });
+        }
+    });
+      
+	//If someone presses refresh, turn the checkboxes off again.
+    $('#tables').find('input:checked').each(function(){
+        $(this).attr('checked', false);
+        $(this).attr('disabled', false);
+    });
+        
+	//handle clicking checkboxes in the table
+    $('.graphshow').click(function(){
+        //if we just checked it
+        if($(this).is(':checked')){
+            var data = $.parseJSON($(this).val())['scores'].map(function(x){return parseInt(x)});
+            if($(this).attr('name') == 'program'){
+                var cur_color = p_colors.pop();
+                var fill_color = cur_color + ',0.5)';
+                $(this).attr('cur_color', cur_color);
+                //set the table cell to our background
+                $(this).parent('td').css('background-color',fill_color);
+                $('#spidergraphcontainer').spidergraph('addlayer', {
+                    'strokecolor': cur_color + ',0.7)',
+                    'fillcolor': fill_color,
+                    'data': data
+                });
+                if(p_colors.length == 0){
+                    $('#tables input[name="program"]:not(:checked)').attr('disabled', true);
+                }
+            }
+           
+			//courses
+            else{
+                var cur_color = c_colors.pop();
+                var fill_color = cur_color + ',0.5)';
+                $(this).attr('cur_color', cur_color);
+                //set the table cell to our background
+                $(this).parent('td').css('background-color',fill_color);
+                $('#spidergraphcontainer').spidergraph('addlayer', {
+                    'strokecolor': cur_color + ',0.7)',
+                    'fillcolor': fill_color,
+                    'data': data
+                });
+                if(c_colors.length == 0){
+                    $('#tables input[name="course"]:not(:checked)').attr('disabled', true);
+                }
+            }
+        }
+           
+		//if we just unchecked it
+        else{
+            if($(this).attr('name') == 'program'){
+                p_colors.push($(this).attr('cur_color'));
+                $('#tables input[name="program"]').attr('disabled', false);
+            }
+           
+		    //courses
+            else{
+                c_colors.push($(this).attr('cur_color'));
+                $('#tables input[name="course"]').attr('disabled', false);
+            }
+            $(this).parent('td').css('background-color','transparent');
+            $('#spidergraphcontainer').spidergraph('resetdata');
+         
+		    //Throw that average data back on
+            if (typeof graph_data != 'undefined'){
+                $('#spidergraphcontainer').spidergraph('addlayer', {
+                    'strokecolor': 'rgba(130,104,230,0.7)',
+                    'fillcolor': 'rgba(130,104,230,0.5)',
+                    'data': graph_data['scores'].map(function(x){return parseInt(x)})
+                });
+            }
+            $('#tables').find('input:checked').each(function(){
+                $('#spidergraphcontainer').spidergraph('addlayer', {
+                    'strokecolor': $(this).attr('cur_color') + ",0.7)",
+                    'fillcolor': $(this).attr('cur_color') + ",0.5)",
+                    'data': $.parseJSON($(this).val())['scores'].map(function(x){return parseInt(x)})
+                });
+            });
+        }
+    });
+        
+	//comments popups
+    $('a.comments').live('click',function(e){
+        e.preventDefault();
+        comment = $(this).attr('title');
+        $('#comments_dialog').dialog({model:true, minWidth:300, title:"Comments"});
+        $('#comments_inner').text(comment);
+    });
+</script>
+
+
+</div> <!-- End sg-wrap -->
+
+<div class="clear"></div>
+
+
+</body>
+</html>
+<!-- Localized -->

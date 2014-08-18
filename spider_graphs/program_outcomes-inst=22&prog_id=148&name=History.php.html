@@ -1,0 +1,888 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+   "http://www.w3.org/TR/html4/strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="english">
+<head>
+
+	<title>DQP in Oregon - Spidergraphs</title>
+    <link href="styles_spidergraph.css" rel="stylesheet" type="text/css" />
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge;chrome=1" >
+	<script src="scripts/jquery-1.8.1.min.js"></script>
+</head>
+
+<body>
+<a name="top"></a>
+
+        <!--[if lte IE 9]>
+            <div align="center">
+                <h3>If you are seeing this, your browser is<br />not able to display the spidergraph!</h3>
+                <p>
+                	Please come back in:<br /> 
+                	<a href='http://getfirefox.com'>FireFox</a><br />
+                    <a href='http://www.opera.com/download/'>Opera</a><br />
+                    <a href='http://www.apple.com/safari/'>Safari</a><br />
+                    or<br />
+                    <a href='http://www.microsoft.com/windows/downloads/ie/getitnow.mspx'>Internet Explorer 9</a>
+                </p> 
+                <p>
+                	If you would rather not install another browser, please close Internet Explorer and return to this page.
+                    When given the option to install ChromeFrame, please allow your computer to do so.  This will give
+                    Internet Explorer the ability to display the spidergraphs.
+                </p>
+                <p>
+                	Please be aware that ChromeFrame is being discontinued in January 2014, so browsers that use
+                	this will stop working with the spidergraph sometime in December 2013.  To continue to use the spidergraphs
+                    you will need to upgrade your browser using one of the links above.
+                </p>
+            </div>
+        <![endif]-->
+
+<div id="header">
+	<img src="images/DQP%20color%20logo.png" alt="DQP Logo" width="300" height="103">
+</div>
+
+<div class="clear"></div>
+<div id="sg_wrap">
+
+    <div id="top-menu">
+    <ul>
+        <li><a href="http://www.oregondqp.org">DQP Home</a></li>
+        <li><a href="index.php.html">Spidergraph Home</a></li>
+        <li><a href="admin_index.php.html">Spidergraph Admin</a></li>
+	  	        <li><a href="#">Institutions</a>
+			<ul>
+			<li><a href='programs-inst=1.php.html'>Blue Mountain Community College</a></li><li><a href='programs-inst=2.php.html'>Central Oregon Community College</a></li><li><a href='programs-inst=3.php.html'>Chemeketa Community College</a></li><li><a href='programs-inst=4.php.html'>Clackamas Community College</a></li><li><a href='programs-inst=5.php.html'>Clatsop Community College</a></li><li><a href='programs-inst=6.php.html'>Columbia Gorge Community College</a></li><li><a href='programs-inst=7.php.html'>Klamath Community College</a></li><li><a href='programs-inst=8.php.html'>Lane Community College</a></li><li><a href='programs-inst=9.php.html'>Linn-Benton Community College</a></li><li><a href='programs-inst=10.php.html'>Mt. Hood Community College</a></li><li><a href='programs-inst=11.php.html'>Oregon Coast Community College</a></li><li><a href='programs-inst=12.php.html'>Portland Community College</a></li><li><a href='programs-inst=13.php.html'>Rogue Community College</a></li><li><a href='programs-inst=14.php.html'>Southwestern Oregon Community College</a></li><li><a href='programs-inst=15.php.html'>Tillamook Bay Community College</a></li><li><a href='programs-inst=16.php.html'>Treasure Valley Community College</a></li><li><a href='programs-inst=17.php.html'>Umpqua Community College</a></li><li><a href='programs-inst=18.php.html'>Eastern Oregon University</a></li><li><a href='programs-inst=19.php.html'>Oregon Institute of Technology</a></li><li><a href='programs-inst=20.php.html'>Oregon State University</a></li><li><a href='programs-inst=21.php.html'>Portland State University</a></li><li><a href='programs-inst=22.php.html'>Southern Oregon University</a></li><li><a href='programs-inst=23.php.html'>University of Oregon</a></li><li><a href='programs-inst=24.php.html'>Western Oregon University</a></li>            </ul>
+        </li>
+	  	    </ul>
+    </div><!-- Top Menu -->
+    
+    <p>&nbsp;</p>
+
+	<h1>Programs</h1>
+
+    <div id="graph">
+                <!--[if lte IE 9]>
+            <div align="center">
+                <h3>If you are seeing this, your browser is<br />not able to display the spidergraph!</h3>
+                <p>
+                	Please come back in:<br /> 
+                	<a href='http://getfirefox.com'>FireFox</a><br />
+                    <a href='http://www.opera.com/download/'>Opera</a><br />
+                    <a href='http://www.apple.com/safari/'>Safari</a><br />
+                    or<br />
+                    <a href='http://www.microsoft.com/windows/downloads/ie/getitnow.mspx'>Internet Explorer 9</a>
+                </p> 
+                <p>
+                	If you would rather not install another browser, please close Internet Explorer and return to this page.
+                    When given the option to install ChromeFrame, please allow your computer to do so.  This will give
+                    Internet Explorer the ability to display the spidergraphs.
+                </p>
+                <p>
+                	Please be aware that ChromeFrame is being discontinued in January 2014, so browsers that use
+                	this will stop working with the spidergraph sometime in December 2013.  To continue to use the spidergraphs
+                    you will need to upgrade your browser using one of the links above.
+                </p>
+            </div>
+        <![endif]-->
+        <div id="spidergraphcontainer"></div>
+    </div>
+
+	<div id="tables">
+    <h2 align="center">Southern Oregon University</h2>
+    <h3 align="center">History</h3>
+
+
+    <p><button class="btn" id="clearall">Clear all checkboxes</button></p>    
+
+
+
+	<h3>Program Outcomes</h3>
+        <table border="0" cellspacing="0" cellpadding="0" >
+          <thead>
+          <tr class="text_small">
+            <td align="left" valign="middle">Weight</td>
+            <td align="center" valign="middle">Outcomes</td>
+            <td align="center" valign="middle"><a href="dqp_outcome_descriptions-.php.html#applied" title="Description of Applied Learning">Applied Learning</a></td>
+            <td align="center" valign="middle"><a href="dqp_outcome_descriptions-.php.html#specialized" title="Description of Specialized Knowledge">Specialized Knowledge</a></td>
+            <td align="center" valign="middle"><a href="dqp_outcome_descriptions-.php.html#intellectual" title="Description of Intellectual Skills">Intellectual Skills</a></td>
+            <td align="center" valign="middle"><a href="dqp_outcome_descriptions-.php.html#broad" title="Description of Integrative/Broad Knowledge">Integrative/Broad Knowledge</a></td>
+            <td align="center" valign="middle"><a href="dqp_outcome_descriptions-.php.html#civic" title="Description of Civic Learning">Civic Learning</a></td>
+            <td align="center" valign="middle">&nbsp;</td>
+            <td align="center" valign="middle">&nbsp;</td>
+          </tr>
+          </thead>
+          
+          <tr class="text_small">
+            <td align="center" valign="middle">25%</td>
+            <td align="left" valign="middle">Students will be conversant in the main topics in the political, economic, social, and cultural history of the United States from the era of European discovery to the present, and in world history from antiquity to the present.		      		      </td>
+            <td align="center" valign="middle">10%</td>
+            <td align="center" valign="middle">25%</td>
+            <td align="center" valign="middle">35%</td>
+            <td align="center" valign="middle">10%</td>
+            <td align="center" valign="middle">20%</td>
+			<td align="center" valign="middle">
+            	<span class="inlinebar">
+					10,
+					25,
+                	35,
+                    10,
+                    20                </span>
+            </td>
+            <td align="center" valign="middle">
+            	<label class="invisible_label" for="DisplayProgramOutcome656">DisplayProgramOutcome656</label>
+                <input class='graphshow' type="checkbox" name="program" id="DisplayProgramOutcome656" value='{"fields": ["Applied", "Specialized", "Intellectual", "Broad", "Civic"], "scores": ["10", "25", "35", "10", "20"]}'>
+            </td>
+          </tr>
+          
+          <tr class="text_small">
+            <td align="center" valign="middle">25%</td>
+            <td align="left" valign="middle">Students will possess an advanced understanding of selected chronological periods and/or topics in U.S. history. Additionally, they will demonstrate an advanced understanding of particular historical issues in at least three of the following areas: transnational, comparative, and international history; European history; African history; Middle Eastern history; Latin American history; and Asian history. Students will practice the methodologies and interpretive frameworks utilized in historical studies.		      		      </td>
+            <td align="center" valign="middle">10%</td>
+            <td align="center" valign="middle">30%</td>
+            <td align="center" valign="middle">35%</td>
+            <td align="center" valign="middle">10%</td>
+            <td align="center" valign="middle">15%</td>
+			<td align="center" valign="middle">
+            	<span class="inlinebar">
+					10,
+					30,
+                	35,
+                    10,
+                    15                </span>
+            </td>
+            <td align="center" valign="middle">
+            	<label class="invisible_label" for="DisplayProgramOutcome657">DisplayProgramOutcome657</label>
+                <input class='graphshow' type="checkbox" name="program" id="DisplayProgramOutcome657" value='{"fields": ["Applied", "Specialized", "Intellectual", "Broad", "Civic"], "scores": ["10", "30", "35", "10", "15"]}'>
+            </td>
+          </tr>
+          
+          <tr class="text_small">
+            <td align="center" valign="middle">25%</td>
+            <td align="left" valign="middle">Students will be able to distinguish between primary and secondary historical sources, analyze arguments and interpretations, and recognize interpretive conflicts. They will analyze and interpret evidence found in primary and secondary sources, and develop historical arguments based upon and sustained by available evidence. Students will follow the highest ethics in their research and writing. They will not plagiarize the work of others. They will adjust their preliminary hypotheses to fit the data, rather than adjust the data to fit their preliminary hypotheses.		      		      </td>
+            <td align="center" valign="middle">20%</td>
+            <td align="center" valign="middle">20%</td>
+            <td align="center" valign="middle">30%</td>
+            <td align="center" valign="middle">20%</td>
+            <td align="center" valign="middle">10%</td>
+			<td align="center" valign="middle">
+            	<span class="inlinebar">
+					20,
+					20,
+                	30,
+                    20,
+                    10                </span>
+            </td>
+            <td align="center" valign="middle">
+            	<label class="invisible_label" for="DisplayProgramOutcome658">DisplayProgramOutcome658</label>
+                <input class='graphshow' type="checkbox" name="program" id="DisplayProgramOutcome658" value='{"fields": ["Applied", "Specialized", "Intellectual", "Broad", "Civic"], "scores": ["20", "20", "30", "20", "10"]}'>
+            </td>
+          </tr>
+          
+          <tr class="text_small">
+            <td align="center" valign="middle">25%</td>
+            <td align="left" valign="middle">Students will be able to research and conduct an investigation, consulting appropriate works, and developing a bibliography and research prospectus. They will be able to produce coherent, cogent, persuasive, and grammatically correct historical essays. They will be able to present effectively the conclusions of their research in an oral presentation.		      		      </td>
+            <td align="center" valign="middle">20%</td>
+            <td align="center" valign="middle">25%</td>
+            <td align="center" valign="middle">25%</td>
+            <td align="center" valign="middle">15%</td>
+            <td align="center" valign="middle">15%</td>
+			<td align="center" valign="middle">
+            	<span class="inlinebar">
+					20,
+					25,
+                	25,
+                    15,
+                    15                </span>
+            </td>
+            <td align="center" valign="middle">
+            	<label class="invisible_label" for="DisplayProgramOutcome659">DisplayProgramOutcome659</label>
+                <input class='graphshow' type="checkbox" name="program" id="DisplayProgramOutcome659" value='{"fields": ["Applied", "Specialized", "Intellectual", "Broad", "Civic"], "scores": ["20", "25", "25", "15", "15"]}'>
+            </td>
+          </tr>
+        
+        </table>
+	    <p>&nbsp;</p>
+	    <h3>Courses linked to this program</h3>
+	    <table border="0" cellspacing="0" cellpadding="0" class="table_600">
+	      <thead>
+	        <tr class="text_small">
+	          <td align="left" valign="middle">Weight</td>
+	          <td align="center" valign="middle">Course</td>
+	          <td align="center" valign="middle"><a href="dqp_outcome_descriptions-.php.html#applied" title="Description of Applied Learning">Applied Learning</a></td>
+	          <td align="center" valign="middle"><a href="dqp_outcome_descriptions-.php.html#specialized" title="Description of Specialized Knowledge">Specialized Knowledge</a></td>
+	          <td align="center" valign="middle"><a href="dqp_outcome_descriptions-.php.html#intellectual" title="Description of Intellectual Skills">Intellectual Skills</a></td>
+	          <td align="center" valign="middle"><a href="dqp_outcome_descriptions-.php.html#broad" title="Description of Integrative/Broad Knowledge">Integrative/Broad Knowledge</a></td>
+	          <td align="center" valign="middle"><a href="dqp_outcome_descriptions-.php.html#civic" title="Description of Civic Learning">Civic Learning</a></td>
+	          <td align="center" valign="middle">&nbsp;</td>
+	          <td align="center" valign="middle">&nbsp;</td>
+            </tr>
+          </thead>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">2.3%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=2968&course=HST%20110%20-%20World%20Civilizations.php.html">HST 110 - World Civilizations</a></td>
+	        <td align="center" valign="middle">15%</td>
+	        <td align="center" valign="middle">30%</td>
+	        <td align="center" valign="middle">20%</td>
+	        <td align="center" valign="middle">20%</td>
+	        <td align="center" valign="middle">15%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 15, 30, 20, 20, 15 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome3304">DisplayCourseOutcome3304</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome3304" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;15&quot;, &quot;30&quot;, &quot;20&quot;, &quot;20&quot;, &quot;15&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">2.3%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=2969&course=HST%20111%20-%20World%20Civilizations.php.html">HST 111 - World Civilizations</a></td>
+	        <td align="center" valign="middle">15%</td>
+	        <td align="center" valign="middle">30%</td>
+	        <td align="center" valign="middle">20%</td>
+	        <td align="center" valign="middle">20%</td>
+	        <td align="center" valign="middle">15%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 15, 30, 20, 20, 15 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome3305">DisplayCourseOutcome3305</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome3305" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;15&quot;, &quot;30&quot;, &quot;20&quot;, &quot;20&quot;, &quot;15&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">2.3%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=2971&course=HST%20250%20-%20American%20History%20and%20Life.php.html">HST 250 - American History and Life</a></td>
+	        <td align="center" valign="middle">15%</td>
+	        <td align="center" valign="middle">30%</td>
+	        <td align="center" valign="middle">20%</td>
+	        <td align="center" valign="middle">15%</td>
+	        <td align="center" valign="middle">20%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 15, 30, 20, 15, 20 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome3306">DisplayCourseOutcome3306</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome3306" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;15&quot;, &quot;30&quot;, &quot;20&quot;, &quot;15&quot;, &quot;20&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">2.3%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=2972&course=HST%20251%20-%20American%20History%20and%20Life.php.html">HST 251 - American History and Life</a></td>
+	        <td align="center" valign="middle">15%</td>
+	        <td align="center" valign="middle">30%</td>
+	        <td align="center" valign="middle">20%</td>
+	        <td align="center" valign="middle">15%</td>
+	        <td align="center" valign="middle">20%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 15, 30, 20, 15, 20 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome3307">DisplayCourseOutcome3307</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome3307" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;15&quot;, &quot;30&quot;, &quot;20&quot;, &quot;15&quot;, &quot;20&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">2.3%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=2973&course=HST%20300%20-%20Research%20and%20Writing.php.html">HST 300 - Research and Writing</a></td>
+	        <td align="center" valign="middle">30%</td>
+	        <td align="center" valign="middle">20%</td>
+	        <td align="center" valign="middle">20%</td>
+	        <td align="center" valign="middle">20%</td>
+	        <td align="center" valign="middle">10%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 30, 20, 20, 20, 10 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome3308">DisplayCourseOutcome3308</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome3308" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;30&quot;, &quot;20&quot;, &quot;20&quot;, &quot;20&quot;, &quot;10&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">2.3%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=2974&course=HST%20305%20-%20English%20History.php.html">HST 305 - English History</a></td>
+	        <td align="center" valign="middle">10%</td>
+	        <td align="center" valign="middle">35%</td>
+	        <td align="center" valign="middle">25%</td>
+	        <td align="center" valign="middle">15%</td>
+	        <td align="center" valign="middle">15%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 10, 35, 25, 15, 15 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome3309">DisplayCourseOutcome3309</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome3309" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;10&quot;, &quot;35&quot;, &quot;25&quot;, &quot;15&quot;, &quot;15&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">2.3%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=2976&course=HST%20306%20-%20English%20History.php.html">HST 306 - English History</a></td>
+	        <td align="center" valign="middle">10%</td>
+	        <td align="center" valign="middle">35%</td>
+	        <td align="center" valign="middle">25%</td>
+	        <td align="center" valign="middle">15%</td>
+	        <td align="center" valign="middle">15%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 10, 35, 25, 15, 15 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome3310">DisplayCourseOutcome3310</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome3310" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;10&quot;, &quot;35&quot;, &quot;25&quot;, &quot;15&quot;, &quot;15&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">2.3%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=2978&course=HST%20315%20-%20Ancient%20Greece.php.html">HST 315 - Ancient Greece</a></td>
+	        <td align="center" valign="middle">15%</td>
+	        <td align="center" valign="middle">30%</td>
+	        <td align="center" valign="middle">25%</td>
+	        <td align="center" valign="middle">15%</td>
+	        <td align="center" valign="middle">15%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 15, 30, 25, 15, 15 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome3311">DisplayCourseOutcome3311</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome3311" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;15&quot;, &quot;30&quot;, &quot;25&quot;, &quot;15&quot;, &quot;15&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">2.3%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=2979&course=HST%20316%20-%20Ancient%20Rome.php.html">HST 316 - Ancient Rome</a></td>
+	        <td align="center" valign="middle">15%</td>
+	        <td align="center" valign="middle">30%</td>
+	        <td align="center" valign="middle">25%</td>
+	        <td align="center" valign="middle">15%</td>
+	        <td align="center" valign="middle">15%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 15, 30, 25, 15, 15 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome3312">DisplayCourseOutcome3312</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome3312" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;15&quot;, &quot;30&quot;, &quot;25&quot;, &quot;15&quot;, &quot;15&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">2.3%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=2980&course=HST%20320%20-%20Religion%20in%20America.php.html">HST 320 - Religion in America</a></td>
+	        <td align="center" valign="middle">15%</td>
+	        <td align="center" valign="middle">25%</td>
+	        <td align="center" valign="middle">20%</td>
+	        <td align="center" valign="middle">20%</td>
+	        <td align="center" valign="middle">20%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 15, 25, 20, 20, 20 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome3313">DisplayCourseOutcome3313</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome3313" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;15&quot;, &quot;25&quot;, &quot;20&quot;, &quot;20&quot;, &quot;20&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">2.3%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=2981&course=HST%20341%20-%20Modern%20Europe.php.html">HST 341 - Modern Europe</a></td>
+	        <td align="center" valign="middle">15%</td>
+	        <td align="center" valign="middle">30%</td>
+	        <td align="center" valign="middle">25%</td>
+	        <td align="center" valign="middle">15%</td>
+	        <td align="center" valign="middle">15%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 15, 30, 25, 15, 15 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome3314">DisplayCourseOutcome3314</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome3314" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;15&quot;, &quot;30&quot;, &quot;25&quot;, &quot;15&quot;, &quot;15&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">2.3%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=2982&course=HST%20342%20-%20Modern%20Europe.php.html">HST 342 - Modern Europe</a></td>
+	        <td align="center" valign="middle">15%</td>
+	        <td align="center" valign="middle">30%</td>
+	        <td align="center" valign="middle">25%</td>
+	        <td align="center" valign="middle">15%</td>
+	        <td align="center" valign="middle">15%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 15, 30, 25, 15, 15 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome3315">DisplayCourseOutcome3315</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome3315" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;15&quot;, &quot;30&quot;, &quot;25&quot;, &quot;15&quot;, &quot;15&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">2.3%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=2983&course=HST%20343%20-%20Modern%20Europe.php.html">HST 343 - Modern Europe</a></td>
+	        <td align="center" valign="middle">15%</td>
+	        <td align="center" valign="middle">30%</td>
+	        <td align="center" valign="middle">25%</td>
+	        <td align="center" valign="middle">15%</td>
+	        <td align="center" valign="middle">15%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 15, 30, 25, 15, 15 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome3316">DisplayCourseOutcome3316</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome3316" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;15&quot;, &quot;30&quot;, &quot;25&quot;, &quot;15&quot;, &quot;15&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">2.3%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=2984&course=HST%20344%20-%20The%20Nazi%20Party_The%20Third%20Reich.php.html">HST 344 - The Nazi Party/The Third Reich</a></td>
+	        <td align="center" valign="middle">15%</td>
+	        <td align="center" valign="middle">25%</td>
+	        <td align="center" valign="middle">30%</td>
+	        <td align="center" valign="middle">15%</td>
+	        <td align="center" valign="middle">15%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 15, 25, 30, 15, 15 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome3317">DisplayCourseOutcome3317</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome3317" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;15&quot;, &quot;25&quot;, &quot;30&quot;, &quot;15&quot;, &quot;15&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">2.3%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=2988&course=HST%20353%20-%20Colonial%20America.php.html">HST 353 - Colonial America</a></td>
+	        <td align="center" valign="middle">15%</td>
+	        <td align="center" valign="middle">25%</td>
+	        <td align="center" valign="middle">25%</td>
+	        <td align="center" valign="middle">15%</td>
+	        <td align="center" valign="middle">20%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 15, 25, 25, 15, 20 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome3321">DisplayCourseOutcome3321</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome3321" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;15&quot;, &quot;25&quot;, &quot;25&quot;, &quot;15&quot;, &quot;20&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">2.3%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=2989&course=HST%20355%20-%20Jefferson%20to%20Civil%20War.php.html">HST 355 - Jefferson to Civil War</a></td>
+	        <td align="center" valign="middle">15%</td>
+	        <td align="center" valign="middle">25%</td>
+	        <td align="center" valign="middle">25%</td>
+	        <td align="center" valign="middle">15%</td>
+	        <td align="center" valign="middle">20%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 15, 25, 25, 15, 20 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome3322">DisplayCourseOutcome3322</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome3322" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;15&quot;, &quot;25&quot;, &quot;25&quot;, &quot;15&quot;, &quot;20&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">2.3%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=2990&course=HST%20357%20-%20Industrial%20&%20Progressive%20U.S..php.html">HST 357 - Industrial &amp; Progressive U.S.</a></td>
+	        <td align="center" valign="middle">15%</td>
+	        <td align="center" valign="middle">25%</td>
+	        <td align="center" valign="middle">25%</td>
+	        <td align="center" valign="middle">15%</td>
+	        <td align="center" valign="middle">20%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 15, 25, 25, 15, 20 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome3323">DisplayCourseOutcome3323</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome3323" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;15&quot;, &quot;25&quot;, &quot;25&quot;, &quot;15&quot;, &quot;20&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">2.3%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=2991&course=HST%20358%20-%20New%20Deal%20and%20Cold%20War%20U.S..php.html">HST 358 - New Deal and Cold War U.S.</a></td>
+	        <td align="center" valign="middle">15%</td>
+	        <td align="center" valign="middle">25%</td>
+	        <td align="center" valign="middle">25%</td>
+	        <td align="center" valign="middle">15%</td>
+	        <td align="center" valign="middle">20%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 15, 25, 25, 15, 20 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome3324">DisplayCourseOutcome3324</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome3324" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;15&quot;, &quot;25&quot;, &quot;25&quot;, &quot;15&quot;, &quot;20&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">2.3%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=2992&course=HST%20361%20-%20History%20of%20Africa.php.html">HST 361 - History of Africa</a></td>
+	        <td align="center" valign="middle">10%</td>
+	        <td align="center" valign="middle">30%</td>
+	        <td align="center" valign="middle">25%</td>
+	        <td align="center" valign="middle">15%</td>
+	        <td align="center" valign="middle">20%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 10, 30, 25, 15, 20 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome3325">DisplayCourseOutcome3325</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome3325" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;10&quot;, &quot;30&quot;, &quot;25&quot;, &quot;15&quot;, &quot;20&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">2.3%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=2994&course=HST%20372%20-%2020th%20Century%20Revolutions.php.html">HST 372 - 20th Century Revolutions</a></td>
+	        <td align="center" valign="middle">15%</td>
+	        <td align="center" valign="middle">25%</td>
+	        <td align="center" valign="middle">25%</td>
+	        <td align="center" valign="middle">20%</td>
+	        <td align="center" valign="middle">15%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 15, 25, 25, 20, 15 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome3326">DisplayCourseOutcome3326</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome3326" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;15&quot;, &quot;25&quot;, &quot;25&quot;, &quot;20&quot;, &quot;15&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">2.3%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=2995&course=HST%20380%20-%20War%20in%20the%20Modern%20World.php.html">HST 380 - War in the Modern World</a></td>
+	        <td align="center" valign="middle">15%</td>
+	        <td align="center" valign="middle">25%</td>
+	        <td align="center" valign="middle">25%</td>
+	        <td align="center" valign="middle">20%</td>
+	        <td align="center" valign="middle">15%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 15, 25, 25, 20, 15 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome3327">DisplayCourseOutcome3327</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome3327" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;15&quot;, &quot;25&quot;, &quot;25&quot;, &quot;20&quot;, &quot;15&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">2.3%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=2996&course=HST%20381%20-%20Nazi%20Germany%20and%20Film.php.html">HST 381 - Nazi Germany and Film</a></td>
+	        <td align="center" valign="middle">20%</td>
+	        <td align="center" valign="middle">25%</td>
+	        <td align="center" valign="middle">25%</td>
+	        <td align="center" valign="middle">20%</td>
+	        <td align="center" valign="middle">10%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 20, 25, 25, 20, 10 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome3328">DisplayCourseOutcome3328</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome3328" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;20&quot;, &quot;25&quot;, &quot;25&quot;, &quot;20&quot;, &quot;10&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">2.3%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=2997&course=HST%20382%20-%20Vietnam%20War%20and%20Film.php.html">HST 382 - Vietnam War and Film</a></td>
+	        <td align="center" valign="middle">20%</td>
+	        <td align="center" valign="middle">25%</td>
+	        <td align="center" valign="middle">25%</td>
+	        <td align="center" valign="middle">15%</td>
+	        <td align="center" valign="middle">15%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 20, 25, 25, 15, 15 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome3329">DisplayCourseOutcome3329</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome3329" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;20&quot;, &quot;25&quot;, &quot;25&quot;, &quot;15&quot;, &quot;15&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">2.3%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=2998&course=HST%20388%20-%20Constitution%20and%20Supreme%20Court.php.html">HST 388 - Constitution and Supreme Court</a></td>
+	        <td align="center" valign="middle">15%</td>
+	        <td align="center" valign="middle">25%</td>
+	        <td align="center" valign="middle">25%</td>
+	        <td align="center" valign="middle">10%</td>
+	        <td align="center" valign="middle">25%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 15, 25, 25, 10, 25 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome3330">DisplayCourseOutcome3330</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome3330" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;15&quot;, &quot;25&quot;, &quot;25&quot;, &quot;10&quot;, &quot;25&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">2.3%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=2999&course=HST%20389%20-%20Constitution%20&%20the%20Presidency.php.html">HST 389 - Constitution &amp; the Presidency</a></td>
+	        <td align="center" valign="middle">15%</td>
+	        <td align="center" valign="middle">25%</td>
+	        <td align="center" valign="middle">25%</td>
+	        <td align="center" valign="middle">10%</td>
+	        <td align="center" valign="middle">25%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 15, 25, 25, 10, 25 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome3331">DisplayCourseOutcome3331</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome3331" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;15&quot;, &quot;25&quot;, &quot;25&quot;, &quot;10&quot;, &quot;25&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">2.3%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=3002&course=HST%20396%20-%20China_%20Twentieth%20Century.php.html">HST 396 - China: Twentieth Century</a></td>
+	        <td align="center" valign="middle">10%</td>
+	        <td align="center" valign="middle">30%</td>
+	        <td align="center" valign="middle">25%</td>
+	        <td align="center" valign="middle">20%</td>
+	        <td align="center" valign="middle">15%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 10, 30, 25, 20, 15 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome3332">DisplayCourseOutcome3332</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome3332" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;10&quot;, &quot;30&quot;, &quot;25&quot;, &quot;20&quot;, &quot;15&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">2.3%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=3003&course=HST%20397%20-%20Japan%20Since%201800.php.html">HST 397 - Japan Since 1800</a></td>
+	        <td align="center" valign="middle">10%</td>
+	        <td align="center" valign="middle">30%</td>
+	        <td align="center" valign="middle">25%</td>
+	        <td align="center" valign="middle">20%</td>
+	        <td align="center" valign="middle">15%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 10, 30, 25, 20, 15 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome3333">DisplayCourseOutcome3333</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome3333" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;10&quot;, &quot;30&quot;, &quot;25&quot;, &quot;20&quot;, &quot;15&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">3.4%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=3034&course=HST%20415%20-%20History%20Capstone.php.html">HST 415 - History Capstone</a></td>
+	        <td align="center" valign="middle">20%</td>
+	        <td align="center" valign="middle">30%</td>
+	        <td align="center" valign="middle">25%</td>
+	        <td align="center" valign="middle">15%</td>
+	        <td align="center" valign="middle">10%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 20, 30, 25, 15, 10 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome3334">DisplayCourseOutcome3334</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome3334" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;20&quot;, &quot;30&quot;, &quot;25&quot;, &quot;15&quot;, &quot;10&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">2.3%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=3036&course=HST%20421%20-%20Environmental%20History.php.html">HST 421 - Environmental History</a></td>
+	        <td align="center" valign="middle">20%</td>
+	        <td align="center" valign="middle">25%</td>
+	        <td align="center" valign="middle">25%</td>
+	        <td align="center" valign="middle">20%</td>
+	        <td align="center" valign="middle">10%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 20, 25, 25, 20, 10 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome3335">DisplayCourseOutcome3335</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome3335" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;20&quot;, &quot;25&quot;, &quot;25&quot;, &quot;20&quot;, &quot;10&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">2.3%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=3037&course=HST%20431%20-%20Islamic%20Middle%20East.php.html">HST 431 - Islamic Middle East</a></td>
+	        <td align="center" valign="middle">15%</td>
+	        <td align="center" valign="middle">30%</td>
+	        <td align="center" valign="middle">25%</td>
+	        <td align="center" valign="middle">20%</td>
+	        <td align="center" valign="middle">10%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 15, 30, 25, 20, 10 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome3336">DisplayCourseOutcome3336</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome3336" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;15&quot;, &quot;30&quot;, &quot;25&quot;, &quot;20&quot;, &quot;10&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">2.3%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=3038&course=HST%20432%20-%20Islamic%20Middle%20East.php.html">HST 432 - Islamic Middle East</a></td>
+	        <td align="center" valign="middle">15%</td>
+	        <td align="center" valign="middle">30%</td>
+	        <td align="center" valign="middle">25%</td>
+	        <td align="center" valign="middle">20%</td>
+	        <td align="center" valign="middle">10%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 15, 30, 25, 20, 10 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome3337">DisplayCourseOutcome3337</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome3337" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;15&quot;, &quot;30&quot;, &quot;25&quot;, &quot;20&quot;, &quot;10&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">2.3%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=3039&course=HST%20433%20-%20Islamic%20Middle%20East.php.html">HST 433 - Islamic Middle East</a></td>
+	        <td align="center" valign="middle">15%</td>
+	        <td align="center" valign="middle">30%</td>
+	        <td align="center" valign="middle">25%</td>
+	        <td align="center" valign="middle">20%</td>
+	        <td align="center" valign="middle">10%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 15, 30, 25, 20, 10 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome3338">DisplayCourseOutcome3338</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome3338" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;15&quot;, &quot;30&quot;, &quot;25&quot;, &quot;20&quot;, &quot;10&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">2.3%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=3041&course=HST%20448%20-%20Imperial%20Russia.php.html">HST 448 - Imperial Russia</a></td>
+	        <td align="center" valign="middle">15%</td>
+	        <td align="center" valign="middle">30%</td>
+	        <td align="center" valign="middle">25%</td>
+	        <td align="center" valign="middle">15%</td>
+	        <td align="center" valign="middle">15%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 15, 30, 25, 15, 15 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome3339">DisplayCourseOutcome3339</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome3339" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;15&quot;, &quot;30&quot;, &quot;25&quot;, &quot;15&quot;, &quot;15&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">2.3%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=3042&course=HST%20452%20-%20US%20Foreign%20Rel%20through%201920.php.html">HST 452 - US Foreign Rel through 1920</a></td>
+	        <td align="center" valign="middle">15%</td>
+	        <td align="center" valign="middle">30%</td>
+	        <td align="center" valign="middle">25%</td>
+	        <td align="center" valign="middle">15%</td>
+	        <td align="center" valign="middle">15%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 15, 30, 25, 15, 15 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome3340">DisplayCourseOutcome3340</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome3340" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;15&quot;, &quot;30&quot;, &quot;25&quot;, &quot;15&quot;, &quot;15&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">2.3%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=3043&course=HST%20453%20-%20US%20Foreign%20Rel%201920-Present.php.html">HST 453 - US Foreign Rel 1920-Present</a></td>
+	        <td align="center" valign="middle">15%</td>
+	        <td align="center" valign="middle">30%</td>
+	        <td align="center" valign="middle">25%</td>
+	        <td align="center" valign="middle">15%</td>
+	        <td align="center" valign="middle">15%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 15, 30, 25, 15, 15 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome3341">DisplayCourseOutcome3341</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome3341" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;15&quot;, &quot;30&quot;, &quot;25&quot;, &quot;15&quot;, &quot;15&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">2.3%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=3045&course=HST%20454%20-%20US-Latin%20American%20Relations.php.html">HST 454 - US-Latin American Relations</a></td>
+	        <td align="center" valign="middle">15%</td>
+	        <td align="center" valign="middle">30%</td>
+	        <td align="center" valign="middle">25%</td>
+	        <td align="center" valign="middle">15%</td>
+	        <td align="center" valign="middle">15%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 15, 30, 25, 15, 15 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome3342">DisplayCourseOutcome3342</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome3342" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;15&quot;, &quot;30&quot;, &quot;25&quot;, &quot;15&quot;, &quot;15&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">2.3%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=3052&course=HST%20460%20-%20Grand%20Strategy.php.html">HST 460 - Grand Strategy</a></td>
+	        <td align="center" valign="middle">20%</td>
+	        <td align="center" valign="middle">25%</td>
+	        <td align="center" valign="middle">25%</td>
+	        <td align="center" valign="middle">15%</td>
+	        <td align="center" valign="middle">15%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 20, 25, 25, 15, 15 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome3343">DisplayCourseOutcome3343</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome3343" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;20&quot;, &quot;25&quot;, &quot;25&quot;, &quot;15&quot;, &quot;15&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">2.3%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=3054&course=HST%20472%20-%20World%20War%20I.php.html">HST 472 - World War I</a></td>
+	        <td align="center" valign="middle">15%</td>
+	        <td align="center" valign="middle">30%</td>
+	        <td align="center" valign="middle">25%</td>
+	        <td align="center" valign="middle">15%</td>
+	        <td align="center" valign="middle">15%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 15, 30, 25, 15, 15 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome3344">DisplayCourseOutcome3344</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome3344" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;15&quot;, &quot;30&quot;, &quot;25&quot;, &quot;15&quot;, &quot;15&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">2.3%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=3055&course=HST%20476%20-%20American%20West.php.html">HST 476 - American West</a></td>
+	        <td align="center" valign="middle">10%</td>
+	        <td align="center" valign="middle">35%</td>
+	        <td align="center" valign="middle">30%</td>
+	        <td align="center" valign="middle">15%</td>
+	        <td align="center" valign="middle">10%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 10, 35, 30, 15, 10 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome3345">DisplayCourseOutcome3345</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome3345" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;10&quot;, &quot;35&quot;, &quot;30&quot;, &quot;15&quot;, &quot;10&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">2.3%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=3688&course=HST%20345%20-%20Atlantic%20World%20I_%20700-1500.php.html">HST 345 - Atlantic World I: 700-1500</a></td>
+	        <td align="center" valign="middle">10%</td>
+	        <td align="center" valign="middle">30%</td>
+	        <td align="center" valign="middle">25%</td>
+	        <td align="center" valign="middle">20%</td>
+	        <td align="center" valign="middle">15%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 10, 30, 25, 20, 15 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome3318">DisplayCourseOutcome3318</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome3318" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;10&quot;, &quot;30&quot;, &quot;25&quot;, &quot;20&quot;, &quot;15&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">2.3%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=3686&course=HST%20346%20-%20Atlantic%20World%20II_%201500-1750.php.html">HST 346 - Atlantic World II: 1500-1750</a></td>
+	        <td align="center" valign="middle">10%</td>
+	        <td align="center" valign="middle">30%</td>
+	        <td align="center" valign="middle">25%</td>
+	        <td align="center" valign="middle">20%</td>
+	        <td align="center" valign="middle">15%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 10, 30, 25, 20, 15 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome3319">DisplayCourseOutcome3319</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome3319" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;10&quot;, &quot;30&quot;, &quot;25&quot;, &quot;20&quot;, &quot;15&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">2.3%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=3687&course=HST%20347%20-%20Atlantic%20World%20III_%201750-1900.php.html">HST 347 - Atlantic World III: 1750-1900</a></td>
+	        <td align="center" valign="middle">10%</td>
+	        <td align="center" valign="middle">30%</td>
+	        <td align="center" valign="middle">25%</td>
+	        <td align="center" valign="middle">20%</td>
+	        <td align="center" valign="middle">15%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 10, 30, 25, 20, 15 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome3320">DisplayCourseOutcome3320</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome3320" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;10&quot;, &quot;30&quot;, &quot;25&quot;, &quot;20&quot;, &quot;15&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">2.3%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=3689&course=HST%20464%20-%20Colonial%20Mexico.php.html">HST 464 - Colonial Mexico</a></td>
+	        <td align="center" valign="middle">10%</td>
+	        <td align="center" valign="middle">35%</td>
+	        <td align="center" valign="middle">30%</td>
+	        <td align="center" valign="middle">15%</td>
+	        <td align="center" valign="middle">10%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 10, 35, 30, 15, 10 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome3346">DisplayCourseOutcome3346</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome3346" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;10&quot;, &quot;35&quot;, &quot;30&quot;, &quot;15&quot;, &quot;10&quot;]}' /></td>
+          </tr>
+	            </table>
+	    <p>&nbsp;</p>
+        <div class="clear"></div>
+
+
+
+<script type="text/javascript" src="scripts/jquery-1.8.1.min.js"></script>
+<link href="scripts/jquery-ui-1.8.24.custom.css" rel="stylesheet" type="text/css">
+<script src="scripts/jquery.spidergraph.js"></script>
+<!--<script src="scripts/jquery.tablesorter.min.js"></script>-->
+<script src="scripts/jquery-ui-1.8.23.min.js"></script>
+<script src="scripts/modernizr-2.6.1-respond-1.1.0.min.js"></script>
+<script src="scripts/jquery.sparkline.min.js"></script>
+
+<script>
+$(document).ready( function() {
+    
+        graph_data = {"fields": ["Applied", "Specialized", "Intellectual", "Broad", "Civic"], "scores": ["15", "25", "31.25", "13.75", "15"]}
+    
+    $('#spidergraphcontainer').spidergraph({
+        'fields': ['Applied','Specialized','Intellectual','Broad','Civic'],//graph_data['fields'],
+        'gridcolor': 'rgba(20,20,20,1)'
+    });
+    if(graph_data){
+    $('#spidergraphcontainer').spidergraph('addlayer', {
+        'strokecolor': 'rgba(130,104,230,0.7)',
+        'fillcolor': 'rgba(130,104,230,0.5)',
+        'data': graph_data['scores'].map(function(x){return parseInt(x)})
+    });
+    }
+   // $("#prog_outcomes").tablesorter({headers:{8:{sorter:false},9:{sorter:false}}});
+   // $("#course_outcomes").tablesorter({headers:{8:{sorter:false},9:{sorter:false}}});
+});
+
+    $(function(){
+        $('.inlinebar').sparkline('html', {type: 'bar', barColor: 'red', chartRangeMin: 0} );
+    });
+    c_colors = ['rgba(255,230,1','rgba(255,180,1','rgba(255,130,1','rgba(255,80,1'];
+    p_colors = ['rgba(8,170,230','rgba(8,120,180','rgba(8,70,130','rgba(8,20,80'];
+       
+	//Function to clear all the existing checkboxes
+    $('#clearall').click(function(){
+        $('#spidergraphcontainer').spidergraph('resetdata');
+        $('#tables').find('input').each(function(){
+            $(this).attr('checked',false);
+            $(this).parent('td').css('background-color', 'transparent');
+        });
+        
+	 	//Throw that average data back on
+        if (typeof graph_data != 'undefined'){
+            $('#spidergraphcontainer').spidergraph('addlayer', {
+                'strokecolor': 'rgba(130,104,230,0.7)',
+                'fillcolor': 'rgba(130,104,230,0.5)',
+                'data': graph_data['scores'].map(function(x){return parseInt(x)})
+            });
+        }
+    });
+      
+	//If someone presses refresh, turn the checkboxes off again.
+    $('#tables').find('input:checked').each(function(){
+        $(this).attr('checked', false);
+        $(this).attr('disabled', false);
+    });
+        
+	//handle clicking checkboxes in the table
+    $('.graphshow').click(function(){
+        //if we just checked it
+        if($(this).is(':checked')){
+            var data = $.parseJSON($(this).val())['scores'].map(function(x){return parseInt(x)});
+            if($(this).attr('name') == 'program'){
+                var cur_color = p_colors.pop();
+                var fill_color = cur_color + ',0.5)';
+                $(this).attr('cur_color', cur_color);
+                //set the table cell to our background
+                $(this).parent('td').css('background-color',fill_color);
+                $('#spidergraphcontainer').spidergraph('addlayer', {
+                    'strokecolor': cur_color + ',0.7)',
+                    'fillcolor': fill_color,
+                    'data': data
+                });
+                if(p_colors.length == 0){
+                    $('#tables input[name="program"]:not(:checked)').attr('disabled', true);
+                }
+            }
+           
+			//courses
+            else{
+                var cur_color = c_colors.pop();
+                var fill_color = cur_color + ',0.5)';
+                $(this).attr('cur_color', cur_color);
+                //set the table cell to our background
+                $(this).parent('td').css('background-color',fill_color);
+                $('#spidergraphcontainer').spidergraph('addlayer', {
+                    'strokecolor': cur_color + ',0.7)',
+                    'fillcolor': fill_color,
+                    'data': data
+                });
+                if(c_colors.length == 0){
+                    $('#tables input[name="course"]:not(:checked)').attr('disabled', true);
+                }
+            }
+        }
+           
+		//if we just unchecked it
+        else{
+            if($(this).attr('name') == 'program'){
+                p_colors.push($(this).attr('cur_color'));
+                $('#tables input[name="program"]').attr('disabled', false);
+            }
+           
+		    //courses
+            else{
+                c_colors.push($(this).attr('cur_color'));
+                $('#tables input[name="course"]').attr('disabled', false);
+            }
+            $(this).parent('td').css('background-color','transparent');
+            $('#spidergraphcontainer').spidergraph('resetdata');
+         
+		    //Throw that average data back on
+            if (typeof graph_data != 'undefined'){
+                $('#spidergraphcontainer').spidergraph('addlayer', {
+                    'strokecolor': 'rgba(130,104,230,0.7)',
+                    'fillcolor': 'rgba(130,104,230,0.5)',
+                    'data': graph_data['scores'].map(function(x){return parseInt(x)})
+                });
+            }
+            $('#tables').find('input:checked').each(function(){
+                $('#spidergraphcontainer').spidergraph('addlayer', {
+                    'strokecolor': $(this).attr('cur_color') + ",0.7)",
+                    'fillcolor': $(this).attr('cur_color') + ",0.5)",
+                    'data': $.parseJSON($(this).val())['scores'].map(function(x){return parseInt(x)})
+                });
+            });
+        }
+    });
+        
+	//comments popups
+    $('a.comments').live('click',function(e){
+        e.preventDefault();
+        comment = $(this).attr('title');
+        $('#comments_dialog').dialog({model:true, minWidth:300, title:"Comments"});
+        $('#comments_inner').text(comment);
+    });
+</script>
+
+
+</div> <!-- End sg-wrap -->
+
+<div class="clear"></div>
+
+
+</body>
+</html>
+<!-- Localized -->
