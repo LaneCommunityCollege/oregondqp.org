@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /forum/
+Disallow: /fluxbb/
+Disallow: /dqp-test/
+Disallow: /spider_graphs/.git/
