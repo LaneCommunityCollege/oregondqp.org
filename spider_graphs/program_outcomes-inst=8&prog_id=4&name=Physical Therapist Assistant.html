@@ -1,0 +1,670 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+   "http://www.w3.org/TR/html4/strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="english">
+<head>
+
+	<title>DQP in Oregon - Spidergraphs</title>
+    <link href="styles_spidergraph.css" rel="stylesheet" type="text/css" />
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge;chrome=1" >
+	<script src="scripts/jquery-1.8.1.min.js"></script>
+</head>
+
+<body>
+<a name="top"></a>
+
+        <!--[if lte IE 9]>
+            <div align="center">
+                <h3>If you are seeing this, your browser is<br />not able to display the spidergraph!</h3>
+                <p>
+                	Please come back in:<br /> 
+                	<a href='http://getfirefox.com'>FireFox</a><br />
+                    <a href='http://www.opera.com/download/'>Opera</a><br />
+                    <a href='http://www.apple.com/safari/'>Safari</a><br />
+                    or<br />
+                    <a href='http://www.microsoft.com/windows/downloads/ie/getitnow.mspx'>Internet Explorer 9</a>
+                </p> 
+                <p>
+                	If you would rather not install another browser, please close Internet Explorer and return to this page.
+                    When given the option to install ChromeFrame, please allow your computer to do so.  This will give
+                    Internet Explorer the ability to display the spidergraphs.
+                </p>
+                <p>
+                	Please be aware that ChromeFrame is being discontinued in January 2014, so browsers that use
+                	this will stop working with the spidergraph sometime in December 2013.  To continue to use the spidergraphs
+                    you will need to upgrade your browser using one of the links above.
+                </p>
+            </div>
+        <![endif]-->
+
+<div id="header">
+	<img src="images/DQP%20color%20logo.png" alt="DQP Logo" width="300" height="103">
+</div>
+
+<div class="clear"></div>
+<div id="sg_wrap">
+
+    <div id="top-menu">
+    <ul>
+        <li><a href="http://www.oregondqp.org">DQP Home</a></li>
+        <li><a href="index.html">Spidergraph Home</a></li>
+        <li><a href="admin_index.html">Spidergraph Admin</a></li>
+	  	        <li><a href="#">Institutions</a>
+			<ul>
+			<li><a href='programs-inst=1.html'>Blue Mountain Community College</a></li><li><a href='programs-inst=2.html'>Central Oregon Community College</a></li><li><a href='programs-inst=3.html'>Chemeketa Community College</a></li><li><a href='programs-inst=4.html'>Clackamas Community College</a></li><li><a href='programs-inst=5.html'>Clatsop Community College</a></li><li><a href='programs-inst=6.html'>Columbia Gorge Community College</a></li><li><a href='programs-inst=7.html'>Klamath Community College</a></li><li><a href='programs-inst=8.html'>Lane Community College</a></li><li><a href='programs-inst=9.html'>Linn-Benton Community College</a></li><li><a href='programs-inst=10.html'>Mt. Hood Community College</a></li><li><a href='programs-inst=11.html'>Oregon Coast Community College</a></li><li><a href='programs-inst=12.html'>Portland Community College</a></li><li><a href='programs-inst=13.html'>Rogue Community College</a></li><li><a href='programs-inst=14.html'>Southwestern Oregon Community College</a></li><li><a href='programs-inst=15.html'>Tillamook Bay Community College</a></li><li><a href='programs-inst=16.html'>Treasure Valley Community College</a></li><li><a href='programs-inst=17.html'>Umpqua Community College</a></li><li><a href='programs-inst=18.html'>Eastern Oregon University</a></li><li><a href='programs-inst=19.html'>Oregon Institute of Technology</a></li><li><a href='programs-inst=20.html'>Oregon State University</a></li><li><a href='programs-inst=21.html'>Portland State University</a></li><li><a href='programs-inst=22.html'>Southern Oregon University</a></li><li><a href='programs-inst=23.html'>University of Oregon</a></li><li><a href='programs-inst=24.html'>Western Oregon University</a></li>            </ul>
+        </li>
+	  	    </ul>
+    </div><!-- Top Menu -->
+    
+    <p>&nbsp;</p>
+
+	<h1>Programs</h1>
+
+    <div id="graph">
+                <!--[if lte IE 9]>
+            <div align="center">
+                <h3>If you are seeing this, your browser is<br />not able to display the spidergraph!</h3>
+                <p>
+                	Please come back in:<br /> 
+                	<a href='http://getfirefox.com'>FireFox</a><br />
+                    <a href='http://www.opera.com/download/'>Opera</a><br />
+                    <a href='http://www.apple.com/safari/'>Safari</a><br />
+                    or<br />
+                    <a href='http://www.microsoft.com/windows/downloads/ie/getitnow.mspx'>Internet Explorer 9</a>
+                </p> 
+                <p>
+                	If you would rather not install another browser, please close Internet Explorer and return to this page.
+                    When given the option to install ChromeFrame, please allow your computer to do so.  This will give
+                    Internet Explorer the ability to display the spidergraphs.
+                </p>
+                <p>
+                	Please be aware that ChromeFrame is being discontinued in January 2014, so browsers that use
+                	this will stop working with the spidergraph sometime in December 2013.  To continue to use the spidergraphs
+                    you will need to upgrade your browser using one of the links above.
+                </p>
+            </div>
+        <![endif]-->
+        <div id="spidergraphcontainer"></div>
+    </div>
+
+	<div id="tables">
+    <h2 align="center">Lane Community College</h2>
+    <h3 align="center">Physical Therapist Assistant</h3>
+
+
+    <p><button class="btn" id="clearall">Clear all checkboxes</button></p>    
+
+
+
+	<h3>Program Outcomes</h3>
+        <table border="0" cellspacing="0" cellpadding="0" >
+          <thead>
+          <tr class="text_small">
+            <td align="left" valign="middle">Weight</td>
+            <td align="center" valign="middle">Outcomes</td>
+            <td align="center" valign="middle"><a href="dqp_outcome_descriptions-.html#applied" title="Description of Applied Learning">Applied Learning</a></td>
+            <td align="center" valign="middle"><a href="dqp_outcome_descriptions-.html#specialized" title="Description of Specialized Knowledge">Specialized Knowledge</a></td>
+            <td align="center" valign="middle"><a href="dqp_outcome_descriptions-.html#intellectual" title="Description of Intellectual Skills">Intellectual Skills</a></td>
+            <td align="center" valign="middle"><a href="dqp_outcome_descriptions-.html#broad" title="Description of Integrative/Broad Knowledge">Integrative/Broad Knowledge</a></td>
+            <td align="center" valign="middle"><a href="dqp_outcome_descriptions-.html#civic" title="Description of Civic Learning">Civic Learning</a></td>
+            <td align="center" valign="middle">&nbsp;</td>
+            <td align="center" valign="middle">&nbsp;</td>
+          </tr>
+          </thead>
+          
+          <tr class="text_small">
+            <td align="center" valign="middle">6%</td>
+            <td align="left" valign="middle">Communicates verbally and non-verbally with the patient, the physical therapist, health care delivery personnel, and others in an effective, appropriate, and capable manner</td>
+            <td align="center" valign="middle">25%</td>
+            <td align="center" valign="middle">12.5%</td>
+            <td align="center" valign="middle">25%</td>
+            <td align="center" valign="middle">12.5%</td>
+            <td align="center" valign="middle">25%</td>
+			<td align="center" valign="middle">
+            	<span class="inlinebar">
+					25,
+					12.5,
+                	25,
+                    12.5,
+                    25                </span>
+            </td>
+            <td align="center" valign="middle">
+            	<label class="invisible_label" for="DisplayProgramOutcome7">DisplayProgramOutcome7</label>
+                <input class='graphshow' type="checkbox" name="program" id="DisplayProgramOutcome7" value='{"fields": ["Applied", "Specialized", "Intellectual", "Broad", "Civic"], "scores": ["25", "12.5", "25", "12.5", "25"]}'>
+            </td>
+          </tr>
+          
+          <tr class="text_small">
+            <td align="center" valign="middle">6%</td>
+            <td align="left" valign="middle">Recognizes individual and cultural differences and responds appropriately in all aspects of physical therapy services.</td>
+            <td align="center" valign="middle">15%</td>
+            <td align="center" valign="middle">15%</td>
+            <td align="center" valign="middle">0%</td>
+            <td align="center" valign="middle">0%</td>
+            <td align="center" valign="middle">70%</td>
+			<td align="center" valign="middle">
+            	<span class="inlinebar">
+					15,
+					15,
+                	0,
+                    0,
+                    70                </span>
+            </td>
+            <td align="center" valign="middle">
+            	<label class="invisible_label" for="DisplayProgramOutcome8">DisplayProgramOutcome8</label>
+                <input class='graphshow' type="checkbox" name="program" id="DisplayProgramOutcome8" value='{"fields": ["Applied", "Specialized", "Intellectual", "Broad", "Civic"], "scores": ["15", "15", "0", "0", "70"]}'>
+            </td>
+          </tr>
+          
+          <tr class="text_small">
+            <td align="center" valign="middle">6%</td>
+            <td align="left" valign="middle">Exhibits conduct that reflects a commitment to meet the expectations of the members of the profession of physical therapy and members of society receiving health care services</td>
+            <td align="center" valign="middle">20%</td>
+            <td align="center" valign="middle">20%</td>
+            <td align="center" valign="middle">20%</td>
+            <td align="center" valign="middle">20%</td>
+            <td align="center" valign="middle">20%</td>
+			<td align="center" valign="middle">
+            	<span class="inlinebar">
+					20,
+					20,
+                	20,
+                    20,
+                    20                </span>
+            </td>
+            <td align="center" valign="middle">
+            	<label class="invisible_label" for="DisplayProgramOutcome9">DisplayProgramOutcome9</label>
+                <input class='graphshow' type="checkbox" name="program" id="DisplayProgramOutcome9" value='{"fields": ["Applied", "Specialized", "Intellectual", "Broad", "Civic"], "scores": ["20", "20", "20", "20", "20"]}'>
+            </td>
+          </tr>
+          
+          <tr class="text_small">
+            <td align="center" valign="middle">6%</td>
+            <td align="left" valign="middle">Exhibits conduct that reflects safe practice standards that are legal, ethical and safe</td>
+            <td align="center" valign="middle">30%</td>
+            <td align="center" valign="middle">30%</td>
+            <td align="center" valign="middle">10%</td>
+            <td align="center" valign="middle">10%</td>
+            <td align="center" valign="middle">20%</td>
+			<td align="center" valign="middle">
+            	<span class="inlinebar">
+					30,
+					30,
+                	10,
+                    10,
+                    20                </span>
+            </td>
+            <td align="center" valign="middle">
+            	<label class="invisible_label" for="DisplayProgramOutcome10">DisplayProgramOutcome10</label>
+                <input class='graphshow' type="checkbox" name="program" id="DisplayProgramOutcome10" value='{"fields": ["Applied", "Specialized", "Intellectual", "Broad", "Civic"], "scores": ["30", "30", "10", "10", "20"]}'>
+            </td>
+          </tr>
+          
+          <tr class="text_small">
+            <td align="center" valign="middle">6%</td>
+            <td align="left" valign="middle">Communicates an understanding of the plan of care developed by the physical therapist to achieve short and long term goals and intended outcomes.</td>
+            <td align="center" valign="middle">40%</td>
+            <td align="center" valign="middle">40%</td>
+            <td align="center" valign="middle">10%</td>
+            <td align="center" valign="middle">10%</td>
+            <td align="center" valign="middle">0%</td>
+			<td align="center" valign="middle">
+            	<span class="inlinebar">
+					40,
+					40,
+                	10,
+                    10,
+                    0                </span>
+            </td>
+            <td align="center" valign="middle">
+            	<label class="invisible_label" for="DisplayProgramOutcome11">DisplayProgramOutcome11</label>
+                <input class='graphshow' type="checkbox" name="program" id="DisplayProgramOutcome11" value='{"fields": ["Applied", "Specialized", "Intellectual", "Broad", "Civic"], "scores": ["40", "40", "10", "10", "0"]}'>
+            </td>
+          </tr>
+          
+          <tr class="text_small">
+            <td align="center" valign="middle">6%</td>
+            <td align="left" valign="middle">Demonstrates competence in implementing selected components of interventions identified in the plan of care established by the physical therapist, including functional training, infection control, manual therapy, physical and mechanical agents, therapeutic exercise, and wound management</td>
+            <td align="center" valign="middle">65%</td>
+            <td align="center" valign="middle">35%</td>
+            <td align="center" valign="middle">10%</td>
+            <td align="center" valign="middle">0%</td>
+            <td align="center" valign="middle">0%</td>
+			<td align="center" valign="middle">
+            	<span class="inlinebar">
+					65,
+					35,
+                	10,
+                    0,
+                    0                </span>
+            </td>
+            <td align="center" valign="middle">
+            	<label class="invisible_label" for="DisplayProgramOutcome12">DisplayProgramOutcome12</label>
+                <input class='graphshow' type="checkbox" name="program" id="DisplayProgramOutcome12" value='{"fields": ["Applied", "Specialized", "Intellectual", "Broad", "Civic"], "scores": ["65", "35", "10", "0", "0"]}'>
+            </td>
+          </tr>
+          
+          <tr class="text_small">
+            <td align="center" valign="middle">6%</td>
+            <td align="left" valign="middle">Demonstrates competency in performing components of data collection skills essential for carrying out the plan of care, including tests and measures for aerobic capacity, pain, cognition, assistive and prosthetic devices, joint motion, muscle performance, neuromotor development, posture, self-care and home/community management, ventilation, respiration, and circulation</td>
+            <td align="center" valign="middle">65%</td>
+            <td align="center" valign="middle">35%</td>
+            <td align="center" valign="middle">10%</td>
+            <td align="center" valign="middle">0%</td>
+            <td align="center" valign="middle">0%</td>
+			<td align="center" valign="middle">
+            	<span class="inlinebar">
+					65,
+					35,
+                	10,
+                    0,
+                    0                </span>
+            </td>
+            <td align="center" valign="middle">
+            	<label class="invisible_label" for="DisplayProgramOutcome13">DisplayProgramOutcome13</label>
+                <input class='graphshow' type="checkbox" name="program" id="DisplayProgramOutcome13" value='{"fields": ["Applied", "Specialized", "Intellectual", "Broad", "Civic"], "scores": ["65", "35", "10", "0", "0"]}'>
+            </td>
+          </tr>
+          
+          <tr class="text_small">
+            <td align="center" valign="middle">6%</td>
+            <td align="left" valign="middle">Recognizes and initiates clarifications with the supervising physical therapist when indicated</td>
+            <td align="center" valign="middle">20%</td>
+            <td align="center" valign="middle">40%</td>
+            <td align="center" valign="middle">35%</td>
+            <td align="center" valign="middle">5%</td>
+            <td align="center" valign="middle">0%</td>
+			<td align="center" valign="middle">
+            	<span class="inlinebar">
+					20,
+					40,
+                	35,
+                    5,
+                    0                </span>
+            </td>
+            <td align="center" valign="middle">
+            	<label class="invisible_label" for="DisplayProgramOutcome14">DisplayProgramOutcome14</label>
+                <input class='graphshow' type="checkbox" name="program" id="DisplayProgramOutcome14" value='{"fields": ["Applied", "Specialized", "Intellectual", "Broad", "Civic"], "scores": ["20", "40", "35", "5", "0"]}'>
+            </td>
+          </tr>
+          
+          <tr class="text_small">
+            <td align="center" valign="middle">6%</td>
+            <td align="left" valign="middle">Adjusts treatment interventions within the plan of care to optimize patient safety, progress, and comfort; reports outcomes to the supervising physical therapist</td>
+            <td align="center" valign="middle">50%</td>
+            <td align="center" valign="middle">20%</td>
+            <td align="center" valign="middle">30%</td>
+            <td align="center" valign="middle">0%</td>
+            <td align="center" valign="middle">0%</td>
+			<td align="center" valign="middle">
+            	<span class="inlinebar">
+					50,
+					20,
+                	30,
+                    0,
+                    0                </span>
+            </td>
+            <td align="center" valign="middle">
+            	<label class="invisible_label" for="DisplayProgramOutcome15">DisplayProgramOutcome15</label>
+                <input class='graphshow' type="checkbox" name="program" id="DisplayProgramOutcome15" value='{"fields": ["Applied", "Specialized", "Intellectual", "Broad", "Civic"], "scores": ["50", "20", "30", "0", "0"]}'>
+            </td>
+          </tr>
+          
+          <tr class="text_small">
+            <td align="center" valign="middle">6%</td>
+            <td align="left" valign="middle">Instructs and educates patients, family members, and caregivers as directed by the supervising physical therapist</td>
+            <td align="center" valign="middle">40%</td>
+            <td align="center" valign="middle">15%</td>
+            <td align="center" valign="middle">20%</td>
+            <td align="center" valign="middle">10%</td>
+            <td align="center" valign="middle">15%</td>
+			<td align="center" valign="middle">
+            	<span class="inlinebar">
+					40,
+					15,
+                	20,
+                    10,
+                    15                </span>
+            </td>
+            <td align="center" valign="middle">
+            	<label class="invisible_label" for="DisplayProgramOutcome16">DisplayProgramOutcome16</label>
+                <input class='graphshow' type="checkbox" name="program" id="DisplayProgramOutcome16" value='{"fields": ["Applied", "Specialized", "Intellectual", "Broad", "Civic"], "scores": ["40", "15", "20", "10", "15"]}'>
+            </td>
+          </tr>
+          
+          <tr class="text_small">
+            <td align="center" valign="middle">6%</td>
+            <td align="left" valign="middle">Instructs members of the health care team as directed by the supervising physical therapist, using appropriate instructional materials and approaches</td>
+            <td align="center" valign="middle">40%</td>
+            <td align="center" valign="middle">30%</td>
+            <td align="center" valign="middle">20%</td>
+            <td align="center" valign="middle">10%</td>
+            <td align="center" valign="middle">0%</td>
+			<td align="center" valign="middle">
+            	<span class="inlinebar">
+					40,
+					30,
+                	20,
+                    10,
+                    0                </span>
+            </td>
+            <td align="center" valign="middle">
+            	<label class="invisible_label" for="DisplayProgramOutcome17">DisplayProgramOutcome17</label>
+                <input class='graphshow' type="checkbox" name="program" id="DisplayProgramOutcome17" value='{"fields": ["Applied", "Specialized", "Intellectual", "Broad", "Civic"], "scores": ["40", "30", "20", "10", "0"]}'>
+            </td>
+          </tr>
+          
+          <tr class="text_small">
+            <td align="center" valign="middle">6%</td>
+            <td align="left" valign="middle">Demonstrates a commitment to meeting the needs of the patients and consumers</td>
+            <td align="center" valign="middle">25%</td>
+            <td align="center" valign="middle">25%</td>
+            <td align="center" valign="middle">0%</td>
+            <td align="center" valign="middle">15%</td>
+            <td align="center" valign="middle">35%</td>
+			<td align="center" valign="middle">
+            	<span class="inlinebar">
+					25,
+					25,
+                	0,
+                    15,
+                    35                </span>
+            </td>
+            <td align="center" valign="middle">
+            	<label class="invisible_label" for="DisplayProgramOutcome18">DisplayProgramOutcome18</label>
+                <input class='graphshow' type="checkbox" name="program" id="DisplayProgramOutcome18" value='{"fields": ["Applied", "Specialized", "Intellectual", "Broad", "Civic"], "scores": ["25", "25", "0", "15", "35"]}'>
+            </td>
+          </tr>
+          
+          <tr class="text_small">
+            <td align="center" valign="middle">6%</td>
+            <td align="left" valign="middle">Interacts with other members of the health care team in patient care and non-patient care activities</td>
+            <td align="center" valign="middle">85%</td>
+            <td align="center" valign="middle">15%</td>
+            <td align="center" valign="middle">0%</td>
+            <td align="center" valign="middle">0%</td>
+            <td align="center" valign="middle">0%</td>
+			<td align="center" valign="middle">
+            	<span class="inlinebar">
+					85,
+					15,
+                	0,
+                    0,
+                    0                </span>
+            </td>
+            <td align="center" valign="middle">
+            	<label class="invisible_label" for="DisplayProgramOutcome19">DisplayProgramOutcome19</label>
+                <input class='graphshow' type="checkbox" name="program" id="DisplayProgramOutcome19" value='{"fields": ["Applied", "Specialized", "Intellectual", "Broad", "Civic"], "scores": ["85", "15", "0", "0", "0"]}'>
+            </td>
+          </tr>
+          
+          <tr class="text_small">
+            <td align="center" valign="middle">6%</td>
+            <td align="left" valign="middle">Provides accurate and timely information for billing and reimbursement purposes</td>
+            <td align="center" valign="middle">65%</td>
+            <td align="center" valign="middle">25%</td>
+            <td align="center" valign="middle">0%</td>
+            <td align="center" valign="middle">10%</td>
+            <td align="center" valign="middle">0%</td>
+			<td align="center" valign="middle">
+            	<span class="inlinebar">
+					65,
+					25,
+                	0,
+                    10,
+                    0                </span>
+            </td>
+            <td align="center" valign="middle">
+            	<label class="invisible_label" for="DisplayProgramOutcome20">DisplayProgramOutcome20</label>
+                <input class='graphshow' type="checkbox" name="program" id="DisplayProgramOutcome20" value='{"fields": ["Applied", "Specialized", "Intellectual", "Broad", "Civic"], "scores": ["65", "25", "0", "10", "0"]}'>
+            </td>
+          </tr>
+          
+          <tr class="text_small">
+            <td align="center" valign="middle">6%</td>
+            <td align="left" valign="middle">Participates in quality assurance activities</td>
+            <td align="center" valign="middle">50%</td>
+            <td align="center" valign="middle">10%</td>
+            <td align="center" valign="middle">0%</td>
+            <td align="center" valign="middle">0%</td>
+            <td align="center" valign="middle">40%</td>
+			<td align="center" valign="middle">
+            	<span class="inlinebar">
+					50,
+					10,
+                	0,
+                    0,
+                    40                </span>
+            </td>
+            <td align="center" valign="middle">
+            	<label class="invisible_label" for="DisplayProgramOutcome21">DisplayProgramOutcome21</label>
+                <input class='graphshow' type="checkbox" name="program" id="DisplayProgramOutcome21" value='{"fields": ["Applied", "Specialized", "Intellectual", "Broad", "Civic"], "scores": ["50", "10", "0", "0", "40"]}'>
+            </td>
+          </tr>
+          
+          <tr class="text_small">
+            <td align="center" valign="middle">6%</td>
+            <td align="left" valign="middle">Demonstrates an awareness of social responsibility, citizenship and advocacy, including participation in community and service organizations and activities</td>
+            <td align="center" valign="middle">35%</td>
+            <td align="center" valign="middle">0%</td>
+            <td align="center" valign="middle">10%</td>
+            <td align="center" valign="middle">0%</td>
+            <td align="center" valign="middle">55%</td>
+			<td align="center" valign="middle">
+            	<span class="inlinebar">
+					35,
+					0,
+                	10,
+                    0,
+                    55                </span>
+            </td>
+            <td align="center" valign="middle">
+            	<label class="invisible_label" for="DisplayProgramOutcome22">DisplayProgramOutcome22</label>
+                <input class='graphshow' type="checkbox" name="program" id="DisplayProgramOutcome22" value='{"fields": ["Applied", "Specialized", "Intellectual", "Broad", "Civic"], "scores": ["35", "0", "10", "0", "55"]}'>
+            </td>
+          </tr>
+          
+          <tr class="text_small">
+            <td align="center" valign="middle">6%</td>
+            <td align="left" valign="middle">Identifies career and lifelong learning opportunities</td>
+            <td align="center" valign="middle">25%</td>
+            <td align="center" valign="middle">0%</td>
+            <td align="center" valign="middle">0%</td>
+            <td align="center" valign="middle">35%</td>
+            <td align="center" valign="middle">40%</td>
+			<td align="center" valign="middle">
+            	<span class="inlinebar">
+					25,
+					0,
+                	0,
+                    35,
+                    40                </span>
+            </td>
+            <td align="center" valign="middle">
+            	<label class="invisible_label" for="DisplayProgramOutcome23">DisplayProgramOutcome23</label>
+                <input class='graphshow' type="checkbox" name="program" id="DisplayProgramOutcome23" value='{"fields": ["Applied", "Specialized", "Intellectual", "Broad", "Civic"], "scores": ["25", "0", "0", "35", "40"]}'>
+            </td>
+          </tr>
+        
+        </table>
+	    <p>&nbsp;</p>
+	    <h3>Courses linked to this program</h3>
+	    <table border="0" cellspacing="0" cellpadding="0" class="table_600">
+	      <thead>
+	        <tr class="text_small">
+	          <td align="left" valign="middle">Weight</td>
+	          <td align="center" valign="middle">Course</td>
+	          <td align="center" valign="middle"><a href="dqp_outcome_descriptions-.html#applied" title="Description of Applied Learning">Applied Learning</a></td>
+	          <td align="center" valign="middle"><a href="dqp_outcome_descriptions-.html#specialized" title="Description of Specialized Knowledge">Specialized Knowledge</a></td>
+	          <td align="center" valign="middle"><a href="dqp_outcome_descriptions-.html#intellectual" title="Description of Intellectual Skills">Intellectual Skills</a></td>
+	          <td align="center" valign="middle"><a href="dqp_outcome_descriptions-.html#broad" title="Description of Integrative/Broad Knowledge">Integrative/Broad Knowledge</a></td>
+	          <td align="center" valign="middle"><a href="dqp_outcome_descriptions-.html#civic" title="Description of Civic Learning">Civic Learning</a></td>
+	          <td align="center" valign="middle">&nbsp;</td>
+	          <td align="center" valign="middle">&nbsp;</td>
+            </tr>
+          </thead>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">100%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=8&crs_id=23&course=PTA%20101%20L.html">PTA 101 L</a></td>
+	        <td align="center" valign="middle">40.6%</td>
+	        <td align="center" valign="middle">37%</td>
+	        <td align="center" valign="middle">12.9%</td>
+	        <td align="center" valign="middle">5.1%</td>
+	        <td align="center" valign="middle">4.1%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 40.6, 37, 12.9, 5.1, 4.1 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome169">DisplayCourseOutcome169</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome169" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;40.6&quot;, &quot;37&quot;, &quot;12.9&quot;, &quot;5.1&quot;, &quot;4.1&quot;]}' /></td>
+          </tr>
+	            </table>
+	    <p>&nbsp;</p>
+        <div class="clear"></div>
+
+
+
+<script type="text/javascript" src="scripts/jquery-1.8.1.min.js"></script>
+<link href="scripts/jquery-ui-1.8.24.custom.css" rel="stylesheet" type="text/css">
+<script src="scripts/jquery.spidergraph.js"></script>
+<!--<script src="scripts/jquery.tablesorter.min.js"></script>-->
+<script src="scripts/jquery-ui-1.8.23.min.js"></script>
+<script src="scripts/modernizr-2.6.1-respond-1.1.0.min.js"></script>
+<script src="scripts/jquery.sparkline.min.js"></script>
+
+<script>
+$(document).ready( function() {
+    
+        graph_data = {"fields": ["Applied", "Specialized", "Intellectual", "Broad", "Civic"], "scores": ["41.005", "21.6825", "11.8", "8.1125", "18.88"]}
+    
+    $('#spidergraphcontainer').spidergraph({
+        'fields': ['Applied','Specialized','Intellectual','Broad','Civic'],//graph_data['fields'],
+        'gridcolor': 'rgba(20,20,20,1)'
+    });
+    if(graph_data){
+    $('#spidergraphcontainer').spidergraph('addlayer', {
+        'strokecolor': 'rgba(130,104,230,0.7)',
+        'fillcolor': 'rgba(130,104,230,0.5)',
+        'data': graph_data['scores'].map(function(x){return parseInt(x)})
+    });
+    }
+   // $("#prog_outcomes").tablesorter({headers:{8:{sorter:false},9:{sorter:false}}});
+   // $("#course_outcomes").tablesorter({headers:{8:{sorter:false},9:{sorter:false}}});
+});
+
+    $(function(){
+        $('.inlinebar').sparkline('html', {type: 'bar', barColor: 'red', chartRangeMin: 0} );
+    });
+    c_colors = ['rgba(255,230,1','rgba(255,180,1','rgba(255,130,1','rgba(255,80,1'];
+    p_colors = ['rgba(8,170,230','rgba(8,120,180','rgba(8,70,130','rgba(8,20,80'];
+       
+	//Function to clear all the existing checkboxes
+    $('#clearall').click(function(){
+        $('#spidergraphcontainer').spidergraph('resetdata');
+        $('#tables').find('input').each(function(){
+            $(this).attr('checked',false);
+            $(this).parent('td').css('background-color', 'transparent');
+        });
+        
+	 	//Throw that average data back on
+        if (typeof graph_data != 'undefined'){
+            $('#spidergraphcontainer').spidergraph('addlayer', {
+                'strokecolor': 'rgba(130,104,230,0.7)',
+                'fillcolor': 'rgba(130,104,230,0.5)',
+                'data': graph_data['scores'].map(function(x){return parseInt(x)})
+            });
+        }
+    });
+      
+	//If someone presses refresh, turn the checkboxes off again.
+    $('#tables').find('input:checked').each(function(){
+        $(this).attr('checked', false);
+        $(this).attr('disabled', false);
+    });
+        
+	//handle clicking checkboxes in the table
+    $('.graphshow').click(function(){
+        //if we just checked it
+        if($(this).is(':checked')){
+            var data = $.parseJSON($(this).val())['scores'].map(function(x){return parseInt(x)});
+            if($(this).attr('name') == 'program'){
+                var cur_color = p_colors.pop();
+                var fill_color = cur_color + ',0.5)';
+                $(this).attr('cur_color', cur_color);
+                //set the table cell to our background
+                $(this).parent('td').css('background-color',fill_color);
+                $('#spidergraphcontainer').spidergraph('addlayer', {
+                    'strokecolor': cur_color + ',0.7)',
+                    'fillcolor': fill_color,
+                    'data': data
+                });
+                if(p_colors.length == 0){
+                    $('#tables input[name="program"]:not(:checked)').attr('disabled', true);
+                }
+            }
+           
+			//courses
+            else{
+                var cur_color = c_colors.pop();
+                var fill_color = cur_color + ',0.5)';
+                $(this).attr('cur_color', cur_color);
+                //set the table cell to our background
+                $(this).parent('td').css('background-color',fill_color);
+                $('#spidergraphcontainer').spidergraph('addlayer', {
+                    'strokecolor': cur_color + ',0.7)',
+                    'fillcolor': fill_color,
+                    'data': data
+                });
+                if(c_colors.length == 0){
+                    $('#tables input[name="course"]:not(:checked)').attr('disabled', true);
+                }
+            }
+        }
+           
+		//if we just unchecked it
+        else{
+            if($(this).attr('name') == 'program'){
+                p_colors.push($(this).attr('cur_color'));
+                $('#tables input[name="program"]').attr('disabled', false);
+            }
+           
+		    //courses
+            else{
+                c_colors.push($(this).attr('cur_color'));
+                $('#tables input[name="course"]').attr('disabled', false);
+            }
+            $(this).parent('td').css('background-color','transparent');
+            $('#spidergraphcontainer').spidergraph('resetdata');
+         
+		    //Throw that average data back on
+            if (typeof graph_data != 'undefined'){
+                $('#spidergraphcontainer').spidergraph('addlayer', {
+                    'strokecolor': 'rgba(130,104,230,0.7)',
+                    'fillcolor': 'rgba(130,104,230,0.5)',
+                    'data': graph_data['scores'].map(function(x){return parseInt(x)})
+                });
+            }
+            $('#tables').find('input:checked').each(function(){
+                $('#spidergraphcontainer').spidergraph('addlayer', {
+                    'strokecolor': $(this).attr('cur_color') + ",0.7)",
+                    'fillcolor': $(this).attr('cur_color') + ",0.5)",
+                    'data': $.parseJSON($(this).val())['scores'].map(function(x){return parseInt(x)})
+                });
+            });
+        }
+    });
+        
+	//comments popups
+    $('a.comments').live('click',function(e){
+        e.preventDefault();
+        comment = $(this).attr('title');
+        $('#comments_dialog').dialog({model:true, minWidth:300, title:"Comments"});
+        $('#comments_inner').text(comment);
+    });
+</script>
+
+
+</div> <!-- End sg-wrap -->
+
+<div class="clear"></div>
+
+
+</body>
+</html>
+<!-- Localized -->

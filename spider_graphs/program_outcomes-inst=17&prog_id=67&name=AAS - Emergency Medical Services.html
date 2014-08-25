@@ -1,0 +1,784 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+   "http://www.w3.org/TR/html4/strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="english">
+<head>
+
+	<title>DQP in Oregon - Spidergraphs</title>
+    <link href="styles_spidergraph.css" rel="stylesheet" type="text/css" />
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge;chrome=1" >
+	<script src="scripts/jquery-1.8.1.min.js"></script>
+</head>
+
+<body>
+<a name="top"></a>
+
+        <!--[if lte IE 9]>
+            <div align="center">
+                <h3>If you are seeing this, your browser is<br />not able to display the spidergraph!</h3>
+                <p>
+                	Please come back in:<br /> 
+                	<a href='http://getfirefox.com'>FireFox</a><br />
+                    <a href='http://www.opera.com/download/'>Opera</a><br />
+                    <a href='http://www.apple.com/safari/'>Safari</a><br />
+                    or<br />
+                    <a href='http://www.microsoft.com/windows/downloads/ie/getitnow.mspx'>Internet Explorer 9</a>
+                </p> 
+                <p>
+                	If you would rather not install another browser, please close Internet Explorer and return to this page.
+                    When given the option to install ChromeFrame, please allow your computer to do so.  This will give
+                    Internet Explorer the ability to display the spidergraphs.
+                </p>
+                <p>
+                	Please be aware that ChromeFrame is being discontinued in January 2014, so browsers that use
+                	this will stop working with the spidergraph sometime in December 2013.  To continue to use the spidergraphs
+                    you will need to upgrade your browser using one of the links above.
+                </p>
+            </div>
+        <![endif]-->
+
+<div id="header">
+	<img src="images/DQP%20color%20logo.png" alt="DQP Logo" width="300" height="103">
+</div>
+
+<div class="clear"></div>
+<div id="sg_wrap">
+
+    <div id="top-menu">
+    <ul>
+        <li><a href="http://www.oregondqp.org">DQP Home</a></li>
+        <li><a href="index.html">Spidergraph Home</a></li>
+        <li><a href="admin_index.html">Spidergraph Admin</a></li>
+	  	        <li><a href="#">Institutions</a>
+			<ul>
+			<li><a href='programs-inst=1.html'>Blue Mountain Community College</a></li><li><a href='programs-inst=2.html'>Central Oregon Community College</a></li><li><a href='programs-inst=3.html'>Chemeketa Community College</a></li><li><a href='programs-inst=4.html'>Clackamas Community College</a></li><li><a href='programs-inst=5.html'>Clatsop Community College</a></li><li><a href='programs-inst=6.html'>Columbia Gorge Community College</a></li><li><a href='programs-inst=7.html'>Klamath Community College</a></li><li><a href='programs-inst=8.html'>Lane Community College</a></li><li><a href='programs-inst=9.html'>Linn-Benton Community College</a></li><li><a href='programs-inst=10.html'>Mt. Hood Community College</a></li><li><a href='programs-inst=11.html'>Oregon Coast Community College</a></li><li><a href='programs-inst=12.html'>Portland Community College</a></li><li><a href='programs-inst=13.html'>Rogue Community College</a></li><li><a href='programs-inst=14.html'>Southwestern Oregon Community College</a></li><li><a href='programs-inst=15.html'>Tillamook Bay Community College</a></li><li><a href='programs-inst=16.html'>Treasure Valley Community College</a></li><li><a href='programs-inst=17.html'>Umpqua Community College</a></li><li><a href='programs-inst=18.html'>Eastern Oregon University</a></li><li><a href='programs-inst=19.html'>Oregon Institute of Technology</a></li><li><a href='programs-inst=20.html'>Oregon State University</a></li><li><a href='programs-inst=21.html'>Portland State University</a></li><li><a href='programs-inst=22.html'>Southern Oregon University</a></li><li><a href='programs-inst=23.html'>University of Oregon</a></li><li><a href='programs-inst=24.html'>Western Oregon University</a></li>            </ul>
+        </li>
+	  	    </ul>
+    </div><!-- Top Menu -->
+    
+    <p>&nbsp;</p>
+
+	<h1>Programs</h1>
+
+    <div id="graph">
+                <!--[if lte IE 9]>
+            <div align="center">
+                <h3>If you are seeing this, your browser is<br />not able to display the spidergraph!</h3>
+                <p>
+                	Please come back in:<br /> 
+                	<a href='http://getfirefox.com'>FireFox</a><br />
+                    <a href='http://www.opera.com/download/'>Opera</a><br />
+                    <a href='http://www.apple.com/safari/'>Safari</a><br />
+                    or<br />
+                    <a href='http://www.microsoft.com/windows/downloads/ie/getitnow.mspx'>Internet Explorer 9</a>
+                </p> 
+                <p>
+                	If you would rather not install another browser, please close Internet Explorer and return to this page.
+                    When given the option to install ChromeFrame, please allow your computer to do so.  This will give
+                    Internet Explorer the ability to display the spidergraphs.
+                </p>
+                <p>
+                	Please be aware that ChromeFrame is being discontinued in January 2014, so browsers that use
+                	this will stop working with the spidergraph sometime in December 2013.  To continue to use the spidergraphs
+                    you will need to upgrade your browser using one of the links above.
+                </p>
+            </div>
+        <![endif]-->
+        <div id="spidergraphcontainer"></div>
+    </div>
+
+	<div id="tables">
+    <h2 align="center">Umpqua Community College</h2>
+    <h3 align="center">AAS - Emergency Medical Services</h3>
+
+
+    <p><button class="btn" id="clearall">Clear all checkboxes</button></p>    
+
+
+
+	<h3>Program Outcomes</h3>
+        <table border="0" cellspacing="0" cellpadding="0" >
+          <thead>
+          <tr class="text_small">
+            <td align="left" valign="middle">Weight</td>
+            <td align="center" valign="middle">Outcomes</td>
+            <td align="center" valign="middle"><a href="dqp_outcome_descriptions-.html#applied" title="Description of Applied Learning">Applied Learning</a></td>
+            <td align="center" valign="middle"><a href="dqp_outcome_descriptions-.html#specialized" title="Description of Specialized Knowledge">Specialized Knowledge</a></td>
+            <td align="center" valign="middle"><a href="dqp_outcome_descriptions-.html#intellectual" title="Description of Intellectual Skills">Intellectual Skills</a></td>
+            <td align="center" valign="middle"><a href="dqp_outcome_descriptions-.html#broad" title="Description of Integrative/Broad Knowledge">Integrative/Broad Knowledge</a></td>
+            <td align="center" valign="middle"><a href="dqp_outcome_descriptions-.html#civic" title="Description of Civic Learning">Civic Learning</a></td>
+            <td align="center" valign="middle">&nbsp;</td>
+            <td align="center" valign="middle">&nbsp;</td>
+          </tr>
+          </thead>
+          
+          <tr class="text_small">
+            <td align="center" valign="middle">13%</td>
+            <td align="left" valign="middle">To effectively communicate the paramedic student must demonstrate proficiency with oral and written communications.  The paramedic student is expected to use, in all forms of communications, the appropriate medical terminology.  The paramedic student will be able to document patient care in written and electronic formats effectively.		      </td>
+            <td align="center" valign="middle">20%</td>
+            <td align="center" valign="middle">20%</td>
+            <td align="center" valign="middle">20%</td>
+            <td align="center" valign="middle">20%</td>
+            <td align="center" valign="middle">20%</td>
+			<td align="center" valign="middle">
+            	<span class="inlinebar">
+					20,
+					20,
+                	20,
+                    20,
+                    20                </span>
+            </td>
+            <td align="center" valign="middle">
+            	<label class="invisible_label" for="DisplayProgramOutcome759">DisplayProgramOutcome759</label>
+                <input class='graphshow' type="checkbox" name="program" id="DisplayProgramOutcome759" value='{"fields": ["Applied", "Specialized", "Intellectual", "Broad", "Civic"], "scores": ["20", "20", "20", "20", "20"]}'>
+            </td>
+          </tr>
+          
+          <tr class="text_small">
+            <td align="center" valign="middle">13%</td>
+            <td align="left" valign="middle">To maintain good health, the paramedic student must understand the effects that stress has on themselves, their fellow workers, the patient, and the patient&acirc;€™s family.  The paramedic student must understand the physical demands placed on a paramedic and must meet those demands with good wellness habits.  The paramedic student must understand common communicable disease processes, the threat communicable diseases place in the workplace and the variety of prevention methods that are available to them.		      </td>
+            <td align="center" valign="middle">20%</td>
+            <td align="center" valign="middle">20%</td>
+            <td align="center" valign="middle">20%</td>
+            <td align="center" valign="middle">20%</td>
+            <td align="center" valign="middle">20%</td>
+			<td align="center" valign="middle">
+            	<span class="inlinebar">
+					20,
+					20,
+                	20,
+                    20,
+                    20                </span>
+            </td>
+            <td align="center" valign="middle">
+            	<label class="invisible_label" for="DisplayProgramOutcome760">DisplayProgramOutcome760</label>
+                <input class='graphshow' type="checkbox" name="program" id="DisplayProgramOutcome760" value='{"fields": ["Applied", "Specialized", "Intellectual", "Broad", "Civic"], "scores": ["20", "20", "20", "20", "20"]}'>
+            </td>
+          </tr>
+          
+          <tr class="text_small">
+            <td align="center" valign="middle">13%</td>
+            <td align="left" valign="middle">To treat patient&acirc;€™s effectively the paramedic student must demonstrate proficient medication administration routes such as intramuscular sites to administer a wide variety of medications.  With standing orders, the paramedic is responsible to determine what medication and how much of that medication will be administered. In order to determine correct doses, the paramedic must demonstrate proficient math skills including fractions, decimals, and algebraic equations.		      </td>
+            <td align="center" valign="middle">20%</td>
+            <td align="center" valign="middle">20%</td>
+            <td align="center" valign="middle">20%</td>
+            <td align="center" valign="middle">20%</td>
+            <td align="center" valign="middle">20%</td>
+			<td align="center" valign="middle">
+            	<span class="inlinebar">
+					20,
+					20,
+                	20,
+                    20,
+                    20                </span>
+            </td>
+            <td align="center" valign="middle">
+            	<label class="invisible_label" for="DisplayProgramOutcome761">DisplayProgramOutcome761</label>
+                <input class='graphshow' type="checkbox" name="program" id="DisplayProgramOutcome761" value='{"fields": ["Applied", "Specialized", "Intellectual", "Broad", "Civic"], "scores": ["20", "20", "20", "20", "20"]}'>
+            </td>
+          </tr>
+          
+          <tr class="text_small">
+            <td align="center" valign="middle">13%</td>
+            <td align="left" valign="middle">The paramedic student must be able to recognize a wide range of disease processes and emergency conditions.  The paramedic must then establish treatment priorities for each patient.		      </td>
+            <td align="center" valign="middle">20%</td>
+            <td align="center" valign="middle">20%</td>
+            <td align="center" valign="middle">20%</td>
+            <td align="center" valign="middle">20%</td>
+            <td align="center" valign="middle">20%</td>
+			<td align="center" valign="middle">
+            	<span class="inlinebar">
+					20,
+					20,
+                	20,
+                    20,
+                    20                </span>
+            </td>
+            <td align="center" valign="middle">
+            	<label class="invisible_label" for="DisplayProgramOutcome762">DisplayProgramOutcome762</label>
+                <input class='graphshow' type="checkbox" name="program" id="DisplayProgramOutcome762" value='{"fields": ["Applied", "Specialized", "Intellectual", "Broad", "Civic"], "scores": ["20", "20", "20", "20", "20"]}'>
+            </td>
+          </tr>
+          
+          <tr class="text_small">
+            <td align="center" valign="middle">13%</td>
+            <td align="left" valign="middle">The paramedic student must be able to remove the patient from any environment and safely deliver the patient to hospitals and other locations of medical care as quickly as possible without causing further harm to those who are sick or injured and without placing themselves, their fellow emergency worker or the public at greater risk.		      </td>
+            <td align="center" valign="middle">20%</td>
+            <td align="center" valign="middle">20%</td>
+            <td align="center" valign="middle">20%</td>
+            <td align="center" valign="middle">20%</td>
+            <td align="center" valign="middle">20%</td>
+			<td align="center" valign="middle">
+            	<span class="inlinebar">
+					20,
+					20,
+                	20,
+                    20,
+                    20                </span>
+            </td>
+            <td align="center" valign="middle">
+            	<label class="invisible_label" for="DisplayProgramOutcome763">DisplayProgramOutcome763</label>
+                <input class='graphshow' type="checkbox" name="program" id="DisplayProgramOutcome763" value='{"fields": ["Applied", "Specialized", "Intellectual", "Broad", "Civic"], "scores": ["20", "20", "20", "20", "20"]}'>
+            </td>
+          </tr>
+          
+          <tr class="text_small">
+            <td align="center" valign="middle">13%</td>
+            <td align="left" valign="middle">The paramedic student must develop special skills to treat pediatric patients, cardiac patients, elderly patients and victims of traumatic injuries.		      </td>
+            <td align="center" valign="middle">20%</td>
+            <td align="center" valign="middle">20%</td>
+            <td align="center" valign="middle">20%</td>
+            <td align="center" valign="middle">20%</td>
+            <td align="center" valign="middle">20%</td>
+			<td align="center" valign="middle">
+            	<span class="inlinebar">
+					20,
+					20,
+                	20,
+                    20,
+                    20                </span>
+            </td>
+            <td align="center" valign="middle">
+            	<label class="invisible_label" for="DisplayProgramOutcome764">DisplayProgramOutcome764</label>
+                <input class='graphshow' type="checkbox" name="program" id="DisplayProgramOutcome764" value='{"fields": ["Applied", "Specialized", "Intellectual", "Broad", "Civic"], "scores": ["20", "20", "20", "20", "20"]}'>
+            </td>
+          </tr>
+          
+          <tr class="text_small">
+            <td align="center" valign="middle">13%</td>
+            <td align="left" valign="middle">The successful paramedic student will demonstrate skills and knowledge by successfully completing a comprehensive clinical and didactic testing process that is sponsored by the State of Oregon and the National Registry of EMT&acirc;€™s.		      </td>
+            <td align="center" valign="middle">20%</td>
+            <td align="center" valign="middle">20%</td>
+            <td align="center" valign="middle">20%</td>
+            <td align="center" valign="middle">20%</td>
+            <td align="center" valign="middle">20%</td>
+			<td align="center" valign="middle">
+            	<span class="inlinebar">
+					20,
+					20,
+                	20,
+                    20,
+                    20                </span>
+            </td>
+            <td align="center" valign="middle">
+            	<label class="invisible_label" for="DisplayProgramOutcome765">DisplayProgramOutcome765</label>
+                <input class='graphshow' type="checkbox" name="program" id="DisplayProgramOutcome765" value='{"fields": ["Applied", "Specialized", "Intellectual", "Broad", "Civic"], "scores": ["20", "20", "20", "20", "20"]}'>
+            </td>
+          </tr>
+          
+          <tr class="text_small">
+            <td align="center" valign="middle">9%</td>
+            <td align="left" valign="middle">The successful paramedic embraces lifelong learning and understands that they become a lifelong student of the arts and applied sciences that embody the paramedic. 		      </td>
+            <td align="center" valign="middle">20%</td>
+            <td align="center" valign="middle">20%</td>
+            <td align="center" valign="middle">20%</td>
+            <td align="center" valign="middle">20%</td>
+            <td align="center" valign="middle">20%</td>
+			<td align="center" valign="middle">
+            	<span class="inlinebar">
+					20,
+					20,
+                	20,
+                    20,
+                    20                </span>
+            </td>
+            <td align="center" valign="middle">
+            	<label class="invisible_label" for="DisplayProgramOutcome766">DisplayProgramOutcome766</label>
+                <input class='graphshow' type="checkbox" name="program" id="DisplayProgramOutcome766" value='{"fields": ["Applied", "Specialized", "Intellectual", "Broad", "Civic"], "scores": ["20", "20", "20", "20", "20"]}'>
+            </td>
+          </tr>
+        
+        </table>
+	    <p>&nbsp;</p>
+	    <h3>Courses linked to this program</h3>
+	    <table border="0" cellspacing="0" cellpadding="0" class="table_600">
+	      <thead>
+	        <tr class="text_small">
+	          <td align="left" valign="middle">Weight</td>
+	          <td align="center" valign="middle">Course</td>
+	          <td align="center" valign="middle"><a href="dqp_outcome_descriptions-.html#applied" title="Description of Applied Learning">Applied Learning</a></td>
+	          <td align="center" valign="middle"><a href="dqp_outcome_descriptions-.html#specialized" title="Description of Specialized Knowledge">Specialized Knowledge</a></td>
+	          <td align="center" valign="middle"><a href="dqp_outcome_descriptions-.html#intellectual" title="Description of Intellectual Skills">Intellectual Skills</a></td>
+	          <td align="center" valign="middle"><a href="dqp_outcome_descriptions-.html#broad" title="Description of Integrative/Broad Knowledge">Integrative/Broad Knowledge</a></td>
+	          <td align="center" valign="middle"><a href="dqp_outcome_descriptions-.html#civic" title="Description of Civic Learning">Civic Learning</a></td>
+	          <td align="center" valign="middle">&nbsp;</td>
+	          <td align="center" valign="middle">&nbsp;</td>
+            </tr>
+          </thead>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">3%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=17&crs_id=1521&course=BI%20231%20-%20Human%20Anatomy%20&%20Physiology.html">BI 231 - Human Anatomy &amp; Physiology</a></td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 0, 0, 0, 0, 0 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome">DisplayCourseOutcome</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">3%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=17&crs_id=1522&course=BI%20232%20-%20Human%20Anatomy%20&%20Physiology.html">BI 232 - Human Anatomy &amp; Physiology</a></td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 0, 0, 0, 0, 0 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome">DisplayCourseOutcome</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">3%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=17&crs_id=1523&course=BI%20233%20-%20Human%20Anatomy%20&%20Physiology.html">BI 233 - Human Anatomy &amp; Physiology</a></td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 0, 0, 0, 0, 0 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome">DisplayCourseOutcome</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">3%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=17&crs_id=5&course=CIS%20120%20-%20Introduction%20to%20Computer%20Information%20Systems.html">CIS 120 - Introduction to Computer Information Systems</a></td>
+	        <td align="center" valign="middle">19.4%</td>
+	        <td align="center" valign="middle">28.8%</td>
+	        <td align="center" valign="middle">14.4%</td>
+	        <td align="center" valign="middle">25.6%</td>
+	        <td align="center" valign="middle">11.9%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 19.4, 28.8, 14.4, 25.6, 11.9 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome22">DisplayCourseOutcome22</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome22" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;19.4&quot;, &quot;28.8&quot;, &quot;14.4&quot;, &quot;25.6&quot;, &quot;11.9&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">3%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=17&crs_id=373&course=HPE%20295%20-%20Wellness%20and%20Health%20Assessment.html">HPE 295 - Wellness and Health Assessment</a></td>
+	        <td align="center" valign="middle">20%</td>
+	        <td align="center" valign="middle">20%</td>
+	        <td align="center" valign="middle">20%</td>
+	        <td align="center" valign="middle">20%</td>
+	        <td align="center" valign="middle">20%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 20, 20, 20, 20, 20 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome2109">DisplayCourseOutcome2109</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome2109" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;20&quot;, &quot;20&quot;, &quot;20&quot;, &quot;20&quot;, &quot;20&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">3%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=17&crs_id=1703&course=MTH%20095%20-%20Intermediate%20Algebra.html">MTH 095 - Intermediate Algebra</a></td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 0, 0, 0, 0, 0 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome2109">DisplayCourseOutcome2109</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome2109" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">3%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=17&crs_id=25&course=PSY%20101%20-%20Psychology%20of%20Human%20Relations.html">PSY 101 - Psychology of Human Relations</a></td>
+	        <td align="center" valign="middle">17%</td>
+	        <td align="center" valign="middle">22.5%</td>
+	        <td align="center" valign="middle">22.5%</td>
+	        <td align="center" valign="middle">19.5%</td>
+	        <td align="center" valign="middle">18.5%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 17, 22.5, 22.5, 19.5, 18.5 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome182">DisplayCourseOutcome182</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome182" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;17&quot;, &quot;22.5&quot;, &quot;22.5&quot;, &quot;19.5&quot;, &quot;18.5&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">3%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=17&crs_id=26&course=SP%20111%20-%20Fundamentals%20of%20Public%20Speaking.html">SP 111 - Fundamentals of Public Speaking</a></td>
+	        <td align="center" valign="middle">44.3%</td>
+	        <td align="center" valign="middle">18.4%</td>
+	        <td align="center" valign="middle">13.4%</td>
+	        <td align="center" valign="middle">18.4%</td>
+	        <td align="center" valign="middle">5.8%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 44.3, 18.4, 13.4, 18.4, 5.8 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome188">DisplayCourseOutcome188</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome188" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;44.3&quot;, &quot;18.4&quot;, &quot;13.4&quot;, &quot;18.4&quot;, &quot;5.8&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">3%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=17&crs_id=27&course=WR%20121%20-%20English%20Composition_%20Intro%20to%20Argument.html">WR 121 - English Composition: Intro to Argument</a></td>
+	        <td align="center" valign="middle">41.8%</td>
+	        <td align="center" valign="middle">23.2%</td>
+	        <td align="center" valign="middle">30.5%</td>
+	        <td align="center" valign="middle">22.6%</td>
+	        <td align="center" valign="middle">24.8%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 41.8, 23.2, 30.5, 22.6, 24.8 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome2538">DisplayCourseOutcome2538</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome2538" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;41.8&quot;, &quot;23.2&quot;, &quot;30.5&quot;, &quot;22.6&quot;, &quot;24.8&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">3%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=17&crs_id=1782&course=SOC%20204%20-%20Introduction%20to%20Sociology.html">SOC 204 - Introduction to Sociology</a></td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 0, 0, 0, 0, 0 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome2538">DisplayCourseOutcome2538</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome2538" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">3%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=17&crs_id=280&course=EMS%20151%20-%20EMT%20Basic%20A.html">EMS 151 - EMT Basic A</a></td>
+	        <td align="center" valign="middle">20%</td>
+	        <td align="center" valign="middle">20%</td>
+	        <td align="center" valign="middle">20%</td>
+	        <td align="center" valign="middle">20%</td>
+	        <td align="center" valign="middle">20%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 20, 20, 20, 20, 20 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome1599">DisplayCourseOutcome1599</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome1599" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;20&quot;, &quot;20&quot;, &quot;20&quot;, &quot;20&quot;, &quot;20&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">3%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=17&crs_id=281&course=EMS%20152%20-%20EMT%20Basic%20B.html">EMS 152 - EMT Basic B</a></td>
+	        <td align="center" valign="middle">20%</td>
+	        <td align="center" valign="middle">20%</td>
+	        <td align="center" valign="middle">20%</td>
+	        <td align="center" valign="middle">20%</td>
+	        <td align="center" valign="middle">20%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 20, 20, 20, 20, 20 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome1601">DisplayCourseOutcome1601</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome1601" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;20&quot;, &quot;20&quot;, &quot;20&quot;, &quot;20&quot;, &quot;20&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">3%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=17&crs_id=282&course=EMS%20170%20-%20Emergency%20Communication.html">EMS 170 - Emergency Communication</a></td>
+	        <td align="center" valign="middle">20%</td>
+	        <td align="center" valign="middle">20%</td>
+	        <td align="center" valign="middle">20%</td>
+	        <td align="center" valign="middle">20%</td>
+	        <td align="center" valign="middle">20%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 20, 20, 20, 20, 20 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome1609">DisplayCourseOutcome1609</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome1609" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;20&quot;, &quot;20&quot;, &quot;20&quot;, &quot;20&quot;, &quot;20&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">3%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=17&crs_id=283&course=EMS%20171%20-%20Emergency%20Transport.html">EMS 171 - Emergency Transport</a></td>
+	        <td align="center" valign="middle">20%</td>
+	        <td align="center" valign="middle">20%</td>
+	        <td align="center" valign="middle">20%</td>
+	        <td align="center" valign="middle">20%</td>
+	        <td align="center" valign="middle">20%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 20, 20, 20, 20, 20 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome1610">DisplayCourseOutcome1610</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome1610" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;20&quot;, &quot;20&quot;, &quot;20&quot;, &quot;20&quot;, &quot;20&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">3%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=17&crs_id=284&course=EMS%20175%20-%20Introduction%20to%20Emergency%20Medical%20Services.html">EMS 175 - Introduction to Emergency Medical Services</a></td>
+	        <td align="center" valign="middle">20.1%</td>
+	        <td align="center" valign="middle">20.1%</td>
+	        <td align="center" valign="middle">20.1%</td>
+	        <td align="center" valign="middle">20.1%</td>
+	        <td align="center" valign="middle">20.1%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 20.1, 20.1, 20.1, 20.1, 20.1 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome1627">DisplayCourseOutcome1627</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome1627" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;20.1&quot;, &quot;20.1&quot;, &quot;20.1&quot;, &quot;20.1&quot;, &quot;20.1&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">3%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=17&crs_id=285&course=EMS%20180%20-%20Crisis%20Intervention.html">EMS 180 - Crisis Intervention</a></td>
+	        <td align="center" valign="middle">20%</td>
+	        <td align="center" valign="middle">20%</td>
+	        <td align="center" valign="middle">20%</td>
+	        <td align="center" valign="middle">20%</td>
+	        <td align="center" valign="middle">20%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 20, 20, 20, 20, 20 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome1628">DisplayCourseOutcome1628</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome1628" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;20&quot;, &quot;20&quot;, &quot;20&quot;, &quot;20&quot;, &quot;20&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">3%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=17&crs_id=286&course=EMS%20251%20-%20Paramedic%20A.html">EMS 251 - Paramedic A</a></td>
+	        <td align="center" valign="middle">20.1%</td>
+	        <td align="center" valign="middle">20.1%</td>
+	        <td align="center" valign="middle">20.1%</td>
+	        <td align="center" valign="middle">20.1%</td>
+	        <td align="center" valign="middle">20.1%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 20.1, 20.1, 20.1, 20.1, 20.1 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome1645">DisplayCourseOutcome1645</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome1645" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;20.1&quot;, &quot;20.1&quot;, &quot;20.1&quot;, &quot;20.1&quot;, &quot;20.1&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">3%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=17&crs_id=287&course=EMS%20252%20-%20Paramedic%20B.html	">EMS 252 - Paramedic B	</a></td>
+	        <td align="center" valign="middle">20%</td>
+	        <td align="center" valign="middle">20%</td>
+	        <td align="center" valign="middle">20%</td>
+	        <td align="center" valign="middle">20%</td>
+	        <td align="center" valign="middle">20%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 20, 20, 20, 20, 20 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome1654">DisplayCourseOutcome1654</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome1654" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;20&quot;, &quot;20&quot;, &quot;20&quot;, &quot;20&quot;, &quot;20&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">3%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=17&crs_id=288&course=EMS%20253%20-%20%20Paramedic%20C.html">EMS 253 -  Paramedic C</a></td>
+	        <td align="center" valign="middle">19.9%</td>
+	        <td align="center" valign="middle">19.9%</td>
+	        <td align="center" valign="middle">19.9%</td>
+	        <td align="center" valign="middle">19.9%</td>
+	        <td align="center" valign="middle">19.9%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 19.9, 19.9, 19.9, 19.9, 19.9 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome1666">DisplayCourseOutcome1666</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome1666" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;19.9&quot;, &quot;19.9&quot;, &quot;19.9&quot;, &quot;19.9&quot;, &quot;19.9&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">3%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=17&crs_id=289&course=EMS%20254%20-%20Paramedic%20D.html">EMS 254 - Paramedic D</a></td>
+	        <td align="center" valign="middle">20%</td>
+	        <td align="center" valign="middle">20%</td>
+	        <td align="center" valign="middle">20%</td>
+	        <td align="center" valign="middle">20%</td>
+	        <td align="center" valign="middle">20%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 20, 20, 20, 20, 20 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome1674">DisplayCourseOutcome1674</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome1674" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;20&quot;, &quot;20&quot;, &quot;20&quot;, &quot;20&quot;, &quot;20&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">3%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=17&crs_id=1580&course=EMS%20261%20-%20Paramedic%20Clinical%20&%20Internship.html">EMS 261 - Paramedic Clinical &amp; Internship</a></td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 0, 0, 0, 0, 0 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome1674">DisplayCourseOutcome1674</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome1674" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">3%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=17&crs_id=1581&course=EMS%20262%20-%20Paramedic%20Clinical%20&%20Internship%20II.html">EMS 262 - Paramedic Clinical &amp; Internship II</a></td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 0, 0, 0, 0, 0 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome1674">DisplayCourseOutcome1674</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome1674" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">3%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=17&crs_id=1582&course=EMS%20263%20-%20Paramedic%20Clinical%20&%20Internship%20III.html">EMS 263 - Paramedic Clinical &amp; Internship III</a></td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 0, 0, 0, 0, 0 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome1674">DisplayCourseOutcome1674</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome1674" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">3%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=17&crs_id=544&course=FRP%20201A%20-%20Fire%20Rescue%20Practices_%20Rough%20Terrain.html">FRP 201A - Fire Rescue Practices: Rough Terrain</a></td>
+	        <td align="center" valign="middle">20%</td>
+	        <td align="center" valign="middle">20%</td>
+	        <td align="center" valign="middle">20%</td>
+	        <td align="center" valign="middle">20%</td>
+	        <td align="center" valign="middle">20%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 20, 20, 20, 20, 20 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome2460">DisplayCourseOutcome2460</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome2460" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;20&quot;, &quot;20&quot;, &quot;20&quot;, &quot;20&quot;, &quot;20&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">3%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=17&crs_id=545&course=FRP%20201B%20-%20Fire%20Rescue%20Practices_%20Swiftwater.html">FRP 201B - Fire Rescue Practices: Swiftwater</a></td>
+	        <td align="center" valign="middle">20%</td>
+	        <td align="center" valign="middle">20%</td>
+	        <td align="center" valign="middle">20%</td>
+	        <td align="center" valign="middle">20%</td>
+	        <td align="center" valign="middle">20%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 20, 20, 20, 20, 20 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome2461">DisplayCourseOutcome2461</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome2461" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;20&quot;, &quot;20&quot;, &quot;20&quot;, &quot;20&quot;, &quot;20&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">3%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=17&crs_id=546&course=FRP%20201C%20-%20Fire%20Rescue%20Practices_%20Vehicle%20Extrication.html">FRP 201C - Fire Rescue Practices: Vehicle Extrication</a></td>
+	        <td align="center" valign="middle">20%</td>
+	        <td align="center" valign="middle">20%</td>
+	        <td align="center" valign="middle">20%</td>
+	        <td align="center" valign="middle">20%</td>
+	        <td align="center" valign="middle">20%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 20, 20, 20, 20, 20 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome2466">DisplayCourseOutcome2466</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome2466" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;20&quot;, &quot;20&quot;, &quot;20&quot;, &quot;20&quot;, &quot;20&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">3%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=17&crs_id=140&course=MED%20111%20-%20Medical%20Terminology.html">MED 111 - Medical Terminology</a></td>
+	        <td align="center" valign="middle">20%</td>
+	        <td align="center" valign="middle">20%</td>
+	        <td align="center" valign="middle">20%</td>
+	        <td align="center" valign="middle">20%</td>
+	        <td align="center" valign="middle">20%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 20, 20, 20, 20, 20 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome795">DisplayCourseOutcome795</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome795" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;20&quot;, &quot;20&quot;, &quot;20&quot;, &quot;20&quot;, &quot;20&quot;]}' /></td>
+          </tr>
+	            </table>
+	    <p>&nbsp;</p>
+        <div class="clear"></div>
+
+
+
+<script type="text/javascript" src="scripts/jquery-1.8.1.min.js"></script>
+<link href="scripts/jquery-ui-1.8.24.custom.css" rel="stylesheet" type="text/css">
+<script src="scripts/jquery.spidergraph.js"></script>
+<!--<script src="scripts/jquery.tablesorter.min.js"></script>-->
+<script src="scripts/jquery-ui-1.8.23.min.js"></script>
+<script src="scripts/modernizr-2.6.1-respond-1.1.0.min.js"></script>
+<script src="scripts/jquery.sparkline.min.js"></script>
+
+<script>
+$(document).ready( function() {
+    
+        graph_data = {"fields": ["Applied", "Specialized", "Intellectual", "Broad", "Civic"], "scores": ["20", "20", "20", "20", "20"]}
+    
+    $('#spidergraphcontainer').spidergraph({
+        'fields': ['Applied','Specialized','Intellectual','Broad','Civic'],//graph_data['fields'],
+        'gridcolor': 'rgba(20,20,20,1)'
+    });
+    if(graph_data){
+    $('#spidergraphcontainer').spidergraph('addlayer', {
+        'strokecolor': 'rgba(130,104,230,0.7)',
+        'fillcolor': 'rgba(130,104,230,0.5)',
+        'data': graph_data['scores'].map(function(x){return parseInt(x)})
+    });
+    }
+   // $("#prog_outcomes").tablesorter({headers:{8:{sorter:false},9:{sorter:false}}});
+   // $("#course_outcomes").tablesorter({headers:{8:{sorter:false},9:{sorter:false}}});
+});
+
+    $(function(){
+        $('.inlinebar').sparkline('html', {type: 'bar', barColor: 'red', chartRangeMin: 0} );
+    });
+    c_colors = ['rgba(255,230,1','rgba(255,180,1','rgba(255,130,1','rgba(255,80,1'];
+    p_colors = ['rgba(8,170,230','rgba(8,120,180','rgba(8,70,130','rgba(8,20,80'];
+       
+	//Function to clear all the existing checkboxes
+    $('#clearall').click(function(){
+        $('#spidergraphcontainer').spidergraph('resetdata');
+        $('#tables').find('input').each(function(){
+            $(this).attr('checked',false);
+            $(this).parent('td').css('background-color', 'transparent');
+        });
+        
+	 	//Throw that average data back on
+        if (typeof graph_data != 'undefined'){
+            $('#spidergraphcontainer').spidergraph('addlayer', {
+                'strokecolor': 'rgba(130,104,230,0.7)',
+                'fillcolor': 'rgba(130,104,230,0.5)',
+                'data': graph_data['scores'].map(function(x){return parseInt(x)})
+            });
+        }
+    });
+      
+	//If someone presses refresh, turn the checkboxes off again.
+    $('#tables').find('input:checked').each(function(){
+        $(this).attr('checked', false);
+        $(this).attr('disabled', false);
+    });
+        
+	//handle clicking checkboxes in the table
+    $('.graphshow').click(function(){
+        //if we just checked it
+        if($(this).is(':checked')){
+            var data = $.parseJSON($(this).val())['scores'].map(function(x){return parseInt(x)});
+            if($(this).attr('name') == 'program'){
+                var cur_color = p_colors.pop();
+                var fill_color = cur_color + ',0.5)';
+                $(this).attr('cur_color', cur_color);
+                //set the table cell to our background
+                $(this).parent('td').css('background-color',fill_color);
+                $('#spidergraphcontainer').spidergraph('addlayer', {
+                    'strokecolor': cur_color + ',0.7)',
+                    'fillcolor': fill_color,
+                    'data': data
+                });
+                if(p_colors.length == 0){
+                    $('#tables input[name="program"]:not(:checked)').attr('disabled', true);
+                }
+            }
+           
+			//courses
+            else{
+                var cur_color = c_colors.pop();
+                var fill_color = cur_color + ',0.5)';
+                $(this).attr('cur_color', cur_color);
+                //set the table cell to our background
+                $(this).parent('td').css('background-color',fill_color);
+                $('#spidergraphcontainer').spidergraph('addlayer', {
+                    'strokecolor': cur_color + ',0.7)',
+                    'fillcolor': fill_color,
+                    'data': data
+                });
+                if(c_colors.length == 0){
+                    $('#tables input[name="course"]:not(:checked)').attr('disabled', true);
+                }
+            }
+        }
+           
+		//if we just unchecked it
+        else{
+            if($(this).attr('name') == 'program'){
+                p_colors.push($(this).attr('cur_color'));
+                $('#tables input[name="program"]').attr('disabled', false);
+            }
+           
+		    //courses
+            else{
+                c_colors.push($(this).attr('cur_color'));
+                $('#tables input[name="course"]').attr('disabled', false);
+            }
+            $(this).parent('td').css('background-color','transparent');
+            $('#spidergraphcontainer').spidergraph('resetdata');
+         
+		    //Throw that average data back on
+            if (typeof graph_data != 'undefined'){
+                $('#spidergraphcontainer').spidergraph('addlayer', {
+                    'strokecolor': 'rgba(130,104,230,0.7)',
+                    'fillcolor': 'rgba(130,104,230,0.5)',
+                    'data': graph_data['scores'].map(function(x){return parseInt(x)})
+                });
+            }
+            $('#tables').find('input:checked').each(function(){
+                $('#spidergraphcontainer').spidergraph('addlayer', {
+                    'strokecolor': $(this).attr('cur_color') + ",0.7)",
+                    'fillcolor': $(this).attr('cur_color') + ",0.5)",
+                    'data': $.parseJSON($(this).val())['scores'].map(function(x){return parseInt(x)})
+                });
+            });
+        }
+    });
+        
+	//comments popups
+    $('a.comments').live('click',function(e){
+        e.preventDefault();
+        comment = $(this).attr('title');
+        $('#comments_dialog').dialog({model:true, minWidth:300, title:"Comments"});
+        $('#comments_inner').text(comment);
+    });
+</script>
+
+
+</div> <!-- End sg-wrap -->
+
+<div class="clear"></div>
+
+
+</body>
+</html>
+<!-- Localized -->

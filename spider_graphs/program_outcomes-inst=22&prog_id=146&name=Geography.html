@@ -1,0 +1,1216 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+   "http://www.w3.org/TR/html4/strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="english">
+<head>
+
+	<title>DQP in Oregon - Spidergraphs</title>
+    <link href="styles_spidergraph.css" rel="stylesheet" type="text/css" />
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge;chrome=1" >
+	<script src="scripts/jquery-1.8.1.min.js"></script>
+</head>
+
+<body>
+<a name="top"></a>
+
+        <!--[if lte IE 9]>
+            <div align="center">
+                <h3>If you are seeing this, your browser is<br />not able to display the spidergraph!</h3>
+                <p>
+                	Please come back in:<br /> 
+                	<a href='http://getfirefox.com'>FireFox</a><br />
+                    <a href='http://www.opera.com/download/'>Opera</a><br />
+                    <a href='http://www.apple.com/safari/'>Safari</a><br />
+                    or<br />
+                    <a href='http://www.microsoft.com/windows/downloads/ie/getitnow.mspx'>Internet Explorer 9</a>
+                </p> 
+                <p>
+                	If you would rather not install another browser, please close Internet Explorer and return to this page.
+                    When given the option to install ChromeFrame, please allow your computer to do so.  This will give
+                    Internet Explorer the ability to display the spidergraphs.
+                </p>
+                <p>
+                	Please be aware that ChromeFrame is being discontinued in January 2014, so browsers that use
+                	this will stop working with the spidergraph sometime in December 2013.  To continue to use the spidergraphs
+                    you will need to upgrade your browser using one of the links above.
+                </p>
+            </div>
+        <![endif]-->
+
+<div id="header">
+	<img src="images/DQP%20color%20logo.png" alt="DQP Logo" width="300" height="103">
+</div>
+
+<div class="clear"></div>
+<div id="sg_wrap">
+
+    <div id="top-menu">
+    <ul>
+        <li><a href="http://www.oregondqp.org">DQP Home</a></li>
+        <li><a href="index.html">Spidergraph Home</a></li>
+        <li><a href="admin_index.html">Spidergraph Admin</a></li>
+	  	        <li><a href="#">Institutions</a>
+			<ul>
+			<li><a href='programs-inst=1.html'>Blue Mountain Community College</a></li><li><a href='programs-inst=2.html'>Central Oregon Community College</a></li><li><a href='programs-inst=3.html'>Chemeketa Community College</a></li><li><a href='programs-inst=4.html'>Clackamas Community College</a></li><li><a href='programs-inst=5.html'>Clatsop Community College</a></li><li><a href='programs-inst=6.html'>Columbia Gorge Community College</a></li><li><a href='programs-inst=7.html'>Klamath Community College</a></li><li><a href='programs-inst=8.html'>Lane Community College</a></li><li><a href='programs-inst=9.html'>Linn-Benton Community College</a></li><li><a href='programs-inst=10.html'>Mt. Hood Community College</a></li><li><a href='programs-inst=11.html'>Oregon Coast Community College</a></li><li><a href='programs-inst=12.html'>Portland Community College</a></li><li><a href='programs-inst=13.html'>Rogue Community College</a></li><li><a href='programs-inst=14.html'>Southwestern Oregon Community College</a></li><li><a href='programs-inst=15.html'>Tillamook Bay Community College</a></li><li><a href='programs-inst=16.html'>Treasure Valley Community College</a></li><li><a href='programs-inst=17.html'>Umpqua Community College</a></li><li><a href='programs-inst=18.html'>Eastern Oregon University</a></li><li><a href='programs-inst=19.html'>Oregon Institute of Technology</a></li><li><a href='programs-inst=20.html'>Oregon State University</a></li><li><a href='programs-inst=21.html'>Portland State University</a></li><li><a href='programs-inst=22.html'>Southern Oregon University</a></li><li><a href='programs-inst=23.html'>University of Oregon</a></li><li><a href='programs-inst=24.html'>Western Oregon University</a></li>            </ul>
+        </li>
+	  	    </ul>
+    </div><!-- Top Menu -->
+    
+    <p>&nbsp;</p>
+
+	<h1>Programs</h1>
+
+    <div id="graph">
+                <!--[if lte IE 9]>
+            <div align="center">
+                <h3>If you are seeing this, your browser is<br />not able to display the spidergraph!</h3>
+                <p>
+                	Please come back in:<br /> 
+                	<a href='http://getfirefox.com'>FireFox</a><br />
+                    <a href='http://www.opera.com/download/'>Opera</a><br />
+                    <a href='http://www.apple.com/safari/'>Safari</a><br />
+                    or<br />
+                    <a href='http://www.microsoft.com/windows/downloads/ie/getitnow.mspx'>Internet Explorer 9</a>
+                </p> 
+                <p>
+                	If you would rather not install another browser, please close Internet Explorer and return to this page.
+                    When given the option to install ChromeFrame, please allow your computer to do so.  This will give
+                    Internet Explorer the ability to display the spidergraphs.
+                </p>
+                <p>
+                	Please be aware that ChromeFrame is being discontinued in January 2014, so browsers that use
+                	this will stop working with the spidergraph sometime in December 2013.  To continue to use the spidergraphs
+                    you will need to upgrade your browser using one of the links above.
+                </p>
+            </div>
+        <![endif]-->
+        <div id="spidergraphcontainer"></div>
+    </div>
+
+	<div id="tables">
+    <h2 align="center">Southern Oregon University</h2>
+    <h3 align="center">Geography</h3>
+
+
+    <p><button class="btn" id="clearall">Clear all checkboxes</button></p>    
+
+
+
+	<h3>Program Outcomes</h3>
+        <table border="0" cellspacing="0" cellpadding="0" >
+          <thead>
+          <tr class="text_small">
+            <td align="left" valign="middle">Weight</td>
+            <td align="center" valign="middle">Outcomes</td>
+            <td align="center" valign="middle"><a href="dqp_outcome_descriptions-.html#applied" title="Description of Applied Learning">Applied Learning</a></td>
+            <td align="center" valign="middle"><a href="dqp_outcome_descriptions-.html#specialized" title="Description of Specialized Knowledge">Specialized Knowledge</a></td>
+            <td align="center" valign="middle"><a href="dqp_outcome_descriptions-.html#intellectual" title="Description of Intellectual Skills">Intellectual Skills</a></td>
+            <td align="center" valign="middle"><a href="dqp_outcome_descriptions-.html#broad" title="Description of Integrative/Broad Knowledge">Integrative/Broad Knowledge</a></td>
+            <td align="center" valign="middle"><a href="dqp_outcome_descriptions-.html#civic" title="Description of Civic Learning">Civic Learning</a></td>
+            <td align="center" valign="middle">&nbsp;</td>
+            <td align="center" valign="middle">&nbsp;</td>
+          </tr>
+          </thead>
+          
+          <tr class="text_small">
+            <td align="center" valign="middle">0%</td>
+            <td align="left" valign="middle">Students will understand that geography is the study of human interactions with their physical and cultural environments in place.		      </td>
+            <td align="center" valign="middle">0%</td>
+            <td align="center" valign="middle">0%</td>
+            <td align="center" valign="middle">0%</td>
+            <td align="center" valign="middle">0%</td>
+            <td align="center" valign="middle">0%</td>
+			<td align="center" valign="middle">
+            	<span class="inlinebar">
+					0,
+					0,
+                	0,
+                    0,
+                    0                </span>
+            </td>
+            <td align="center" valign="middle">
+            	<label class="invisible_label" for="DisplayProgramOutcome589">DisplayProgramOutcome589</label>
+                <input class='graphshow' type="checkbox" name="program" id="DisplayProgramOutcome589" value='{"fields": ["Applied", "Specialized", "Intellectual", "Broad", "Civic"], "scores": ["0", "0", "0", "0", "0"]}'>
+            </td>
+          </tr>
+          
+          <tr class="text_small">
+            <td align="center" valign="middle">0%</td>
+            <td align="left" valign="middle">Students will know how to find and evaluate appropriate data about various geographical phenomena, their geographic distributions and interactions; and the nature of place appropriate to local, regional and global scales of analysis.		      </td>
+            <td align="center" valign="middle">0%</td>
+            <td align="center" valign="middle">0%</td>
+            <td align="center" valign="middle">0%</td>
+            <td align="center" valign="middle">0%</td>
+            <td align="center" valign="middle">0%</td>
+			<td align="center" valign="middle">
+            	<span class="inlinebar">
+					0,
+					0,
+                	0,
+                    0,
+                    0                </span>
+            </td>
+            <td align="center" valign="middle">
+            	<label class="invisible_label" for="DisplayProgramOutcome590">DisplayProgramOutcome590</label>
+                <input class='graphshow' type="checkbox" name="program" id="DisplayProgramOutcome590" value='{"fields": ["Applied", "Specialized", "Intellectual", "Broad", "Civic"], "scores": ["0", "0", "0", "0", "0"]}'>
+            </td>
+          </tr>
+          
+          <tr class="text_small">
+            <td align="center" valign="middle">0%</td>
+            <td align="left" valign="middle">Students will know that forces including population growth, cultural innovation and environmental change influence geographic distributions and interactions at many scales.		      </td>
+            <td align="center" valign="middle">0%</td>
+            <td align="center" valign="middle">0%</td>
+            <td align="center" valign="middle">0%</td>
+            <td align="center" valign="middle">0%</td>
+            <td align="center" valign="middle">0%</td>
+			<td align="center" valign="middle">
+            	<span class="inlinebar">
+					0,
+					0,
+                	0,
+                    0,
+                    0                </span>
+            </td>
+            <td align="center" valign="middle">
+            	<label class="invisible_label" for="DisplayProgramOutcome591">DisplayProgramOutcome591</label>
+                <input class='graphshow' type="checkbox" name="program" id="DisplayProgramOutcome591" value='{"fields": ["Applied", "Specialized", "Intellectual", "Broad", "Civic"], "scores": ["0", "0", "0", "0", "0"]}'>
+            </td>
+          </tr>
+          
+          <tr class="text_small">
+            <td align="center" valign="middle">0%</td>
+            <td align="left" valign="middle">Students will know that interactions among cultural, climatic, economic, historical, and geomorphic traits and processes define regions as unique areas of the Earth&acirc;€™s surface.		      </td>
+            <td align="center" valign="middle">0%</td>
+            <td align="center" valign="middle">0%</td>
+            <td align="center" valign="middle">0%</td>
+            <td align="center" valign="middle">0%</td>
+            <td align="center" valign="middle">0%</td>
+			<td align="center" valign="middle">
+            	<span class="inlinebar">
+					0,
+					0,
+                	0,
+                    0,
+                    0                </span>
+            </td>
+            <td align="center" valign="middle">
+            	<label class="invisible_label" for="DisplayProgramOutcome592">DisplayProgramOutcome592</label>
+                <input class='graphshow' type="checkbox" name="program" id="DisplayProgramOutcome592" value='{"fields": ["Applied", "Specialized", "Intellectual", "Broad", "Civic"], "scores": ["0", "0", "0", "0", "0"]}'>
+            </td>
+          </tr>
+          
+          <tr class="text_small">
+            <td align="center" valign="middle">0%</td>
+            <td align="left" valign="middle">Students will know that the quality and quantity of interactions between places result from the nature of the places and the space between them.		      </td>
+            <td align="center" valign="middle">0%</td>
+            <td align="center" valign="middle">0%</td>
+            <td align="center" valign="middle">0%</td>
+            <td align="center" valign="middle">0%</td>
+            <td align="center" valign="middle">0%</td>
+			<td align="center" valign="middle">
+            	<span class="inlinebar">
+					0,
+					0,
+                	0,
+                    0,
+                    0                </span>
+            </td>
+            <td align="center" valign="middle">
+            	<label class="invisible_label" for="DisplayProgramOutcome593">DisplayProgramOutcome593</label>
+                <input class='graphshow' type="checkbox" name="program" id="DisplayProgramOutcome593" value='{"fields": ["Applied", "Specialized", "Intellectual", "Broad", "Civic"], "scores": ["0", "0", "0", "0", "0"]}'>
+            </td>
+          </tr>
+          
+          <tr class="text_small">
+            <td align="center" valign="middle">0%</td>
+            <td align="left" valign="middle">Students will effectively and accurately explain geographic distributions, interactions, and the nature of place with the aid of appropriate graphics and pictures.		      </td>
+            <td align="center" valign="middle">0%</td>
+            <td align="center" valign="middle">0%</td>
+            <td align="center" valign="middle">0%</td>
+            <td align="center" valign="middle">0%</td>
+            <td align="center" valign="middle">0%</td>
+			<td align="center" valign="middle">
+            	<span class="inlinebar">
+					0,
+					0,
+                	0,
+                    0,
+                    0                </span>
+            </td>
+            <td align="center" valign="middle">
+            	<label class="invisible_label" for="DisplayProgramOutcome594">DisplayProgramOutcome594</label>
+                <input class='graphshow' type="checkbox" name="program" id="DisplayProgramOutcome594" value='{"fields": ["Applied", "Specialized", "Intellectual", "Broad", "Civic"], "scores": ["0", "0", "0", "0", "0"]}'>
+            </td>
+          </tr>
+          
+          <tr class="text_small">
+            <td align="center" valign="middle">0%</td>
+            <td align="left" valign="middle">Students will be proficient in the use of word processing, presentation, and spread sheet software.		      </td>
+            <td align="center" valign="middle">0%</td>
+            <td align="center" valign="middle">0%</td>
+            <td align="center" valign="middle">0%</td>
+            <td align="center" valign="middle">0%</td>
+            <td align="center" valign="middle">0%</td>
+			<td align="center" valign="middle">
+            	<span class="inlinebar">
+					0,
+					0,
+                	0,
+                    0,
+                    0                </span>
+            </td>
+            <td align="center" valign="middle">
+            	<label class="invisible_label" for="DisplayProgramOutcome595">DisplayProgramOutcome595</label>
+                <input class='graphshow' type="checkbox" name="program" id="DisplayProgramOutcome595" value='{"fields": ["Applied", "Specialized", "Intellectual", "Broad", "Civic"], "scores": ["0", "0", "0", "0", "0"]}'>
+            </td>
+          </tr>
+          
+          <tr class="text_small">
+            <td align="center" valign="middle">0%</td>
+            <td align="left" valign="middle">Students will effectively and accurately explain geographic distributions, interactions, and the nature of place with the aid of appropriate graphics and pictures.		      </td>
+            <td align="center" valign="middle">0%</td>
+            <td align="center" valign="middle">0%</td>
+            <td align="center" valign="middle">0%</td>
+            <td align="center" valign="middle">0%</td>
+            <td align="center" valign="middle">0%</td>
+			<td align="center" valign="middle">
+            	<span class="inlinebar">
+					0,
+					0,
+                	0,
+                    0,
+                    0                </span>
+            </td>
+            <td align="center" valign="middle">
+            	<label class="invisible_label" for="DisplayProgramOutcome596">DisplayProgramOutcome596</label>
+                <input class='graphshow' type="checkbox" name="program" id="DisplayProgramOutcome596" value='{"fields": ["Applied", "Specialized", "Intellectual", "Broad", "Civic"], "scores": ["0", "0", "0", "0", "0"]}'>
+            </td>
+          </tr>
+          
+          <tr class="text_small">
+            <td align="center" valign="middle">0%</td>
+            <td align="left" valign="middle">Students will effectively and accurately communicate Geographic phenomena through the production or interpretation of maps and other geospatial data.		      </td>
+            <td align="center" valign="middle">0%</td>
+            <td align="center" valign="middle">0%</td>
+            <td align="center" valign="middle">0%</td>
+            <td align="center" valign="middle">0%</td>
+            <td align="center" valign="middle">0%</td>
+			<td align="center" valign="middle">
+            	<span class="inlinebar">
+					0,
+					0,
+                	0,
+                    0,
+                    0                </span>
+            </td>
+            <td align="center" valign="middle">
+            	<label class="invisible_label" for="DisplayProgramOutcome597">DisplayProgramOutcome597</label>
+                <input class='graphshow' type="checkbox" name="program" id="DisplayProgramOutcome597" value='{"fields": ["Applied", "Specialized", "Intellectual", "Broad", "Civic"], "scores": ["0", "0", "0", "0", "0"]}'>
+            </td>
+          </tr>
+          
+          <tr class="text_small">
+            <td align="center" valign="middle">0%</td>
+            <td align="left" valign="middle">Students will identify, describe and explain static and dynamic spatial patterns using written and spoken word, maps and statistical tools.		      </td>
+            <td align="center" valign="middle">0%</td>
+            <td align="center" valign="middle">0%</td>
+            <td align="center" valign="middle">0%</td>
+            <td align="center" valign="middle">0%</td>
+            <td align="center" valign="middle">0%</td>
+			<td align="center" valign="middle">
+            	<span class="inlinebar">
+					0,
+					0,
+                	0,
+                    0,
+                    0                </span>
+            </td>
+            <td align="center" valign="middle">
+            	<label class="invisible_label" for="DisplayProgramOutcome598">DisplayProgramOutcome598</label>
+                <input class='graphshow' type="checkbox" name="program" id="DisplayProgramOutcome598" value='{"fields": ["Applied", "Specialized", "Intellectual", "Broad", "Civic"], "scores": ["0", "0", "0", "0", "0"]}'>
+            </td>
+          </tr>
+          
+          <tr class="text_small">
+            <td align="center" valign="middle">0%</td>
+            <td align="left" valign="middle">Students will use appropriate modes of inquiry, including conceptualizing, identifying and framing problems, and investigating and supplying evidence to effectively develop and investigate a hypothesis (Scientific method).		      </td>
+            <td align="center" valign="middle">0%</td>
+            <td align="center" valign="middle">0%</td>
+            <td align="center" valign="middle">0%</td>
+            <td align="center" valign="middle">0%</td>
+            <td align="center" valign="middle">0%</td>
+			<td align="center" valign="middle">
+            	<span class="inlinebar">
+					0,
+					0,
+                	0,
+                    0,
+                    0                </span>
+            </td>
+            <td align="center" valign="middle">
+            	<label class="invisible_label" for="DisplayProgramOutcome599">DisplayProgramOutcome599</label>
+                <input class='graphshow' type="checkbox" name="program" id="DisplayProgramOutcome599" value='{"fields": ["Applied", "Specialized", "Intellectual", "Broad", "Civic"], "scores": ["0", "0", "0", "0", "0"]}'>
+            </td>
+          </tr>
+          
+          <tr class="text_small">
+            <td align="center" valign="middle">0%</td>
+            <td align="left" valign="middle">Students will observe and accurately map cultural and physical phenomena on the earth&acirc;€™s surface.		      </td>
+            <td align="center" valign="middle">0%</td>
+            <td align="center" valign="middle">0%</td>
+            <td align="center" valign="middle">0%</td>
+            <td align="center" valign="middle">0%</td>
+            <td align="center" valign="middle">0%</td>
+			<td align="center" valign="middle">
+            	<span class="inlinebar">
+					0,
+					0,
+                	0,
+                    0,
+                    0                </span>
+            </td>
+            <td align="center" valign="middle">
+            	<label class="invisible_label" for="DisplayProgramOutcome600">DisplayProgramOutcome600</label>
+                <input class='graphshow' type="checkbox" name="program" id="DisplayProgramOutcome600" value='{"fields": ["Applied", "Specialized", "Intellectual", "Broad", "Civic"], "scores": ["0", "0", "0", "0", "0"]}'>
+            </td>
+          </tr>
+          
+          <tr class="text_small">
+            <td align="center" valign="middle">0%</td>
+            <td align="left" valign="middle">Students will collect, interpret and synthesize data from diverse and appropriate sources.		      </td>
+            <td align="center" valign="middle">0%</td>
+            <td align="center" valign="middle">0%</td>
+            <td align="center" valign="middle">0%</td>
+            <td align="center" valign="middle">0%</td>
+            <td align="center" valign="middle">0%</td>
+			<td align="center" valign="middle">
+            	<span class="inlinebar">
+					0,
+					0,
+                	0,
+                    0,
+                    0                </span>
+            </td>
+            <td align="center" valign="middle">
+            	<label class="invisible_label" for="DisplayProgramOutcome601">DisplayProgramOutcome601</label>
+                <input class='graphshow' type="checkbox" name="program" id="DisplayProgramOutcome601" value='{"fields": ["Applied", "Specialized", "Intellectual", "Broad", "Civic"], "scores": ["0", "0", "0", "0", "0"]}'>
+            </td>
+          </tr>
+          
+          <tr class="text_small">
+            <td align="center" valign="middle">0%</td>
+            <td align="left" valign="middle">Students will access and use information resources effectively and ethically.		      </td>
+            <td align="center" valign="middle">0%</td>
+            <td align="center" valign="middle">0%</td>
+            <td align="center" valign="middle">0%</td>
+            <td align="center" valign="middle">0%</td>
+            <td align="center" valign="middle">0%</td>
+			<td align="center" valign="middle">
+            	<span class="inlinebar">
+					0,
+					0,
+                	0,
+                    0,
+                    0                </span>
+            </td>
+            <td align="center" valign="middle">
+            	<label class="invisible_label" for="DisplayProgramOutcome602">DisplayProgramOutcome602</label>
+                <input class='graphshow' type="checkbox" name="program" id="DisplayProgramOutcome602" value='{"fields": ["Applied", "Specialized", "Intellectual", "Broad", "Civic"], "scores": ["0", "0", "0", "0", "0"]}'>
+            </td>
+          </tr>
+          
+          <tr class="text_small">
+            <td align="center" valign="middle">0%</td>
+            <td align="left" valign="middle">Students will evaluate the quality and reliability of geographic information from various sources.		      </td>
+            <td align="center" valign="middle">0%</td>
+            <td align="center" valign="middle">0%</td>
+            <td align="center" valign="middle">0%</td>
+            <td align="center" valign="middle">0%</td>
+            <td align="center" valign="middle">0%</td>
+			<td align="center" valign="middle">
+            	<span class="inlinebar">
+					0,
+					0,
+                	0,
+                    0,
+                    0                </span>
+            </td>
+            <td align="center" valign="middle">
+            	<label class="invisible_label" for="DisplayProgramOutcome603">DisplayProgramOutcome603</label>
+                <input class='graphshow' type="checkbox" name="program" id="DisplayProgramOutcome603" value='{"fields": ["Applied", "Specialized", "Intellectual", "Broad", "Civic"], "scores": ["0", "0", "0", "0", "0"]}'>
+            </td>
+          </tr>
+          
+          <tr class="text_small">
+            <td align="center" valign="middle">0%</td>
+            <td align="left" valign="middle">Students will be able to analyze the kinds and prioritize the effects of geographic phenomena influencing a given landscape or region.		      </td>
+            <td align="center" valign="middle">0%</td>
+            <td align="center" valign="middle">0%</td>
+            <td align="center" valign="middle">0%</td>
+            <td align="center" valign="middle">0%</td>
+            <td align="center" valign="middle">0%</td>
+			<td align="center" valign="middle">
+            	<span class="inlinebar">
+					0,
+					0,
+                	0,
+                    0,
+                    0                </span>
+            </td>
+            <td align="center" valign="middle">
+            	<label class="invisible_label" for="DisplayProgramOutcome604">DisplayProgramOutcome604</label>
+                <input class='graphshow' type="checkbox" name="program" id="DisplayProgramOutcome604" value='{"fields": ["Applied", "Specialized", "Intellectual", "Broad", "Civic"], "scores": ["0", "0", "0", "0", "0"]}'>
+            </td>
+          </tr>
+          
+          <tr class="text_small">
+            <td align="center" valign="middle">0%</td>
+            <td align="left" valign="middle">Students will predict environmental and social consequences of human action through the application of geographic knowledge and theory and apply geographic insights to social problem solving.		      </td>
+            <td align="center" valign="middle">0%</td>
+            <td align="center" valign="middle">0%</td>
+            <td align="center" valign="middle">0%</td>
+            <td align="center" valign="middle">0%</td>
+            <td align="center" valign="middle">0%</td>
+			<td align="center" valign="middle">
+            	<span class="inlinebar">
+					0,
+					0,
+                	0,
+                    0,
+                    0                </span>
+            </td>
+            <td align="center" valign="middle">
+            	<label class="invisible_label" for="DisplayProgramOutcome605">DisplayProgramOutcome605</label>
+                <input class='graphshow' type="checkbox" name="program" id="DisplayProgramOutcome605" value='{"fields": ["Applied", "Specialized", "Intellectual", "Broad", "Civic"], "scores": ["0", "0", "0", "0", "0"]}'>
+            </td>
+          </tr>
+          
+          <tr class="text_small">
+            <td align="center" valign="middle">0%</td>
+            <td align="left" valign="middle">Students will recognize and act on the ethical obligation to inform one&acirc;€™s judgment with insights from diverse and competing perspectives.		      </td>
+            <td align="center" valign="middle">0%</td>
+            <td align="center" valign="middle">0%</td>
+            <td align="center" valign="middle">0%</td>
+            <td align="center" valign="middle">0%</td>
+            <td align="center" valign="middle">0%</td>
+			<td align="center" valign="middle">
+            	<span class="inlinebar">
+					0,
+					0,
+                	0,
+                    0,
+                    0                </span>
+            </td>
+            <td align="center" valign="middle">
+            	<label class="invisible_label" for="DisplayProgramOutcome606">DisplayProgramOutcome606</label>
+                <input class='graphshow' type="checkbox" name="program" id="DisplayProgramOutcome606" value='{"fields": ["Applied", "Specialized", "Intellectual", "Broad", "Civic"], "scores": ["0", "0", "0", "0", "0"]}'>
+            </td>
+          </tr>
+          
+          <tr class="text_small">
+            <td align="center" valign="middle">0%</td>
+            <td align="left" valign="middle">Students will develop an ethical commitment to understand the implications of human interaction with their environments		      </td>
+            <td align="center" valign="middle">0%</td>
+            <td align="center" valign="middle">0%</td>
+            <td align="center" valign="middle">0%</td>
+            <td align="center" valign="middle">0%</td>
+            <td align="center" valign="middle">0%</td>
+			<td align="center" valign="middle">
+            	<span class="inlinebar">
+					0,
+					0,
+                	0,
+                    0,
+                    0                </span>
+            </td>
+            <td align="center" valign="middle">
+            	<label class="invisible_label" for="DisplayProgramOutcome607">DisplayProgramOutcome607</label>
+                <input class='graphshow' type="checkbox" name="program" id="DisplayProgramOutcome607" value='{"fields": ["Applied", "Specialized", "Intellectual", "Broad", "Civic"], "scores": ["0", "0", "0", "0", "0"]}'>
+            </td>
+          </tr>
+          
+          <tr class="text_small">
+            <td align="center" valign="middle">0%</td>
+            <td align="left" valign="middle">Students will recognize and respect the power of global forces and their power as informed individuals.		      </td>
+            <td align="center" valign="middle">0%</td>
+            <td align="center" valign="middle">0%</td>
+            <td align="center" valign="middle">0%</td>
+            <td align="center" valign="middle">0%</td>
+            <td align="center" valign="middle">0%</td>
+			<td align="center" valign="middle">
+            	<span class="inlinebar">
+					0,
+					0,
+                	0,
+                    0,
+                    0                </span>
+            </td>
+            <td align="center" valign="middle">
+            	<label class="invisible_label" for="DisplayProgramOutcome608">DisplayProgramOutcome608</label>
+                <input class='graphshow' type="checkbox" name="program" id="DisplayProgramOutcome608" value='{"fields": ["Applied", "Specialized", "Intellectual", "Broad", "Civic"], "scores": ["0", "0", "0", "0", "0"]}'>
+            </td>
+          </tr>
+        
+        </table>
+	    <p>&nbsp;</p>
+	    <h3>Courses linked to this program</h3>
+	    <table border="0" cellspacing="0" cellpadding="0" class="table_600">
+	      <thead>
+	        <tr class="text_small">
+	          <td align="left" valign="middle">Weight</td>
+	          <td align="center" valign="middle">Course</td>
+	          <td align="center" valign="middle"><a href="dqp_outcome_descriptions-.html#applied" title="Description of Applied Learning">Applied Learning</a></td>
+	          <td align="center" valign="middle"><a href="dqp_outcome_descriptions-.html#specialized" title="Description of Specialized Knowledge">Specialized Knowledge</a></td>
+	          <td align="center" valign="middle"><a href="dqp_outcome_descriptions-.html#intellectual" title="Description of Intellectual Skills">Intellectual Skills</a></td>
+	          <td align="center" valign="middle"><a href="dqp_outcome_descriptions-.html#broad" title="Description of Integrative/Broad Knowledge">Integrative/Broad Knowledge</a></td>
+	          <td align="center" valign="middle"><a href="dqp_outcome_descriptions-.html#civic" title="Description of Civic Learning">Civic Learning</a></td>
+	          <td align="center" valign="middle">&nbsp;</td>
+	          <td align="center" valign="middle">&nbsp;</td>
+            </tr>
+          </thead>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">2.4%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=2850&course=GEOG%20101%20-%20Intro%20Geography_%20Rogue%20Valley.html">GEOG 101 - Intro Geography: Rogue Valley</a></td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 0, 0, 0, 0, 0 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome">DisplayCourseOutcome</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">2.4%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=2851&course=GEOG%20107%20-%20Intro%20to%20Human%20Geography.html">GEOG 107 - Intro to Human Geography</a></td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 0, 0, 0, 0, 0 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome">DisplayCourseOutcome</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">2.4%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=2852&course=GEOG%20108%20-%20Global%20Lands%20and%20Livelihoods.html">GEOG 108 - Global Lands and Livelihoods</a></td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 0, 0, 0, 0, 0 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome">DisplayCourseOutcome</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">2.4%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=2853&course=GEOG%20111%20-%20Physical%20Environment%20I.html">GEOG 111 - Physical Environment I</a></td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 0, 0, 0, 0, 0 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome">DisplayCourseOutcome</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">2.4%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=2854&course=GEOG%20111L%20-%20Physical%20Environment%20I%20Lab.html">GEOG 111L - Physical Environment I Lab</a></td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 0, 0, 0, 0, 0 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome">DisplayCourseOutcome</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">2.4%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=2855&course=GEOG%20112%20-%20Physical%20Environment%20II.html">GEOG 112 - Physical Environment II</a></td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 0, 0, 0, 0, 0 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome">DisplayCourseOutcome</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">2.4%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=2856&course=GEOG%20112L%20-%20Physical%20Environment%20II%20Lab.html">GEOG 112L - Physical Environment II Lab</a></td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 0, 0, 0, 0, 0 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome">DisplayCourseOutcome</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">2.4%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=2857&course=GEOG%20199%20-%20Special%20Studies.html">GEOG 199 - Special Studies</a></td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 0, 0, 0, 0, 0 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome">DisplayCourseOutcome</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">2.4%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=2858&course=GEOG%20330%20-%20Geography%20of%20Latin%20America.html">GEOG 330 - Geography of Latin America</a></td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 0, 0, 0, 0, 0 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome">DisplayCourseOutcome</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">2.4%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=2859&course=GEOG%20338%20-%20Geography%20Central_SW%20Asia.html">GEOG 338 - Geography Central/SW Asia</a></td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 0, 0, 0, 0, 0 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome">DisplayCourseOutcome</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">2.4%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=2860&course=GEOG%20349%20-%20Maps_Cartography_Geospatial.html">GEOG 349 - Maps/Cartography/Geospatial</a></td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 0, 0, 0, 0, 0 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome">DisplayCourseOutcome</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">2.4%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=2861&course=GEOG%20349L%20-%20Map_Cartography_Geospatial%20Lab.html">GEOG 349L - Map/Cartography/Geospatial Lab</a></td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 0, 0, 0, 0, 0 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome">DisplayCourseOutcome</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">2.4%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=2862&course=GEOG%20350%20-%20Urban%20Environments.html">GEOG 350 - Urban Environments</a></td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 0, 0, 0, 0, 0 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome">DisplayCourseOutcome</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">2.4%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=2863&course=GEOG%20360%20-%20Global%20Issues%20Pop_Dev_Env.html">GEOG 360 - Global Issues Pop/Dev/Env</a></td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 0, 0, 0, 0, 0 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome">DisplayCourseOutcome</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">2.4%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=2864&course=GEOG%20386%20-%20Environmental%20Data%20Analysis.html">GEOG 386 - Environmental Data Analysis</a></td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 0, 0, 0, 0, 0 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome">DisplayCourseOutcome</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">2.4%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=2865&course=GEOG%20386L%20-%20Environmental%20Data%20Analysis%20Lab.html">GEOG 386L - Environmental Data Analysis Lab</a></td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 0, 0, 0, 0, 0 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome">DisplayCourseOutcome</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">2.4%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=2866&course=GEOG%20405%20-%20Reading%20and%20Conference.html">GEOG 405 - Reading and Conference</a></td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 0, 0, 0, 0, 0 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome">DisplayCourseOutcome</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">2.4%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=2867&course=GEOG%20407%20-%20Seminar.html">GEOG 407 - Seminar</a></td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 0, 0, 0, 0, 0 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome">DisplayCourseOutcome</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">2.4%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=2868&course=GEOG%20409%20-%20Practicum.html">GEOG 409 - Practicum</a></td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 0, 0, 0, 0, 0 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome">DisplayCourseOutcome</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">2.4%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=2869&course=GEOG%20437%20-%20Conservation%20in%20the%20US.html">GEOG 437 - Conservation in the US</a></td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 0, 0, 0, 0, 0 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome">DisplayCourseOutcome</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">2.4%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=2870&course=GEOG%20439%20-%20Land%20Use%20Planning.html">GEOG 439 - Land Use Planning</a></td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 0, 0, 0, 0, 0 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome">DisplayCourseOutcome</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">2.4%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=2871&course=GEOG%20440%20-%20Planning%20Issues.html">GEOG 440 - Planning Issues</a></td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 0, 0, 0, 0, 0 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome">DisplayCourseOutcome</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">2.4%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=2872&course=GEOG%20451%20-%20Intro%20Geographic%20Info%20Systems.html">GEOG 451 - Intro Geographic Info Systems</a></td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 0, 0, 0, 0, 0 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome">DisplayCourseOutcome</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">2.4%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=2873&course=GEOG%20451L%20-%20Intro%20Geographic%20Info%20System%20Lab.html">GEOG 451L - Intro Geographic Info System Lab</a></td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 0, 0, 0, 0, 0 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome">DisplayCourseOutcome</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">2.4%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=2874&course=GEOG%20453%20-%20Intro%20to%20Remote%20Sensing.html">GEOG 453 - Intro to Remote Sensing</a></td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 0, 0, 0, 0, 0 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome">DisplayCourseOutcome</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">2.4%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=2875&course=GEOG%20453L%20-%20Intro%20to%20Remote%20Sensing%20Lab.html">GEOG 453L - Intro to Remote Sensing Lab</a></td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 0, 0, 0, 0, 0 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome">DisplayCourseOutcome</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">2.4%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=2876&course=GEOG%20481%20-%20Geomorphology.html">GEOG 481 - Geomorphology</a></td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 0, 0, 0, 0, 0 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome">DisplayCourseOutcome</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">2.4%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=2877&course=GEOG%20482%20-%20Climatology.html">GEOG 482 - Climatology</a></td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 0, 0, 0, 0, 0 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome">DisplayCourseOutcome</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">2.4%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=2878&course=GEOG%20492%20-%20Field%20Geography.html">GEOG 492 - Field Geography</a></td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 0, 0, 0, 0, 0 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome">DisplayCourseOutcome</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">2.4%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=2879&course=GEOG%20498%20-%20Internship.html">GEOG 498 - Internship</a></td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 0, 0, 0, 0, 0 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome">DisplayCourseOutcome</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">2.4%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=2880&course=GEOG%20505%20-%20Reading%20and%20Conference.html">GEOG 505 - Reading and Conference</a></td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 0, 0, 0, 0, 0 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome">DisplayCourseOutcome</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">2.4%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=2881&course=GEOG%20537%20-%20Conservation%20in%20the%20US.html">GEOG 537 - Conservation in the US</a></td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 0, 0, 0, 0, 0 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome">DisplayCourseOutcome</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">2.4%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=2882&course=GEOG%20539%20-%20Land%20Use%20Planning.html">GEOG 539 - Land Use Planning</a></td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 0, 0, 0, 0, 0 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome">DisplayCourseOutcome</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">2.4%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=2883&course=GEOG%20540%20-%20Planning%20Issues.html">GEOG 540 - Planning Issues</a></td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 0, 0, 0, 0, 0 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome">DisplayCourseOutcome</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">2.4%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=2884&course=GEOG%20551%20-%20Intro%20Geographic%20Info%20Systems.html">GEOG 551 - Intro Geographic Info Systems</a></td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 0, 0, 0, 0, 0 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome">DisplayCourseOutcome</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">2.4%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=2885&course=GEOG%20551L%20-%20Intro%20Geographic%20Info%20Systems%20Lab.html">GEOG 551L - Intro Geographic Info Systems Lab</a></td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 0, 0, 0, 0, 0 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome">DisplayCourseOutcome</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">2.4%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=2886&course=GEOG%20553%20-%20Intro%20to%20Remote%20Sensing.html">GEOG 553 - Intro to Remote Sensing</a></td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 0, 0, 0, 0, 0 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome">DisplayCourseOutcome</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">2.4%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=2887&course=GEOG%20553L%20-%20Intro%20to%20Remote%20Sensing.html">GEOG 553L - Intro to Remote Sensing</a></td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 0, 0, 0, 0, 0 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome">DisplayCourseOutcome</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">2.4%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=2888&course=GEOG%20582%20-%20Climatology.html">GEOG 582 - Climatology</a></td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 0, 0, 0, 0, 0 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome">DisplayCourseOutcome</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">2.4%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=2889&course=GEOG%20592%20-%20Field%20Geography.html">GEOG 592 - Field Geography</a></td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 0, 0, 0, 0, 0 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome">DisplayCourseOutcome</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;]}' /></td>
+          </tr>
+	      	      <tr class="text_small">
+	        <td align="center" valign="middle">2.4%</td>
+	        <td align="left" valign="middle"><a href="course_outcomes-inst=22&crs_id=2890&course=GEOG%20598%20-%20Internship.html">GEOG 598 - Internship</a></td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle">0%</td>
+	        <td align="center" valign="middle"><span class="inlinebar"> 0, 0, 0, 0, 0 </span></td>
+	        <td align="center" valign="middle"><label class="invisible_label" for="DisplayCourseOutcome">DisplayCourseOutcome</label>
+	          <input class='graphshow' type="checkbox" name="course" id="DisplayCourseOutcome" value='{&quot;fields&quot;: [&quot;Applied&quot;, &quot;Specialized&quot;, &quot;Intellectual&quot;, &quot;Broad&quot;, &quot;Civic&quot;], &quot;scores&quot;: [&quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;]}' /></td>
+          </tr>
+	            </table>
+	    <p>&nbsp;</p>
+        <div class="clear"></div>
+
+
+
+<script type="text/javascript" src="scripts/jquery-1.8.1.min.js"></script>
+<link href="scripts/jquery-ui-1.8.24.custom.css" rel="stylesheet" type="text/css">
+<script src="scripts/jquery.spidergraph.js"></script>
+<!--<script src="scripts/jquery.tablesorter.min.js"></script>-->
+<script src="scripts/jquery-ui-1.8.23.min.js"></script>
+<script src="scripts/modernizr-2.6.1-respond-1.1.0.min.js"></script>
+<script src="scripts/jquery.sparkline.min.js"></script>
+
+<script>
+$(document).ready( function() {
+    
+        graph_data = {"fields": ["Applied", "Specialized", "Intellectual", "Broad", "Civic"], "scores": ["0", "0", "0", "0", "0"]}
+    
+    $('#spidergraphcontainer').spidergraph({
+        'fields': ['Applied','Specialized','Intellectual','Broad','Civic'],//graph_data['fields'],
+        'gridcolor': 'rgba(20,20,20,1)'
+    });
+    if(graph_data){
+    $('#spidergraphcontainer').spidergraph('addlayer', {
+        'strokecolor': 'rgba(130,104,230,0.7)',
+        'fillcolor': 'rgba(130,104,230,0.5)',
+        'data': graph_data['scores'].map(function(x){return parseInt(x)})
+    });
+    }
+   // $("#prog_outcomes").tablesorter({headers:{8:{sorter:false},9:{sorter:false}}});
+   // $("#course_outcomes").tablesorter({headers:{8:{sorter:false},9:{sorter:false}}});
+});
+
+    $(function(){
+        $('.inlinebar').sparkline('html', {type: 'bar', barColor: 'red', chartRangeMin: 0} );
+    });
+    c_colors = ['rgba(255,230,1','rgba(255,180,1','rgba(255,130,1','rgba(255,80,1'];
+    p_colors = ['rgba(8,170,230','rgba(8,120,180','rgba(8,70,130','rgba(8,20,80'];
+       
+	//Function to clear all the existing checkboxes
+    $('#clearall').click(function(){
+        $('#spidergraphcontainer').spidergraph('resetdata');
+        $('#tables').find('input').each(function(){
+            $(this).attr('checked',false);
+            $(this).parent('td').css('background-color', 'transparent');
+        });
+        
+	 	//Throw that average data back on
+        if (typeof graph_data != 'undefined'){
+            $('#spidergraphcontainer').spidergraph('addlayer', {
+                'strokecolor': 'rgba(130,104,230,0.7)',
+                'fillcolor': 'rgba(130,104,230,0.5)',
+                'data': graph_data['scores'].map(function(x){return parseInt(x)})
+            });
+        }
+    });
+      
+	//If someone presses refresh, turn the checkboxes off again.
+    $('#tables').find('input:checked').each(function(){
+        $(this).attr('checked', false);
+        $(this).attr('disabled', false);
+    });
+        
+	//handle clicking checkboxes in the table
+    $('.graphshow').click(function(){
+        //if we just checked it
+        if($(this).is(':checked')){
+            var data = $.parseJSON($(this).val())['scores'].map(function(x){return parseInt(x)});
+            if($(this).attr('name') == 'program'){
+                var cur_color = p_colors.pop();
+                var fill_color = cur_color + ',0.5)';
+                $(this).attr('cur_color', cur_color);
+                //set the table cell to our background
+                $(this).parent('td').css('background-color',fill_color);
+                $('#spidergraphcontainer').spidergraph('addlayer', {
+                    'strokecolor': cur_color + ',0.7)',
+                    'fillcolor': fill_color,
+                    'data': data
+                });
+                if(p_colors.length == 0){
+                    $('#tables input[name="program"]:not(:checked)').attr('disabled', true);
+                }
+            }
+           
+			//courses
+            else{
+                var cur_color = c_colors.pop();
+                var fill_color = cur_color + ',0.5)';
+                $(this).attr('cur_color', cur_color);
+                //set the table cell to our background
+                $(this).parent('td').css('background-color',fill_color);
+                $('#spidergraphcontainer').spidergraph('addlayer', {
+                    'strokecolor': cur_color + ',0.7)',
+                    'fillcolor': fill_color,
+                    'data': data
+                });
+                if(c_colors.length == 0){
+                    $('#tables input[name="course"]:not(:checked)').attr('disabled', true);
+                }
+            }
+        }
+           
+		//if we just unchecked it
+        else{
+            if($(this).attr('name') == 'program'){
+                p_colors.push($(this).attr('cur_color'));
+                $('#tables input[name="program"]').attr('disabled', false);
+            }
+           
+		    //courses
+            else{
+                c_colors.push($(this).attr('cur_color'));
+                $('#tables input[name="course"]').attr('disabled', false);
+            }
+            $(this).parent('td').css('background-color','transparent');
+            $('#spidergraphcontainer').spidergraph('resetdata');
+         
+		    //Throw that average data back on
+            if (typeof graph_data != 'undefined'){
+                $('#spidergraphcontainer').spidergraph('addlayer', {
+                    'strokecolor': 'rgba(130,104,230,0.7)',
+                    'fillcolor': 'rgba(130,104,230,0.5)',
+                    'data': graph_data['scores'].map(function(x){return parseInt(x)})
+                });
+            }
+            $('#tables').find('input:checked').each(function(){
+                $('#spidergraphcontainer').spidergraph('addlayer', {
+                    'strokecolor': $(this).attr('cur_color') + ",0.7)",
+                    'fillcolor': $(this).attr('cur_color') + ",0.5)",
+                    'data': $.parseJSON($(this).val())['scores'].map(function(x){return parseInt(x)})
+                });
+            });
+        }
+    });
+        
+	//comments popups
+    $('a.comments').live('click',function(e){
+        e.preventDefault();
+        comment = $(this).attr('title');
+        $('#comments_dialog').dialog({model:true, minWidth:300, title:"Comments"});
+        $('#comments_inner').text(comment);
+    });
+</script>
+
+
+</div> <!-- End sg-wrap -->
+
+<div class="clear"></div>
+
+
+</body>
+</html>
+<!-- Localized -->
