@@ -98,7 +98,7 @@
                     	<h4>Public Data</h4>
                         <ul>
                           <li><a href="workplan/index.html">What is a Work Plan?</a></li>
-                          <li><a href="workplan/view_workplans_y1.html">Work Plan Data - Year 1</a> - <a href="workplan/view_workplans_y2.html">Year2</a> - <a href="workplan/view_workplans_y3.html">Year3</a> - <a href="workplan/reports/index.html">Word 2010 Format</a></li>
+                          <li><a href="workplan/view_workplans_y1.html">Work Plan Data - Year 1</a> - <a href="workplan/view_workplans_y2.html">Year2</a> - <a href="workplan/view_workplans_y3.html">Year3</a></li>
                           <li><a href="inkind/index.html">In-Kind Contributions</a></li>
                           <li><a href="documents/index.html">Documents &amp; Resources</a></li>
                           <li><a href="spider_graphs/index.html">DQP Spiderweb Maps</a></li>
@@ -198,42 +198,39 @@
                         </div>
 				                
                 
-                <div align="center">
-                    <form action="/institutional_pages.php" method="post" class="form-inline">
+                <div align="center">                    <form action="/institutional_pages.php" method="post" class="form-inline">
                       <h3>Please choose an institution</h3>
-                        <label for="Choose_an_Institution"><strong>View Info For:</strong></label>
-                        <select name="chosen_inst" id="Choose_an_Institution">
-                        <option value="">Choose an Institution</option>
-                                                  				<option value="1"> Blue Mountain Community College </option>
-                                                  				<option value="2"> Central Oregon Community College </option>
-                                                  				<option value="3"> Chemeketa Community College </option>
-                                                  				<option value="4"> Clackamas Community College </option>
-                                                  				<option value="5"> Clatsop Community College </option>
-                                                  				<option value="6"> Columbia Gorge Community College </option>
-                                                  				<option value="7"> Klamath Community College </option>
-                                                  				<option value="8"> Lane Community College </option>
-                                                  				<option value="9"> Linn-Benton Community College </option>
-                                                  				<option value="10"> Mt. Hood Community College </option>
-                                                  				<option value="11"> Oregon Coast Community College </option>
-                                                  				<option value="12"> Portland Community College </option>
-                                                  				<option value="13"> Rogue Community College </option>
-                                                  				<option value="14"> Southwestern Oregon Community College </option>
-                                                  				<option value="15"> Tillamook Bay Community College </option>
-                                                  				<option value="16"> Treasure Valley Community College </option>
-                                                  				<option value="17"> Umpqua Community College </option>
-                                                  				<option value="18"> Eastern Oregon University </option>
-                                                  				<option value="19"> Oregon Institute of Technology </option>
-                                                  				<option value="20"> Oregon State University </option>
-                                                  				<option value="21"> Portland State University </option>
-                                                  				<option value="22"> Southern Oregon University </option>
-                                                  				<option value="23"> University of Oregon </option>
-                                                  				<option value="24"> Western Oregon University </option>
-                                                  <option value="">  </option>
-                    </select>
-                    <input type="submit" name="change_inst" id="button" value="go" class="btn btn-primary btn-xs" />
-                    <em class="help-block">To view in formation on a particular institution, please choose it in the form above.</em>
-                </form>
-                <br />
+                      <label for="Choose_an_Institution"><strong>View Info For:</strong></label>
+                      <select name="chosen_inst" id="Choose_an_Institution" onChange="if(this.selectedIndex!=0) self.location=this.options[this.selectedIndex].value">
+                          <option value="">Choose an Institution</option>
+                          <option value="institutional_pages-chosen_inst=1.html"> Blue Mountain Community College </option>
+                          <option value="institutional_pages-chosen_inst=2.html"> Central Oregon Community College </option>
+                          <option value="institutional_pages-chosen_inst=3.html"> Chemeketa Community College </option>
+                          <option value="institutional_pages-chosen_inst=4.html"> Clackamas Community College </option>
+                          <option value="institutional_pages-chosen_inst=5.html"> Clatsop Community College </option>
+                          <option value="institutional_pages-chosen_inst=6.html"> Columbia Gorge Community College </option>
+                          <option value="institutional_pages-chosen_inst=7.html"> Klamath Community College </option>
+                          <option value="institutional_pages-chosen_inst=8.html"> Lane Community College </option>
+                          <option value="institutional_pages-chosen_inst=9.html"> Linn-Benton Community College </option>
+                          <option value="institutional_pages-chosen_inst=10.html"> Mt. Hood Community College </option>
+                          <option value="institutional_pages-chosen_inst=11.html"> Oregon Coast Community College </option>
+                          <option value="institutional_pages-chosen_inst=12.html"> Portland Community College </option>
+                          <option value="institutional_pages-chosen_inst=13.html"> Rogue Community College </option>
+                          <option value="institutional_pages-chosen_inst=14.html"> Southwestern Oregon Community College </option>
+                          <option value="institutional_pages-chosen_inst=15.html"> Tillamook Bay Community College </option>
+                          <option value="institutional_pages-chosen_inst=16.html"> Treasure Valley Community College </option>
+                          <option value="institutional_pages-chosen_inst=17.html"> Umpqua Community College </option>
+                          <option value="institutional_pages-chosen_inst=18.html"> Eastern Oregon University </option>
+                          <option value="institutional_pages-chosen_inst=19.html"> Oregon Institute of Technology </option>
+                          <option value="institutional_pages-chosen_inst=20.html"> Oregon State University </option>
+                          <option value="institutional_pages-chosen_inst=21.html"> Portland State University </option>
+                          <option value="institutional_pages-chosen_inst=22.html"> Southern Oregon University </option>
+                          <option value="institutional_pages-chosen_inst=23.html"> University of Oregon </option>
+                          <option value="institutional_pages-chosen_inst=24.html"> Western Oregon University </option>
+                      </select>
+                      <em class="help-block">To view in formation on a particular institution, please choose it in the form above.</em>
+                    </form>
+<br />
                 </div>
         <!--        
                 <div class="table-responsive">
@@ -371,17 +368,17 @@
                         <tr>
                             <td width="58%" align="left">View Year 1 Work Plan</td>
                             <td width="21%" align="center"><a href="workplan/view_workplans_y1-change_inst=go&chosen_inst=19.html"><img src="images/icon_HTML.png" width="25" height="27" /></a></td>
-                            <td width="21%" align="center"><a href="workplan/reports/index.html"><img src="images/icon_DOC.png" width="25" height="27" /></a></td>
+                            <td width="21%" align="center"></td>
                           </tr>
                           <tr>
                             <td align="left">View Year 2 Work Plan</td>
                             <td align="center"><a href="workplan/view_workplans_y2-change_inst=go&chosen_inst=19.html"><img src="images/icon_HTML.png" width="25" height="27" /></a><a href="#"></a></td>
-                            <td align="center"><a href="workplan/reports/index.html"><img src="images/icon_DOC.png" width="25" height="27" /></a><a href="#"></a></td>
+                            <td align="center"><a href="#"></a></td>
                           </tr>
                           <tr>
                             <td align="left">View Year 3 Work Plan</td>
                             <td align="center"><a href="workplan/view_workplans_y3-change_inst=go&chosen_inst=19.html"><img src="images/icon_HTML.png" width="25" height="27" /></a><a href="#"></a></td>
-                            <td align="center"><a href="workplan/reports/index.html"><img src="images/icon_DOC.png" width="25" height="27" /></a><a href="#"></a></td>
+                            <td align="center"><a href="#"></a></td>
                           </tr>
                         </table>
                     </div>
@@ -429,10 +426,7 @@
 	<strong>MAIN</strong>
 	<ul>
     	<li><a href="index.html">DQP Home</a></li>
-    	<li>    		
-      	<a href='users/log_out.html'>Log Out</a> 
-    	</li>
-    	<li><a href="users/create_user.html">Create Account</a></li>
+    	
     	<li><a href="site_info.html">Site Information</a></li>
     	<li><a href="sitemap.html">Sitemap</a></li>
     	<li><a href="accessibility_statement.html">Accessibility</a></li>
@@ -477,7 +471,7 @@
     <strong>PUBLIC DATA</strong>
     <ul>
       <li><a href="workplan/index.html">What is a Work Plan?</a></li>
-      <li><a href="workplan/view_workplans_y1.html">Work Plan Data - Year 1</a> - <a href="workplan/view_workplans_y2.html">Year2</a> - <a href="workplan/view_workplans_y3.html">Year3</a> - <a href="workplan/reports/index.html">Word 2010 Format</a></li>
+      <li><a href="workplan/view_workplans_y1.html">Work Plan Data - Year 1</a> - <a href="workplan/view_workplans_y2.html">Year2</a> - <a href="workplan/view_workplans_y3.html">Year3</a></li>
       <li><a href="inkind/index.html">In-Kind Contributions</a></li>
       <li><a href="documents/index.html">Documents &amp; Resources</a></li>
       <li><a href="spider_graphs/index.html">DQP Spiderweb Maps</a></li>
